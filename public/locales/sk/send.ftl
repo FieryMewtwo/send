@@ -49,13 +49,13 @@ passwordSetError = Heslo nešlo nastaviť
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Jednoduché a súkromné zdieľanie súborov
-introDescription = S { -send-brand(case: "ins") } sú zdieľané súbory šifrované end-to-end, takže ani my nevieme, čo zdieľate. Platnosť odkazu je navyše obmedzená. Súbory tak môžete zdieľať súkromne a s istotou, že neostanú na internete naveky.
+introDescription = S { -drip-brand(case: "ins") } sú zdieľané súbory šifrované end-to-end, takže ani my nevieme, čo zdieľate. Platnosť odkazu je navyše obmedzená. Súbory tak môžete zdieľať súkromne a s istotou, že neostanú na internete naveky.
 notifyUploadEncryptDone = Váš súbor je zašifrovaný a pripravený na odoslanie
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Platnosť odkazu vyprší po { $downloadCount } alebo po { $timespan }
@@ -99,8 +99,8 @@ totalSize = Celková veľkosť: { $size }
 copyLinkDescription = Súbor môžete zdieľať pomocou tohto odkazu:
 copyLinkButton = Kopírovať odkaz
 downloadTitle = Prevziať súbory
-downloadDescription = Tento súbor bol zdieľaný prostredníctvom služby { -send-brand }, ktorá poskytuje end-to-end šifrovanie a odkazy s obmedzenou platnosťou.
-trySendDescription = Vyskúšajte jednoduché a bezpečné zdieľanie súborov so službou { -send-brand }
+downloadDescription = Tento súbor bol zdieľaný prostredníctvom služby { -drip-brand }, ktorá poskytuje end-to-end šifrovanie a odkazy s obmedzenou platnosťou.
+trySendDescription = Vyskúšajte jednoduché a bezpečné zdieľanie súborov so službou { -drip-brand }
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -116,18 +116,18 @@ tooManyArchives =
        *[other] Povolených je najviac { $count } archívov.
     }
 expiredTitle = Platnosť odkazu vypršala.
-notSupportedDescription = { -send-brand } nebude v tomto prehliadači fungovať. { -send-short-brand } najlepšie funguje v najnovšej verzii { -firefox(case: "gen") } alebo aktuálnych verziách najpoužívanejších prehliadačov.
+notSupportedDescription = { -drip-brand } nebude v tomto prehliadači fungovať. { -drip-short-brand } najlepšie funguje v najnovšej verzii { -firefox(case: "gen") } alebo aktuálnych verziách najpoužívanejších prehliadačov.
 downloadFirefox = Prevziať { -firefox }
-legalTitle = Zásady ochrany súkromia služby { -send-short-brand }
+legalTitle = Zásady ochrany súkromia služby { -drip-short-brand }
 legalDateStamp = Verzia 1.0, z 12. marca 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } d { $hours } h { $minutes } min
 addFilesButton = Vyberte súbory pre nahratie
 trustWarningMessage = Uistite sa, že pri zdieľaní citlivých údajov dôverujete adresátovi.
 uploadButton = Nahrať
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Pretiahnutím súboru alebo kliknutím sem
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = môžete poslať až { $size }
 addPassword = Chrániť heslom
@@ -154,12 +154,12 @@ noStreamsWarning = Tento prehliadač nemusí byť schopný dešifrovať takto ve
 noStreamsOptionCopy = Skopírovať odkaz pre otvorenie v inom prehliadači
 noStreamsOptionFirefox = Vyskúšajte náš obľúbený prehliadač
 noStreamsOptionDownload = Pokračovať v tomto prehliadači
-downloadFirefoxPromo = { -send-short-brand } vám prináša najnovší { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } vám prináša najnovší { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Zdieľajte odkaz na súbor:
 shareLinkButton = Zdieľať odkaz
 # $name is the name of the file
-shareMessage = Prevezmite si súbor „{ $name }“ so službou { -send-brand } - jednoduché a bezpečné zdieľanie súborov
+shareMessage = Prevezmite si súbor „{ $name }“ so službou { -drip-brand } - jednoduché a bezpečné zdieľanie súborov
 trailheadPromo = Existuje spôsob, ako chrániť vaše súkromie. Prihláste sa do Firefoxu.
 learnMore = Ďalšie informácie.
 downloadFlagged = Tento odkaz bol pre porušenie podmienok používania služby deaktivovaný.

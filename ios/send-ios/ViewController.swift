@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  send-ios
+//  drip-ios
 //
 //  Created by Donovan Preston on 7/19/18.
 //

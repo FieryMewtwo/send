@@ -47,13 +47,13 @@ passwordSetError = Δεν ήταν δυνατός ο ορισμός αυτού �
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Απλή, ιδιωτική κοινή χρήση αρχείων
-introDescription = Το { -send-brand } σάς επιτρέπει να μοιράζεστε αρχεία με από άκρη σε άκρη κρυπτογράφηση και ένα σύνδεσμο που λήγει αυτόματα. Έτσι, ό,τι μοιράζεστε παραμένει ιδιωτικό και είστε βέβαιοι πως δεν παραμένει στο διαδίκτυο για πάντα.
+introDescription = Το { -drip-brand } σάς επιτρέπει να μοιράζεστε αρχεία με από άκρη σε άκρη κρυπτογράφηση και ένα σύνδεσμο που λήγει αυτόματα. Έτσι, ό,τι μοιράζεστε παραμένει ιδιωτικό και είστε βέβαιοι πως δεν παραμένει στο διαδίκτυο για πάντα.
 notifyUploadEncryptDone = Το αρχείο σας έχει κρυπτογραφηθεί και είναι έτοιμο για αποστολή
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Λήγει μετά από { $downloadCount } ή { $timespan }
@@ -93,8 +93,8 @@ totalSize = Συνολικό μέγεθος: { $size }
 copyLinkDescription = Αντιγράψτε το σύνδεσμο για να μοιραστείτε το αρχείο:
 copyLinkButton = Αντιγραφή συνδέσμου
 downloadTitle = Λήψη αρχείων
-downloadDescription = Αυτό το αρχείο διαμοιράστηκε μέσω του { -send-brand } με κρυπτογράφηση από άκρο σε άκρο και με ένα σύνδεσμο που λήγει αυτόματα.
-trySendDescription = Δοκιμάστε το { -send-brand } για απλό, ασφαλή διαμοιρασμό αρχείων.
+downloadDescription = Αυτό το αρχείο διαμοιράστηκε μέσω του { -drip-brand } με κρυπτογράφηση από άκρο σε άκρο και με ένα σύνδεσμο που λήγει αυτόματα.
+trySendDescription = Δοκιμάστε το { -drip-brand } για απλό, ασφαλή διαμοιρασμό αρχείων.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Μόνο { $count } αρχεία επιτρέπονται.
     }
 expiredTitle = Αυτός ο σύνδεσμος έχει λήξει.
-notSupportedDescription = Το { -send-brand } δεν θα λειτουργήσει με αυτό το πρόγραμμα περιήγησης. Το { -send-short-brand } λειτουργεί καλύτερα με την πιο πρόσφατη έκδοση του { -firefox }, καθώς και με την τρέχουσα έκδοση των περισσότερων προγραμμάτων περιήγησης.
+notSupportedDescription = Το { -drip-brand } δεν θα λειτουργήσει με αυτό το πρόγραμμα περιήγησης. Το { -drip-short-brand } λειτουργεί καλύτερα με την πιο πρόσφατη έκδοση του { -firefox }, καθώς και με την τρέχουσα έκδοση των περισσότερων προγραμμάτων περιήγησης.
 downloadFirefox = Λήψη του { -firefox }
-legalTitle = Σημείωση Απορρήτου { -send-short-brand }
+legalTitle = Σημείωση Απορρήτου { -drip-short-brand }
 legalDateStamp = Έκδοση 1.0, από 12 Μαρτίου 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }η { $hours }ώ { $minutes }λ
 addFilesButton = Επιλέξτε αρχεία για μεταφόρτωση
 trustWarningMessage = Βεβαιωθείτε ότι ο παραλήπτης είναι έμπιστος πριν μοιραστείτε ευαίσθητα δεδομένα.
 uploadButton = Μεταφόρτωση
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Σύρετε και εναποθέστε αρχεία
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = ή κάντε κλικ για να στείλετε μέχρι { $size }
 addPassword = Προστασία με κωδικό πρόσβασης
@@ -145,12 +145,12 @@ noStreamsWarning = Αυτό το πρόγραμμα περιήγησης ενδ�
 noStreamsOptionCopy = Αντιγράψτε το σύνδεσμο για άνοιγμα σε άλλο πρόγραμμα περιήγησης
 noStreamsOptionFirefox = Δοκιμάστε το αγαπημένο μας πρόγραμμα περιήγησης
 noStreamsOptionDownload = Συνέχεια με αυτό το πρόγραμμα περιήγησης
-downloadFirefoxPromo = Το { -send-short-brand } παρέχεται σε εσάς από το ολοκαίνουριο { -firefox }.
+downloadFirefoxPromo = Το { -drip-short-brand } παρέχεται σε εσάς από το ολοκαίνουριο { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Μοιραστείτε το σύνδεσμο του αρχείου σας:
 shareLinkButton = Κοινή χρήση συνδέσμου
 # $name is the name of the file
-shareMessage = Λήψη του “{ $name }” με το { -send-brand }: απλός και ασφαλής διαμοιρασμός αρχείων
+shareMessage = Λήψη του “{ $name }” με το { -drip-brand }: απλός και ασφαλής διαμοιρασμός αρχείων
 trailheadPromo = Υπάρχει τρόπος να προστατέψετε το απόρρητό σας. Γίνετε μέλος του Firefox.
 learnMore = Μάθετε περισσότερα.
 downloadFlagged = Αυτός ο σύνδεσμος έχει απενεργοποιηθεί λόγω παραβίασης των όρων υπηρεσίας.

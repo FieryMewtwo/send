@@ -111,7 +111,7 @@ function password(state) {
 
 function fileInfo(file, action) {
   return html`
-    <send-file class="flex flex-row items-center p-3 w-full">
+    <drip-file class="flex flex-row items-center p-3 w-full">
       <svg class="h-8 w-8 text-white dark:text-grey-90">
         <use xlink:href="${assets.get('blue_file.svg')}#icon"/>
       </svg>
@@ -122,7 +122,7 @@ function fileInfo(file, action) {
         )}</div>
       </p>
       ${action}
-    </send-file>`;
+    </drip-file>`;
 }
 
 function archiveInfo(archive, action) {
@@ -221,7 +221,7 @@ module.exports = function(state, emit, archive) {
           <div></div>
         `;
   return html`
-    <send-archive
+    <drip-archive
       id="archive-${archive.id}"
       class="flex flex-col items-start rounded shadow-light bg-white p-4 w-full dark:bg-grey-90 dark:border dark:border-grey-70"
     >
@@ -246,7 +246,7 @@ module.exports = function(state, emit, archive) {
       <div class="flex justify-between w-full">
         ${dl} ${copyOrShare}
       </div>
-    </send-archive>
+    </drip-archive>
   `;
 
   function copy(event) {
@@ -272,8 +272,8 @@ module.exports = function(state, emit, archive) {
     } else {
       try {
         await navigator.share({
-          title: state.translate('-send-brand'),
-          text: `Download "${archive.name}" with Firefox Send: simple, safe file sharing`,
+          title: state.translate('-drip-brand'),
+          text: `Download "${archive.name}" with Drip: simple, safe file sharing`,
           //state.translate('shareMessage', { name }),
           url: archive.url
         });
@@ -286,7 +286,7 @@ module.exports = function(state, emit, archive) {
 
 module.exports.wip = function(state, emit) {
   return html`
-    <send-upload-area
+    <drip-upload-area
       class="flex flex-col bg-white h-full w-full dark:bg-grey-90"
       id="wip"
     >
@@ -341,7 +341,7 @@ module.exports.wip = function(state, emit) {
       >
         ${state.translate('uploadButton')}
       </button>
-    </send-upload-area>
+    </drip-upload-area>
   `;
 
   function focus(event) {
@@ -398,7 +398,7 @@ module.exports.uploading = function(state, emit) {
   const progressPercent = percent(progress);
   const archive = state.archive;
   return html`
-    <send-upload-area
+    <drip-upload-area
       id="${archive.id}"
       class="flex flex-col items-start rounded shadow-light bg-white p-4 w-full dark:bg-grey-90"
     >
@@ -421,7 +421,7 @@ module.exports.uploading = function(state, emit) {
       >
         ${state.translate('deletePopupCancel')}
       </button>
-    </send-upload-area>
+    </drip-upload-area>
   `;
 
   function cancel(event) {
@@ -449,7 +449,7 @@ module.exports.empty = function(state, emit) {
           </button>
         `;
   return html`
-    <send-upload-area
+    <drip-upload-area
       class="flex flex-col items-center justify-center border-2 border-dashed border-grey-transparent rounded px-6 py-16 h-full w-full dark:border-grey-60"
       onclick="${e => {
         if (e.target.tagName !== 'LABEL') {
@@ -494,7 +494,7 @@ module.exports.empty = function(state, emit) {
         ${state.translate('trustWarningMessage')}
       </p>
       ${upsell}
-    </send-upload-area>
+    </drip-upload-area>
   `;
 
   function focus(event) {
@@ -527,7 +527,7 @@ module.exports.preview = function(state, emit) {
         </div>
       `;
   return html`
-    <send-archive
+    <drip-archive
       class="flex flex-col max-h-full bg-white w-full dark:bg-grey-90"
     >
       <div class="border rounded py-3 px-4 dark:border-grey-70">
@@ -555,7 +555,7 @@ module.exports.preview = function(state, emit) {
       >
         ${state.translate('downloadButtonLabel')}
       </button>
-    </send-archive>
+    </drip-archive>
   `;
 
   function toggleDownloadEnabled(event) {
@@ -577,7 +577,7 @@ module.exports.downloading = function(state) {
   const progress = state.transfer.progressRatio;
   const progressPercent = percent(progress);
   return html`
-    <send-archive
+    <drip-archive
       class="flex flex-col bg-white rounded shadow-light p-4 w-full max-w-sm md:w-128 dark:bg-grey-90"
     >
       ${archiveInfo(archive)}
@@ -585,6 +585,6 @@ module.exports.downloading = function(state) {
         ${progressPercent}
       </div>
       <progress class="my-3" value="${progress}">${progressPercent}</progress>
-    </send-archive>
+    </drip-archive>
   `;
 };

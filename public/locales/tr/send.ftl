@@ -43,13 +43,13 @@ passwordSetError = Parola ayarlanamadı
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Basit ve gizli dosya paylaşımı
-introDescription = { -send-brand } ile dosyalarınızı uçtan uca şifreleme ve otomatik olarak silinen bir bağlantıyla paylaşın. Böylece özel dosyalarınız güvenle saklanır, bir süre sonra kendi kendine silinir.
+introDescription = { -drip-brand } ile dosyalarınızı uçtan uca şifreleme ve otomatik olarak silinen bir bağlantıyla paylaşın. Böylece özel dosyalarınız güvenle saklanır, bir süre sonra kendi kendine silinir.
 notifyUploadEncryptDone = Dosyanız şifrelendi ve gönderilmeye hazır
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = { $downloadCount } veya { $timespan } sonra silinecek
@@ -89,8 +89,8 @@ totalSize = Toplam boyut: { $size }
 copyLinkDescription = Dosyanızı paylaşmak için bağlantıyı kopyalayın:
 copyLinkButton = Bağlantıyı kopyala
 downloadTitle = Dosyaları indir
-downloadDescription = Bu dosya { -send-brand } üzerinden paylaşıldı. Uçtan uca şifreleme ve kendiliğinden silinen bağlantı koruması { -send-brand }’de.
-trySendDescription = Basit ve güvenli dosya paylaşımı için { -send-brand }’i deneyin.
+downloadDescription = Bu dosya { -drip-brand } üzerinden paylaşıldı. Uçtan uca şifreleme ve kendiliğinden silinen bağlantı koruması { -drip-brand }’de.
+trySendDescription = Basit ve güvenli dosya paylaşımı için { -drip-brand }’i deneyin.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -104,18 +104,18 @@ tooManyArchives =
        *[other] En fazla { $count } arşive izin veriliyor.
     }
 expiredTitle = Bu bağlantının süresi doldu.
-notSupportedDescription = { -send-brand } bu tarayıcıyı desteklemiyor. { -send-short-brand } en iyi şekilde { -firefox }’un son sürümüyle ve çoğu tarayıcının güncel sürümüyle çalışır.
+notSupportedDescription = { -drip-brand } bu tarayıcıyı desteklemiyor. { -drip-short-brand } en iyi şekilde { -firefox }’un son sürümüyle ve çoğu tarayıcının güncel sürümüyle çalışır.
 downloadFirefox = { -firefox }’u indir
-legalTitle = { -send-short-brand } Gizlilik Bildirimi
+legalTitle = { -drip-short-brand } Gizlilik Bildirimi
 legalDateStamp = Sürüm 1.0, 12 Mart 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } g { $hours } sa { $minutes } dk
 addFilesButton = Yüklenecek dosyaları seçin
 trustWarningMessage = Hassas verileri paylaşırken alıcıya güvendiğinizden emin olun.
 uploadButton = Yükle
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Dosyaları sürükleyip bırakarak
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = veya buraya tıklayarak { $size }’ye kadar dosyalarınızı gönderebilirsiniz
 addPassword = Parola koruması ekle
@@ -141,12 +141,12 @@ noStreamsWarning = Bu tarayıcı bu kadar büyük bir dosyanın şifresini çöz
 noStreamsOptionCopy = Bağlantıyı başka bir tarayıcıda açmak için kopyala
 noStreamsOptionFirefox = En sevdiğimiz tarayıcıyı deneyin
 noStreamsOptionDownload = Bu tarayıcıyla devam edin
-downloadFirefoxPromo = { -send-short-brand }, yepyeni { -firefox } tarafından sunulmaktadır.
+downloadFirefoxPromo = { -drip-short-brand }, yepyeni { -firefox } tarafından sunulmaktadır.
 # the next line after the colon contains a file name
 shareLinkDescription = Dosyanızın bağlantısını paylaşın:
 shareLinkButton = Bağlantıyı paylaş
 # $name is the name of the file
-shareMessage = “{ $name }” dosyasını { -send-brand } ile indirin: basit ve güvenli dosya paylaşımı
+shareMessage = “{ $name }” dosyasını { -drip-brand } ile indirin: basit ve güvenli dosya paylaşımı
 trailheadPromo = Gizliliğinizi korumanın bir yolu var. Firefox’a katılın.
 learnMore = Daha fazla bilgi alın.
 downloadFlagged = Bu bağlantı hizmet koşullarımızı ihlal ettiği için devre dışı bırakıldı.

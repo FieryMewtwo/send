@@ -47,13 +47,13 @@ passwordSetError = No s'ha puesto definir la clau
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Compartición de fichers simpla y privada
-introDescription = { -send-brand } te permite de compartir fichers cifraus de cabo a cabo, y tamién un vinclo que expira automaticament. Asinas, puetz mantener en privau lo que compartes y asegurar-te de que los tuyos contenius no se quedan pa cutio en linia.
+introDescription = { -drip-brand } te permite de compartir fichers cifraus de cabo a cabo, y tamién un vinclo que expira automaticament. Asinas, puetz mantener en privau lo que compartes y asegurar-te de que los tuyos contenius no se quedan pa cutio en linia.
 notifyUploadEncryptDone = Lo fichero s'ha cifrau y ye presto pa ninviar-se
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Caduca dimpués de { $downloadCount } u { $timespan }
@@ -93,8 +93,8 @@ totalSize = Mida total: { $size }
 copyLinkDescription = Copiar lo vinclo que quiers compartir
 copyLinkButton = Copiar lo vinclo
 downloadTitle = Descargar los fichers
-downloadDescription = Este fichero s'ha compartiu per medio de { -send-brand } con cifrau de cabo a cabo y un vinclo que caduca automaticament.
-trySendDescription = Preba { -send-brand } pa una compartición de fichers simpla y segura.
+downloadDescription = Este fichero s'ha compartiu per medio de { -drip-brand } con cifrau de cabo a cabo y un vinclo que caduca automaticament.
+trySendDescription = Preba { -drip-brand } pa una compartición de fichers simpla y segura.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Nomás se permiten { $count } fichers.
     }
 expiredTitle = Este vinclo ye caducau.
-notSupportedDescription = { -send-brand } no funcionará con este navegador. { -send-short-brand } funciona millor con a zaguera versión de { -firefox } y funcionará con a versión mas recient d'a mayor parte de navegadors.
+notSupportedDescription = { -drip-brand } no funcionará con este navegador. { -drip-short-brand } funciona millor con a zaguera versión de { -firefox } y funcionará con a versión mas recient d'a mayor parte de navegadors.
 downloadFirefox = Descargar { -firefox }
-legalTitle = Aviso de privacidat de { -send-short-brand }
+legalTitle = Aviso de privacidat de { -drip-short-brand }
 legalDateStamp = Versió 1.0, con data d'o 12 de marzo de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } d { $hours } h { $minutes } min
 addFilesButton = Triar los fichers a cargar
 trustWarningMessage = Asegura-te de que confías en o destinatario quan compartas datos confidencials.
 uploadButton = Cargar
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Arrociega y suelta los fichers
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = u fes clic aquí pa ninviar dica { $size }
 addPassword = Protecher con una clau
@@ -145,12 +145,12 @@ noStreamsWarning = Este navegador talment no pueda descifrar un fichero tant gra
 noStreamsOptionCopy = Copia lo vinclo pa ubrir-lo en belatro navegador
 noStreamsOptionFirefox = Preba lo nuestro navegador favorito
 noStreamsOptionDownload = Continar con este navegador
-downloadFirefoxPromo = Lo nuevo { -firefox } t'ofreix { -send-short-brand }.
+downloadFirefoxPromo = Lo nuevo { -firefox } t'ofreix { -drip-short-brand }.
 # the next line after the colon contains a file name
 shareLinkDescription = Comparte lo vinclo enta lo tuyo fichero:
 shareLinkButton = Compartir lo vinclo
 # $name is the name of the file
-shareMessage = Baixa-te «{ $name }» con { -send-brand }: compartición de fiches simpla y segura
+shareMessage = Baixa-te «{ $name }» con { -drip-brand }: compartición de fiches simpla y segura
 trailheadPromo = I hai una manera de protecher la tuya privacidat. Une-te a Firefox.
 learnMore = Mas información
 downloadFlagged = Este vinclo s'ha desactivau per violar las condiciones d'uso.

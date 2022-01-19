@@ -27,7 +27,7 @@ module.exports = function(app, devServer) {
         '<base href="http://localhost:8080/" />'
       );
     res.set('Content-Type', 'text/html');
-    res.send(index);
+    res.drip(index);
   }
   if (process.env.ANDROID) {
     // map all html routes to the android index.html

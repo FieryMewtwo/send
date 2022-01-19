@@ -47,13 +47,13 @@ passwordSetError = Dit wachtwurd koe net ynsteld wurde
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Ienfâldich, privee bestannen diele
-introDescription = Mei { -send-brand } kinne jo bestannen mei ein-ta-ein-fersifering en in automatysk ferrinnende keppeling diele. Sa kinne jo de dielde ynhâld privee hâlde, sadat jo gegevens net foar altyd online bliuwt.
+introDescription = Mei { -drip-brand } kinne jo bestannen mei ein-ta-ein-fersifering en in automatysk ferrinnende keppeling diele. Sa kinne jo de dielde ynhâld privee hâlde, sadat jo gegevens net foar altyd online bliuwt.
 notifyUploadEncryptDone = Jo bestân is fersifere en ree om te ferstjoeren
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Ferrint nei { $downloadCount } of { $timespan }
@@ -93,8 +93,8 @@ totalSize = Totale grutte: { $size }
 copyLinkDescription = Kopiearje de keppeling, om jo bestannen te dielen:
 copyLinkButton = Keppeling kopierje
 downloadTitle = Bestannen downloade
-downloadDescription = Dit bestân is mei ein-ta-ein-fersifering en in keppeling dy't automatysk ferrint dield fia { -send-brand }.
-trySendDescription = Probearje { -send-brand }, om ienfâldich en privee bestannen te dielen.
+downloadDescription = Dit bestân is mei ein-ta-ein-fersifering en in keppeling dy't automatysk ferrint dield fia { -drip-brand }.
+trySendDescription = Probearje { -drip-brand }, om ienfâldich en privee bestannen te dielen.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Der binne mar { $count } argiven tastien.
     }
 expiredTitle = Dizze keppeling is ferrûn.
-notSupportedDescription = { -send-brand } funksjonearret net mei dizze browser. { -send-short-brand } funksjonearret it bêste mei de nijste ferzje fan { -firefox } en funksjonearret mei de aktuele ferzje fan de measte browsers.
+notSupportedDescription = { -drip-brand } funksjonearret net mei dizze browser. { -drip-short-brand } funksjonearret it bêste mei de nijste ferzje fan { -firefox } en funksjonearret mei de aktuele ferzje fan de measte browsers.
 downloadFirefox = { -firefox } downloade
-legalTitle = { -send-short-brand }-privacyferklearring
+legalTitle = { -drip-short-brand }-privacyferklearring
 legalDateStamp = Ferzje 1.0, datearre 12 maart 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }o { $minutes }m
 addFilesButton = Bestannen selektearje om op te laden
 trustWarningMessage = Soargje derfoar dat jo jo ûntfanger fertrouwe wannear't jo gefoelige gegevens diele.
 uploadButton = Oplade
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Sleep en pleats bestannen
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = of stjoer oant { $size } troch te klikken
 addPassword = Mei wachtwurd beskermje
@@ -145,12 +145,12 @@ noStreamsWarning = Dizze browser kin in sa'n grut bestân mooglik net fersiferje
 noStreamsOptionCopy = Kopiearje de koppeling om yn in oare browser te iepenjen
 noStreamsOptionFirefox = Probearje ús favorite browser
 noStreamsOptionDownload = Trochgean mei dizze browser
-downloadFirefoxPromo = { -send-short-brand } wurdt jo oanbean troch it folslein fernijde { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } wurdt jo oanbean troch it folslein fernijde { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Diel de keppeling nei jo bestân:
 shareLinkButton = Keppeling diele
 # $name is the name of the file
-shareMessage = Download ‘{ $name }’ mei { -send-brand }: ienfâldich, feilich bestannen diele
+shareMessage = Download ‘{ $name }’ mei { -drip-brand }: ienfâldich, feilich bestannen diele
 trailheadPromo = Der is in manier om jo privacy te beskermjen. Doch mei mei Firefox.
 learnMore = Mear ynfo.
 downloadFlagged = Dizze keppeling is útskeakele fanwegen skeining fan de servicebetingsten.

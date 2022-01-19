@@ -48,13 +48,13 @@ passwordSetError = Այս գաղտնաբառը հնարավոր չէ սահմա�
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Ուղարկել
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Ուղարկել
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Պարզ, մասնավոր ֆայլերի փոխանակում
-introDescription = { -send-brand }-ը թույլ է տալիս փոխանակել ֆայլեր ծայրից ծայր գաղտնագրման միջոցով և այնպիսի հղում, որն ինքնաբերաբար ավարտվում է: Այսպիսով, դուք կարող եք վերահսկել այն, ինչով կիսվում եք և համոզված լինեք, որ ձեր նյութերը հավերժ չեն մնա առցանց:
+introDescription = { -drip-brand }-ը թույլ է տալիս փոխանակել ֆայլեր ծայրից ծայր գաղտնագրման միջոցով և այնպիսի հղում, որն ինքնաբերաբար ավարտվում է: Այսպիսով, դուք կարող եք վերահսկել այն, ինչով կիսվում եք և համոզված լինեք, որ ձեր նյութերը հավերժ չեն մնա առցանց:
 notifyUploadEncryptDone = Ձեր ֆայլը գաղտնագրված է և պատրաստ է ուղարկել
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Ավարտվելու է { $downloadCount }-ից կամ { $timespan }-ից
@@ -94,8 +94,8 @@ totalSize = Ընդհանուր չափ՝ { $size }
 copyLinkDescription = Պատճենեք հղումը՝ ֆայլը համօգտագործելու համար.
 copyLinkButton = Պատճենել հղումը
 downloadTitle = Ներբեռնել ֆայլերը
-downloadDescription = Հայլը համօգտագործվել է { -send-brand }-ի միջոցով ՝ ծայրից ծայր գաղտնագրմամբ և ինքնաբերաբար ավարտվող հղմամբ:
-trySendDescription = Փորձեք { -send-brand }-ը՝ ֆայլերի պարզ և անվտանգ փոխանակման համար:
+downloadDescription = Հայլը համօգտագործվել է { -drip-brand }-ի միջոցով ՝ ծայրից ծայր գաղտնագրմամբ և ինքնաբերաբար ավարտվող հղմամբ:
+trySendDescription = Փորձեք { -drip-brand }-ը՝ ֆայլերի պարզ և անվտանգ փոխանակման համար:
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -109,17 +109,17 @@ tooManyArchives =
        *[other] Միայն { $count } արխիվներ են թույլատրված:
     }
 expiredTitle = Այս հղումն ավարտված է:
-notSupportedDescription = { -send-brand }-ը չի աշխատի այս զննարկչի հետ: { -send-short-brand }-ը լավագույն կերպով աշխատում է { -firefox }-ի վերջին տարբերակի հետ և կաշխատի զննարկիչների մեծամասնության վերջին տարբերակների հետ:
+notSupportedDescription = { -drip-brand }-ը չի աշխատի այս զննարկչի հետ: { -drip-short-brand }-ը լավագույն կերպով աշխատում է { -firefox }-ի վերջին տարբերակի հետ և կաշխատի զննարկիչների մեծամասնության վերջին տարբերակների հետ:
 downloadFirefox = Ներբեռնել { -firefox }-ը
-legalTitle = { -send-short-brand }-ի Գաղտնիության ծանուցում
+legalTitle = { -drip-short-brand }-ի Գաղտնիության ծանուցում
 legalDateStamp = Տարբերակ 1.0, թվագրված՝ 2019 թ. մարտի 12-ով
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }օր { $hours }ժ { $minutes }ր
 addFilesButton = Ընտրեք ֆայլեր՝ վերբեռնելու համար
 uploadButton = Վերբեռնել
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Քաշեք և գցեք ֆայլերը
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = կամ կտտացրեք`ուղարկելու համար մինչև { $size }
 addPassword = Պաշտպանեք գաղտնաբառով
@@ -145,11 +145,11 @@ noStreamsWarning = Այս զննարկիչը չի կարողանա վերծան�
 noStreamsOptionCopy = Պատճենեք հղումը`այլ զննարկիչում բացելու համար
 noStreamsOptionFirefox = Փորձեք մեր սիրած զննարկիչը
 noStreamsOptionDownload = Շարունակեք այս զննարկիչով
-downloadFirefoxPromo = { -send-short-brand }-ը ձեզ է առաջարկում ամբողջովին նոր { -firefox }:
+downloadFirefoxPromo = { -drip-short-brand }-ը ձեզ է առաջարկում ամբողջովին նոր { -firefox }:
 # the next line after the colon contains a file name
 shareLinkDescription = Կիսվեք ձեր ֆայլի հղումով.
 shareLinkButton = Համօգտագործել հղումը
 # $name is the name of the file
-shareMessage = Ներբեռնեք “{ $name }”-ը { -send-brand }-ով ՝ պարզ և ապահով՝ ֆայլերի համօգտագործում
+shareMessage = Ներբեռնեք “{ $name }”-ը { -drip-brand }-ով ՝ պարզ և ապահով՝ ֆայլերի համօգտագործում
 trailheadPromo = Ձեր գաղտնիությունը պաշտպանելու միջոց կա: Միացեք Firefox- ին:
 learnMore = Իմանալ ավելին

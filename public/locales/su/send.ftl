@@ -45,13 +45,13 @@ passwordSetError = Ieu kecap sandi teu bisa disét
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Simpel, babagi koropak privat
-introDescription = { -send-brand } migampang anjeun babagi koropak kalawan énkripsi tungtung-ka-tungtung sarta tutumbu nu otomatis kadaluwarsa. Sahingga anjeun bisa ngaraksa naon nu ku anjeun bagi sacara privat jeung mastikeun banda anjeun teu salawasna daring.
+introDescription = { -drip-brand } migampang anjeun babagi koropak kalawan énkripsi tungtung-ka-tungtung sarta tutumbu nu otomatis kadaluwarsa. Sahingga anjeun bisa ngaraksa naon nu ku anjeun bagi sacara privat jeung mastikeun banda anjeun teu salawasna daring.
 notifyUploadEncryptDone = Koropak anjeun kaénkripsi sarta siap dikirim.
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Kadaluwarsa sanggeu { $downloadCount } atawa { $timespan }
@@ -91,8 +91,8 @@ totalSize = Ukuran total: { $size }
 copyLinkDescription = Tiron tutumbu pikeun babagi koropak anjeun:
 copyLinkButton = Tiron tutumbu
 downloadTitle = Undeur koropak
-downloadDescription = Ieu koropak geus dibagikeun liwat { -send-brand } kalawan énkripsi tungtung-ka-tungtung sarta tutumbuna otomatis kadaluwarsa.
-trySendDescription = Pecakan { -send-brand } pikeun simpelna, babagi koropak aman.
+downloadDescription = Ieu koropak geus dibagikeun liwat { -drip-brand } kalawan énkripsi tungtung-ka-tungtung sarta tutumbuna otomatis kadaluwarsa.
+trySendDescription = Pecakan { -drip-brand } pikeun simpelna, babagi koropak aman.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -106,18 +106,18 @@ tooManyArchives =
        *[other] Ngan { $count } arsip nu diidinan.
     }
 expiredTitle = Ieu tutumbu geus kadaluwarsa.
-notSupportedDescription = { -send-brand } moal jalan di ieu panyungsi. { -send-short-brand } jalan naker dina { -firefox } vérsi pamganyarna, sarta bakal jalan di loba panyungsi vérsi kiwari.
+notSupportedDescription = { -drip-brand } moal jalan di ieu panyungsi. { -drip-short-brand } jalan naker dina { -firefox } vérsi pamganyarna, sarta bakal jalan di loba panyungsi vérsi kiwari.
 downloadFirefox = Undeur { -firefox }
-legalTitle = { -send-short-brand } Wawar Privasi
+legalTitle = { -drip-short-brand } Wawar Privasi
 legalDateStamp = Versi 1.0, kaping 12 Maret 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }p { $hours }j { $minutes }m
 addFilesButton = Pilih koropak unjalkeuneun
 trustWarningMessage = Sing yakin yén anjeun percaya nalika ngabagi data sénsitip ka nu nampa.
 uploadButton = Unjal
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Ésérkeun sarta ésotkeun koropak
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = atawa klik pikeun ngirim nika { $size }
 addPassword = Piningan ku kecap sandi
@@ -143,12 +143,12 @@ noStreamsWarning = Ieu panyungsi kawasna mah teu bisa ngadékrip koropak badag k
 noStreamsOptionCopy = Tiron tutumbu jang bukaeun di panyungsi séjén
 noStreamsOptionFirefox = Pecakan panyungsi karesep kami
 noStreamsOptionDownload = Tuluykeun ku ieu panyungsi
-downloadFirefoxPromo = { -send-short-brand } téh disanggakeun keur anjeun kalawan { -firefox } sarwa anyar.
+downloadFirefoxPromo = { -drip-short-brand } téh disanggakeun keur anjeun kalawan { -firefox } sarwa anyar.
 # the next line after the colon contains a file name
 shareLinkDescription = Bagikeun tutumbu ka koropak anjeun:
 shareLinkButton = Bagikeun tutumbu
 # $name is the name of the file
-shareMessage = Undeur "{ $name }" ku { -send-brand }: simpel, babagi koropak aman
+shareMessage = Undeur "{ $name }" ku { -drip-brand }: simpel, babagi koropak aman
 trailheadPromo = Aya cara pikeun ngamankeun privasi anjeun.  Jabung jeung Firefox.
 learnMore = Lenyepan.
 downloadFlagged = Ieu tutumbu ditumpurkeun alatan ngarumpak katangtuan layanan.

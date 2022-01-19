@@ -55,13 +55,13 @@ passwordSetError = Nid oedd modd gosod y cyfrinair hwn
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Anfon
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Anfon
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Rhannu ffeiliau syml a phreifat
-introDescription = Mae { -send-brand } yn gadael i chi rannu ffeiliau gydag amgryptio o'r dechrau i'r diwedd a dolen sy'n dod i ben yn awtomatig. Felly gallwch chi gadw'r hyn rydych chi'n ei rannu'n breifat a sicrhau nad yw'ch pethau'n aros ar-lein am byth.
+introDescription = Mae { -drip-brand } yn gadael i chi rannu ffeiliau gydag amgryptio o'r dechrau i'r diwedd a dolen sy'n dod i ben yn awtomatig. Felly gallwch chi gadw'r hyn rydych chi'n ei rannu'n breifat a sicrhau nad yw'ch pethau'n aros ar-lein am byth.
 notifyUploadEncryptDone = Mae eich ffeil wedi'i hamgryptio ac yn barod i'w hanfon
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Yn dod i ben ar ôl { $downloadCount } neu { $timespan }
@@ -117,8 +117,8 @@ totalSize = Cyfanswm maint: { $size }
 copyLinkDescription = Copïwch y ddolen i rannu eich ffeil:
 copyLinkButton = Copïo'r ddolen
 downloadTitle = Llwytho ffeiliau i lawr
-downloadDescription = Rhannwyd y ffeil hon trwy { -send-brand } gydag amgryptiad o'r dechrau i'r diwedd a dolen sy'n dod i ben yn awtomatig.
-trySendDescription = Rhowch gynnig ar { -send-brand } ar gyfer rhannu ffeiliau syml a diogel.
+downloadDescription = Rhannwyd y ffeil hon trwy { -drip-brand } gydag amgryptiad o'r dechrau i'r diwedd a dolen sy'n dod i ben yn awtomatig.
+trySendDescription = Rhowch gynnig ar { -drip-brand } ar gyfer rhannu ffeiliau syml a diogel.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -140,18 +140,18 @@ tooManyArchives =
        *[other] Dim ond { $count } archif sy'n cael eu caniatáu.
     }
 expiredTitle = Mae'r ddolen hon wedi dod i ben.
-notSupportedDescription = Ni fydd { -send-brand } yn gweithio gyda'r porwr hwn. Mae { -send-short-brand } yn gweithio orau gyda'r fersiwn ddiweddaraf o { -firefox }, a bydd yn gweithio gyda'r fersiwn gyfredol o'r rhan fwyaf o borwyr.
+notSupportedDescription = Ni fydd { -drip-brand } yn gweithio gyda'r porwr hwn. Mae { -drip-short-brand } yn gweithio orau gyda'r fersiwn ddiweddaraf o { -firefox }, a bydd yn gweithio gyda'r fersiwn gyfredol o'r rhan fwyaf o borwyr.
 downloadFirefox = Llwytho { -firefox } i Lawr
-legalTitle = Hysbysiad Preifatrwydd { -send-short-brand }
+legalTitle = Hysbysiad Preifatrwydd { -drip-short-brand }
 legalDateStamp = Fersiwn 1.0, dyddiedig Mawrth 12, 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } d { $hours } a { $minutes } m
 addFilesButton = Dewis ffeiliau i'w llwytho i fyny
 trustWarningMessage = Gwnewch yn siŵr eich bod yn ymddiried yn eich derbynnydd pan yn rhannu data sensitif.
 uploadButton = Llwytho i fyny
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Llusgo a gollwng ffeiliau
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = neu glicio i anfon hyd at { $size }
 addPassword = Diogelu gyda chyfrinair
@@ -181,12 +181,12 @@ noStreamsWarning = Efallai na fydd y porwr hwn yn gallu dadgryptio ffeil mor faw
 noStreamsOptionCopy = Copïwch y ddolen i'w agor mewn porwr arall
 noStreamsOptionFirefox = Rhowch gynnig ar ein hoff porwr
 noStreamsOptionDownload = Parhau gyda'r porwr hwn
-downloadFirefoxPromo = Mae { -send-short-brand } yn cael ei gynnig i ci gan y { -firefox } newydd.
+downloadFirefoxPromo = Mae { -drip-short-brand } yn cael ei gynnig i ci gan y { -firefox } newydd.
 # the next line after the colon contains a file name
 shareLinkDescription = Rhannu'r ddolen i'ch ffeil:
 shareLinkButton = Rhannu'r ddolen
 # $name is the name of the file
-shareMessage = Llwytho i lawr “{ $name }” gyda { -send-brand }: rhannu ffeiliau syml a diogel
+shareMessage = Llwytho i lawr “{ $name }” gyda { -drip-brand }: rhannu ffeiliau syml a diogel
 trailheadPromo = Mae ffordd o ddiogelu eich preifatrwydd. Ymunwch â Firefox.
 learnMore = Dysgu rhagor.
 downloadFlagged = Mae'r ddolen wedi'i analluogi am fynd yn groes i'r telerau gwasanaeth.

@@ -1,12 +1,12 @@
 {
-  "name": "firefox-send",
+  "name": "drip-filesharing",
   "description": "File Sharing Experiment",
   "version": "3.0.22",
-  "author": "Mozilla (https://mozilla.org)",
-  "repository": "mozilla/send",
-  "homepage": "https://github.com/mozilla/send/",
+  "author": "FieryMewtwo",
+  "repository": "FieryMewtwo/drip",
+  "homepage": "https://github.com/mozilla/drip/",
   "license": "MPL-2.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && webpack",

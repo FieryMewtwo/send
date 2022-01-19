@@ -6,8 +6,8 @@ module.exports = async (req, res) => {
     if (!meta || meta.dead) {
       return res.sendStatus(404);
     }
-    res.set('WWW-Authenticate', `send-v1 ${meta.nonce}`);
-    res.send({
+    res.set('WWW-Authenticate', `drip-v1 ${meta.nonce}`);
+    res.drip({
       requiresPassword: meta.pwd
     });
   } catch (e) {

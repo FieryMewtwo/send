@@ -48,13 +48,13 @@ passwordSetError = Pasahitz hau ezin da ezarri
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Partekatu fitxategiak modu sinple eta pribatuan
-introDescription = { -send-brand } tresna fitxategiak partekatzeko da, muturretik muturrera zifratuta eta automatikoki iraungitzen diren loturekin. Hortaz, partekatzen duzuna pribatua izango da eta ziur egon zaitezke zure fitxategiak ez direla online egongo betirako.
+introDescription = { -drip-brand } tresna fitxategiak partekatzeko da, muturretik muturrera zifratuta eta automatikoki iraungitzen diren loturekin. Hortaz, partekatzen duzuna pribatua izango da eta ziur egon zaitezke zure fitxategiak ez direla online egongo betirako.
 notifyUploadEncryptDone = Zure fitxategia zifratuta eta bidaltzeko prest dago
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = { $downloadCount } edo { $timespan } ondoren iraungiko da
@@ -94,8 +94,8 @@ totalSize = Tamaina guztira: { $size }
 copyLinkDescription = Kopiatu fitxategia partekatzeko lotura:
 copyLinkButton = Kopiatu lotura
 downloadTitle = Deskargatu fitxategiak
-downloadDescription = { -send-brand } bidez partekatu da fitxategia muturretik muturrera zifratuta eta automatikoki iraungitzen den lotura batekin.
-trySendDescription = Probatu { -send-brand } fitxategiak partekatzeko modu sinple eta segururako.
+downloadDescription = { -drip-brand } bidez partekatu da fitxategia muturretik muturrera zifratuta eta automatikoki iraungitzen den lotura batekin.
+trySendDescription = Probatu { -drip-brand } fitxategiak partekatzeko modu sinple eta segururako.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -109,17 +109,17 @@ tooManyArchives =
        *[other] Soilik { $count } artxibo onartzen dira.
     }
 expiredTitle = Lotura hau iraungi da.
-notSupportedDescription = { -send-brand } ez da nabigatzaile honetan ibiliko. { -send-short-brand } hobeto dabil { -firefox }(r)en azken bertsioarekin; halaber, nabigatzaile gehienen azken bertsioarekin ibiliko da.
+notSupportedDescription = { -drip-brand } ez da nabigatzaile honetan ibiliko. { -drip-short-brand } hobeto dabil { -firefox }(r)en azken bertsioarekin; halaber, nabigatzaile gehienen azken bertsioarekin ibiliko da.
 downloadFirefox = Deskargatu { -firefox }
-legalTitle = { -send-short-brand } pribatutasun-oharra
+legalTitle = { -drip-short-brand } pribatutasun-oharra
 legalDateStamp = 1.0 bertsioa, 2019ko martxoaren 12koa.
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }e { $hours }h { $minutes }m
 addFilesButton = Hautatu igotzeko fitxategiak
 uploadButton = Igo
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Arrastatu eta jaregin fitxategiak
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = edo egin klik { $size } arte igotzeko
 addPassword = Babestu pasahitzarekin
@@ -145,11 +145,11 @@ noStreamsWarning = Baliteke nabigatzailea gai ez izatea horrelako tamaina handik
 noStreamsOptionCopy = Kopiatu lotura beste nabigatzaile batean irekitzeko
 noStreamsOptionFirefox = Probatu gure nabigatzaile gogokoena
 noStreamsOptionDownload = Jarraitu nabigatzaile honekin
-downloadFirefoxPromo = Erabat berritutako { -firefox }(e)k eskaintzen dizu { -send-short-brand }
+downloadFirefoxPromo = Erabat berritutako { -firefox }(e)k eskaintzen dizu { -drip-short-brand }
 # the next line after the colon contains a file name
 shareLinkDescription = Partekatu zure fitxategirako lotura:
 shareLinkButton = Partekatu lotura
 # $name is the name of the file
-shareMessage = Deskargatu "{ $name }" { -send-brand } erabiliz: fitxategi-partekatze sinple eta segurua
+shareMessage = Deskargatu "{ $name }" { -drip-brand } erabiliz: fitxategi-partekatze sinple eta segurua
 trailheadPromo = Badago zure pribatutasuna babesteko modua. Egizu bat Firefoxekin.
 learnMore = Argibide gehiago.

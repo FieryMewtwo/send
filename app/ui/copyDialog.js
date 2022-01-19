@@ -4,7 +4,7 @@ const { copyToClipboard } = require('../utils');
 module.exports = function(name, url) {
   const dialog = function(state, emit, close) {
     return html`
-      <send-copy-dialog
+      <drip-copy-dialog
         class="flex flex-col items-center text-center p-4 max-w-sm m-auto"
       >
         <h1 class="text-3xl font-bold my-4">
@@ -35,7 +35,7 @@ module.exports = function(name, url) {
         >
           ${state.translate('okButton')}
         </button>
-      </send-copy-dialog>
+      </drip-copy-dialog>
     `;
 
     function copy(event) {

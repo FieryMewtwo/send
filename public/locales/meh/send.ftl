@@ -47,13 +47,13 @@ passwordSetError = Ntu nkuvi sá´á contraseña
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Kua´a daa archivo ñama jee yu´u
-introDescription = { -send-brand } taji jia´anu archivos jii cifrado uvi nuu jee iin enlace nɨ´ɨ. Sukuan kuvi kumi yu´unu daa archivo jia´anu jee kuninu nkino daa ya´a kue´e kuiya íchi nuu.
+introDescription = { -drip-brand } taji jia´anu archivos jii cifrado uvi nuu jee iin enlace nɨ´ɨ. Sukuan kuvi kumi yu´unu daa archivo jia´anu jee kuninu nkino daa ya´a kue´e kuiya íchi nuu.
 notifyUploadEncryptDone = Archivo noo´o íyo cifrado jee kuvi chu´un íchi
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Nɨ'ɨ dee nña´a { $downloadCount } a xiin { $timespan }
@@ -93,8 +93,8 @@ totalSize = Ka´nu: { $size }
 copyLinkDescription = Tɨɨn enlace jee kua´a archivo:
 copyLinkButton = Tɨɨn enlacae
 downloadTitle = Xinuu archivo
-downloadDescription = Archivo ya´a nsajia { -send-brand } jíí cifrado punto a punto jee iin enlace naa.
-trySendDescription = Nasá´á jii { -send-brand } kua´a ñama jee vatu.
+downloadDescription = Archivo ya´a nsajia { -drip-brand } jíí cifrado punto a punto jee iin enlace naa.
+trySendDescription = Nasá´á jii { -drip-brand } kua´a ñama jee vatu.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,17 +108,17 @@ tooManyArchives =
        *[other] Ntu xini { $count } archivos íyo
     }
 expiredTitle = Nnɨ'ɨ link ya´a.
-notSupportedDescription = { -send-brand } nsatiñu jii ka̱a̱ nánuku ya´a. { -send-short-brand } satiñu va´a jii tuni íchi yata { -firefox }, jee satiñu va´a jii tuni íyo ntañu´u kuaiyo daa ka̱a̱ nánuku.
+notSupportedDescription = { -drip-brand } nsatiñu jii ka̱a̱ nánuku ya´a. { -drip-short-brand } satiñu va´a jii tuni íchi yata { -firefox }, jee satiñu va´a jii tuni íyo ntañu´u kuaiyo daa ka̱a̱ nánuku.
 downloadFirefox = Xinuun { -firefox }
-legalTitle = Tu´un xitu a kumiji noo´o { -send-short-brand }
+legalTitle = Tu´un xitu a kumiji noo´o { -drip-short-brand }
 legalDateStamp = Versión 1.0 del 12 de marzo de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Kaji archivos ska
 uploadButton = Ska
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Staka jee sía  daa archivo
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = a xiin kuaxin saa chu´un íchi nee { $size }
 addPassword = Iyo yu´u jii contraseña
@@ -144,11 +144,11 @@ noStreamsWarning = Kuvi ka̱a̱ nánaku ya´a nxituvi a vaji nuu iin archivo ka�
 noStreamsOptionCopy = Tɨɨn enlace jee síne nuu inka ka̱a̱ nánuku
 noStreamsOptionFirefox = Ni´i ka̱a̱ nánuku va´a
 noStreamsOptionDownload = Kaka jii ka̱a̱ nánuku ya´a
-downloadFirefoxPromo = { -send-short-brand } taji jíía { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } taji jíía { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Kua´a enlace archivo noo´o
 shareLinkButton = Kua´a link
 # $name is the name of the file
-shareMessage = Xinuu “{ $name }” jii { -send-brand }: ntu viji
+shareMessage = Xinuu “{ $name }” jii { -drip-brand }: ntu viji
 trailheadPromo = Iyo iin kuvi kumi privacidad noo´o. Nayonika Firefox.
 learnMore = Ka´vi kue´eka

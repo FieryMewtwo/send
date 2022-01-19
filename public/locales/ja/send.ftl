@@ -45,13 +45,13 @@ passwordSetError = このパスワードは設定できませんでした
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = 簡単に、プライベートにファイル共有
-introDescription = { -send-brand } では、暗号化してファイル共有でき、リンクは自動的に期限切れになります。そのため、共有するものをプライベートに保管でき、オンライン上に永遠に残さないようにできます。
+introDescription = { -drip-brand } では、暗号化してファイル共有でき、リンクは自動的に期限切れになります。そのため、共有するものをプライベートに保管でき、オンライン上に永遠に残さないようにできます。
 notifyUploadEncryptDone = ファイルが暗号化され、送信する準備ができました
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = 有効期間: { $downloadCount } または { $timespan }
@@ -87,8 +87,8 @@ totalSize = 合計サイズ: { $size }
 copyLinkDescription = リンクをコピーしてファイルを共有:
 copyLinkButton = リンクをコピー
 downloadTitle = ファイルをダウンロード
-downloadDescription = このファイルは { -send-brand } により、暗号化されて共有されました。リンクは自動的に期限切れになります。
-trySendDescription = 簡単で安全なファイル共有ができる { -send-brand } を試してください。
+downloadDescription = このファイルは { -drip-brand } により、暗号化されて共有されました。リンクは自動的に期限切れになります。
+trySendDescription = 簡単で安全なファイル共有ができる { -drip-brand } を試してください。
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -100,18 +100,18 @@ tooManyArchives =
        *[other] { $count } 回までしかダウンロードできません。
     }
 expiredTitle = このリンクは期限切れです。
-notSupportedDescription = { -send-brand } は、このブラウザーでは動作しません。{ -send-short-brand } は最新バージョンの { -firefox } で最もよく動作し、その他の現バージョンのブラウザーでも動作します。
+notSupportedDescription = { -drip-brand } は、このブラウザーでは動作しません。{ -drip-short-brand } は最新バージョンの { -firefox } で最もよく動作し、その他の現バージョンのブラウザーでも動作します。
 downloadFirefox = { -firefox } をダウンロード
-legalTitle = { -send-short-brand } プライバシー通知
+legalTitle = { -drip-short-brand } プライバシー通知
 legalDateStamp = バージョン 1.0, 2019年3月12日時点
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } 日 { $hours } 時 { $minutes } 分
 addFilesButton = アップロードするファイルを選択
 trustWarningMessage = 機密データを共有する場合は、受信者が信頼できる相手であることを確認してください。
 uploadButton = アップロード
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = ファイルをドラッグ＆ドロップ
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = または、クリックして最大 { $size } のファイルを送信
 addPassword = パスワードで保護
@@ -136,12 +136,12 @@ noStreamsWarning = このブラウザーは、この大きさのファイルを�
 noStreamsOptionCopy = リンクをコピーして他のブラウザーで開いてください
 noStreamsOptionFirefox = Firefox を試してみる
 noStreamsOptionDownload = このブラウザーで続ける
-downloadFirefoxPromo = { -send-short-brand } はすべてが新しくなった { -firefox } により提供されています。
+downloadFirefoxPromo = { -drip-short-brand } はすべてが新しくなった { -firefox } により提供されています。
 # the next line after the colon contains a file name
 shareLinkDescription = ファイルへのリンクを共有しましょう:
 shareLinkButton = リンクを共有
 # $name is the name of the file
-shareMessage = { -send-brand } で "{ $name }" をダウンロード: シンプルで安全なファイル共有
+shareMessage = { -drip-brand } で "{ $name }" をダウンロード: シンプルで安全なファイル共有
 trailheadPromo = プライバシーを保護する方法があります。Firefox を試してください。
 learnMore = 詳細情報
 downloadFlagged = サービス利用規約に違反しているため、このリンクは無効になっています。

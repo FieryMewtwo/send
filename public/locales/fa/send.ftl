@@ -48,13 +48,13 @@ passwordSetError = امکان ثبت این گذواژه نیست
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = ارسال
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = ارسال
 -firefox = فایرفاکس
 -mozilla = موزیلا
 introTitle = اشتراک‌گذاری ساده و خصوصیِ پرونده‌ها
-introDescription = { -send-brand } به شما امکان اشتراک‌گذاری فایل‌ها با رمزگذاری سرتاسری و لینکی که به طور خودکار منقضی می شود را می‌دهد. در نتیجه می‌توانید اشتراک گذاری‌های خود را خصوصی نگه دارید و اطمینان حاصل کنید که فایل‌های شما تا همیشه آنلاین دردسترس نخواهند ماند.
+introDescription = { -drip-brand } به شما امکان اشتراک‌گذاری فایل‌ها با رمزگذاری سرتاسری و لینکی که به طور خودکار منقضی می شود را می‌دهد. در نتیجه می‌توانید اشتراک گذاری‌های خود را خصوصی نگه دارید و اطمینان حاصل کنید که فایل‌های شما تا همیشه آنلاین دردسترس نخواهند ماند.
 notifyUploadEncryptDone = پرونده شما رمزگذاری شده و آماده ارسال است
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = پس از { $downloadCount } یا { $timespan } منقضی می‌شود
@@ -94,8 +94,8 @@ totalSize = حجم کل: { $size }
 copyLinkDescription = برای به اشتراک گذاشتن فایل خود، لینک را کپی کنید:
 copyLinkButton = رونوشت از پیوند
 downloadTitle = دریافت پرونده‌ها
-downloadDescription = این پرونده از طریق { -send-brand } با رمزگذاری سرتاسری و پیوندی که به طور خودکار منقضی می شود، به اشتراک گذاشته شد.
-trySendDescription = { -send-brand } را برای اشتراک گذاری ساده و ایمن پرونده امتحان کنید.
+downloadDescription = این پرونده از طریق { -drip-brand } با رمزگذاری سرتاسری و پیوندی که به طور خودکار منقضی می شود، به اشتراک گذاشته شد.
+trySendDescription = { -drip-brand } را برای اشتراک گذاری ساده و ایمن پرونده امتحان کنید.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -109,17 +109,17 @@ tooManyArchives =
        *[other] تنها { $count } بایگانی مجاز است.
     }
 expiredTitle = این پیوند منقضی شده است.
-notSupportedDescription = { -send-brand } با این مرورگر کار نخواهد کرد. { -send-short-brand } بهترین عملکرد را با آخرین نسخه { -firefox } خواهد داشت، و با آخرین نسخه اکثر مرورگر‌های کنونی کار می‌کند.
+notSupportedDescription = { -drip-brand } با این مرورگر کار نخواهد کرد. { -drip-short-brand } بهترین عملکرد را با آخرین نسخه { -firefox } خواهد داشت، و با آخرین نسخه اکثر مرورگر‌های کنونی کار می‌کند.
 downloadFirefox = دریافت { -firefox }
-legalTitle = { -send-short-brand } نکات حفظ حریم خصوصی
+legalTitle = { -drip-short-brand } نکات حفظ حریم خصوصی
 legalDateStamp = نسخه ۱.۰، مورخ ۱۲، ۲۰۱۹
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } روز { $hours } ساعت { $minutes } دقیقه
 addFilesButton = پرونده‌ها را برای بارگذاری انتخاب کنید
 uploadButton = بارگذاری
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = فایل‌ها را بکشید و اینجا رها کنید
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = یا برای ارسال تا { $size } کلیک کنید
 addPassword = با گذرواژه محافظت کنید
@@ -145,11 +145,11 @@ noStreamsWarning = ممکن است این مرورگر نتواند یک پرو�
 noStreamsOptionCopy = لینک را کپی کنید تا در مرورگر دیگری باز شود
 noStreamsOptionFirefox = مرورگر مورد علاقه ما را امتحان کنید
 noStreamsOptionDownload = با این مرورگر ادامه دهید
-downloadFirefoxPromo = { -send-short-brand } با جدیدترین { -firefox } برای شما آماده شده است.
+downloadFirefoxPromo = { -drip-short-brand } با جدیدترین { -firefox } برای شما آماده شده است.
 # the next line after the colon contains a file name
 shareLinkDescription = پیوند مربوط به پرونده خود را به اشتراک بگذارید:
 shareLinkButton = اشتراک‌گذاری پیوند
 # $name is the name of the file
-shareMessage = “{ $name }” را با { -send-brand } دانلود کنید: اشتراک‌گذاری ساده و امن فایل
+shareMessage = “{ $name }” را با { -drip-brand } دانلود کنید: اشتراک‌گذاری ساده و امن فایل
 trailheadPromo = راهی برای محافظت از حریم خصوصی شما وجود دارد. به Firefox بپیوندید.
 learnMore = بیشتر بدانید.

@@ -47,13 +47,13 @@ passwordSetError = Dit wachtwoord kon niet worden ingesteld
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Eenvoudig, privé bestanden delen
-introDescription = Met { -send-brand } kunt u bestanden delen met end-to-endversleuteling en een koppeling die automatisch verloopt. Hierdoor kunt u privé houden wat u wilt delen en er zeker van zijn dat uw zaken niet voor altijd online blijven.
+introDescription = Met { -drip-brand } kunt u bestanden delen met end-to-endversleuteling en een koppeling die automatisch verloopt. Hierdoor kunt u privé houden wat u wilt delen en er zeker van zijn dat uw zaken niet voor altijd online blijven.
 notifyUploadEncryptDone = Uw bestand is versleuteld en klaar voor verzending
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Verloopt na { $downloadCount } of { $timespan }
@@ -93,8 +93,8 @@ totalSize = Totale grootte: { $size }
 copyLinkDescription = Kopieer de koppeling om uw bestand te delen:
 copyLinkButton = Koppeling kopiëren
 downloadTitle = Bestanden downloaden
-downloadDescription = Dit bestand is gedeeld via { -send-brand } met end-to-endversleuteling en een koppeling die automatisch verloopt.
-trySendDescription = Probeer { -send-brand } voor eenvoudig, veilig bestanden delen.
+downloadDescription = Dit bestand is gedeeld via { -drip-brand } met end-to-endversleuteling en een koppeling die automatisch verloopt.
+trySendDescription = Probeer { -drip-brand } voor eenvoudig, veilig bestanden delen.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Slechts { $count } archieven zijn toegestaan.
     }
 expiredTitle = Deze koppeling is verlopen.
-notSupportedDescription = { -send-brand } werkt niet met deze browser. { -send-short-brand } werkt het beste met de nieuwste versie van { -firefox }, en werkt met de huidige versie van de meeste browsers.
+notSupportedDescription = { -drip-brand } werkt niet met deze browser. { -drip-short-brand } werkt het beste met de nieuwste versie van { -firefox }, en werkt met de huidige versie van de meeste browsers.
 downloadFirefox = { -firefox } downloaden
-legalTitle = Privacybeleid van { -send-short-brand }
+legalTitle = Privacybeleid van { -drip-short-brand }
 legalDateStamp = Versie 1.0 d.d. 12 maart 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }u { $minutes }m
 addFilesButton = Selecteer te uploaden bestanden
 trustWarningMessage = Zorg ervoor dat u uw ontvanger vertrouwt wanneer u gevoelige gegevens deelt.
 uploadButton = Uploaden
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Versleep bestanden
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = of klik om tot { $size } te versturen
 addPassword = Beveiligen met wachtwoord
@@ -145,12 +145,12 @@ noStreamsWarning = Deze browser kan een bestand van deze omvang mogelijk niet on
 noStreamsOptionCopy = Koppeling kopiëren om in een andere browser te openen
 noStreamsOptionFirefox = Onze favoriete browser proberen
 noStreamsOptionDownload = Doorgaan met deze browser
-downloadFirefoxPromo = { -send-short-brand } wordt u aangeboden door het volledig vernieuwde { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } wordt u aangeboden door het volledig vernieuwde { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Deel de koppeling naar uw bestand:
 shareLinkButton = Koppeling delen
 # $name is the name of the file
-shareMessage = Download ‘{ $name }’ met { -send-brand }: eenvoudig, veilig bestanden delen
+shareMessage = Download ‘{ $name }’ met { -drip-brand }: eenvoudig, veilig bestanden delen
 trailheadPromo = Er is een manier om uw privacy te beschermen. Doe mee met Firefox.
 learnMore = Meer info.
 downloadFlagged = Deze koppeling is uitgeschakeld wegens schending van de servicevoorwaarden.

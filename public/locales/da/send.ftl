@@ -47,13 +47,13 @@ passwordSetError = Adgangskoden kunne ikke sættes
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Enkel, privat fildeling
-introDescription = { -send-brand } gør det muligt at dele filer via et tidsbegrænset link og med end to end-kryptering. På den måde kan du dele filer privat og samtidig være sikker på, at det delte ikke forbliver online for evigt.
+introDescription = { -drip-brand } gør det muligt at dele filer via et tidsbegrænset link og med end to end-kryptering. På den måde kan du dele filer privat og samtidig være sikker på, at det delte ikke forbliver online for evigt.
 notifyUploadEncryptDone = Din fil er krypteret og klar til at blive sendt
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Udløber efter { $downloadCount } eller { $timespan }
@@ -93,8 +93,8 @@ totalSize = Samlet størrelse: { $size }
 copyLinkDescription = Kopier linket for at dele din fil:
 copyLinkButton = Kopier link
 downloadTitle = Hent filer
-downloadDescription = Denne fil blev delt via { -send-brand } med end to end-kryptering og et link, der automatisk udløber.
-trySendDescription = Prøv { -send-brand } for enkel og sikker fildeling.
+downloadDescription = Denne fil blev delt via { -drip-brand } med end to end-kryptering og et link, der automatisk udløber.
+trySendDescription = Prøv { -drip-brand } for enkel og sikker fildeling.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Kun { $count } arkiver er tilladt.
     }
 expiredTitle = Dette link er udløbet.
-notSupportedDescription = { -send-brand } virker ikke med denne browser. { -send-short-brand } virker bedst med den nyeste version af { -firefox } og med de fleste andre nye browsere.
+notSupportedDescription = { -drip-brand } virker ikke med denne browser. { -drip-short-brand } virker bedst med den nyeste version af { -firefox } og med de fleste andre nye browsere.
 downloadFirefox = Hent { -firefox }
-legalTitle = { -send-short-brand }, om privatlivspolitik
+legalTitle = { -drip-short-brand }, om privatlivspolitik
 legalDateStamp = Version 1.0, udsendt d. 12. marts 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } d. { $hours } t. { $minutes } m.
 addFilesButton = Vælg filer, der skal uploades
 trustWarningMessage = Vær sikker på, at du stoler på modtageren, når du deler følsomme data.
 uploadButton = Upload
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Træk og slip filer
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = eller klik for at sende filer på op til { $size }
 addPassword = Beskyt med adgangskode
@@ -145,12 +145,12 @@ noStreamsWarning = Denne browser kan muligvis ikke dekryptere en fil, der er så
 noStreamsOptionCopy = Kopier linket for at åbne det i en anden browser
 noStreamsOptionFirefox = Prøv vores favorit-browser
 noStreamsOptionDownload = Fortsæt med denne browser
-downloadFirefoxPromo = { -send-short-brand } præsenteres af den nye { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } præsenteres af den nye { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Del linket til din fil:
 shareLinkButton = Del link
 # $name is the name of the file
-shareMessage = Hent { $name } med { -send-brand } - simpel og sikker fildeling
+shareMessage = Hent { $name } med { -drip-brand } - simpel og sikker fildeling
 trailheadPromo = Beskyt dine digitale rettigheder. Slut dig til Firefox.
 learnMore = Læs mere.
 downloadFlagged = Dette link er blevet deaktiveret for overtrædelse af tjenestevilkårene.

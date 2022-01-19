@@ -47,11 +47,11 @@ passwordSetError = ఈ సంకేతపదం పెట్టలేకపో�
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = పంపించు
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = పంపించు
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 notifyUploadEncryptDone = మీ ఫైలు గుప్తీకరించబడింది, పంపడానికి సిద్ధంగా ఉంది
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = { $downloadCount } లేదా { $timespan } తర్వాత కాలంచెల్లుతుంది
@@ -93,15 +93,15 @@ copyLinkButton = లంకెను నకలుతీయి
 downloadTitle = ఫైళ్లను దింపుకోండి
 expiredTitle = ఈ లంకె గడువు ముగిసింది.
 downloadFirefox = { -firefox } ను దింపుకోండి
-legalTitle = { -send-short-brand } గోప్యతా నోటీసు
+legalTitle = { -drip-short-brand } గోప్యతా నోటీసు
 legalDateStamp = వెర్షన్ 1.0, మార్చి 12, 2019 నాటిది
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = ఎక్కించడానికి ఫైళ్ళను ఎంచుకోండి
 uploadButton = ఎక్కించు
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = ఫైళ్ళను లాగండి మరియు వదలండి
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = లేదా { $size } వరకు పంపడానికి నొక్కండి
 addPassword = సంకేతపదంతో రక్షించండి
@@ -126,11 +126,11 @@ noStreamsWarning = ఈ బ్రౌజర్ ఈ ఫైలును పెద్
 noStreamsOptionCopy = మరొక బ్రౌజర్‌లో తెరవడానికి లంకెను నకలు చేయండి
 noStreamsOptionFirefox = మా అభిమాన బ్రౌజర్‌ను ప్రయత్నించండి
 noStreamsOptionDownload = ఈ బ్రౌజర్‌తో కొనసాగించండి
-downloadFirefoxPromo = { -send-short-brand } క్రొత్త { -firefox } ద్వారా మీ ముందుకు తీసుకురాబడుతుంది.
+downloadFirefoxPromo = { -drip-short-brand } క్రొత్త { -firefox } ద్వారా మీ ముందుకు తీసుకురాబడుతుంది.
 # the next line after the colon contains a file name
 shareLinkDescription = మీ ఫైలుకు లంకెను పంచుకోండి:
 shareLinkButton = లంకెను పంచుకోండి
 # $name is the name of the file
-shareMessage = “{ $name }”‌ని { -send-brand }తో దించుకోండి: తేలికైన, సురక్షితమైన ఫైలు పంచుకోలు సేవ
+shareMessage = “{ $name }”‌ని { -drip-brand }తో దించుకోండి: తేలికైన, సురక్షితమైన ఫైలు పంచుకోలు సేవ
 trailheadPromo = మీ అంతరంగికతను కాపాడుకోడానికి ఓ మార్గం ఉంది. Firefoxతో చేరండి.
 learnMore = ఇంకా తెలుసుకోండి.

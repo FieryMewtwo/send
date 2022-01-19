@@ -49,13 +49,13 @@ passwordSetError = Această parolă nu a putut fi setată
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Partajare de fișiere simplă și privată
-introDescription = { -send-brand } îți permite să partajezi fișiere cu criptare capăt-la-capăt și un link care expiră automat. Deci, poți păstra confidențial ceea ce partajezi și te poți asigura că ce ai partajat nu rămâne online pentru totdeauna.
+introDescription = { -drip-brand } îți permite să partajezi fișiere cu criptare capăt-la-capăt și un link care expiră automat. Deci, poți păstra confidențial ceea ce partajezi și te poți asigura că ce ai partajat nu rămâne online pentru totdeauna.
 notifyUploadEncryptDone = Fișierul tău este criptat și gata de trimitere
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expiră după { $downloadCount } sau { $timespan }
@@ -99,8 +99,8 @@ totalSize = Mărime totală: { $size }
 copyLinkDescription = Copiază linkul pentru partajarea fișierului:
 copyLinkButton = Copiază linkul
 downloadTitle = Descarcă fișierele
-downloadDescription = Acest fișier a fost partajat prin { -send-brand }, cu criptare capăt-la-capăt și un link care expiră automat.
-trySendDescription = Încearcă { -send-brand } pentru o partajare simplă și sigură a fișierelor.
+downloadDescription = Acest fișier a fost partajat prin { -drip-brand }, cu criptare capăt-la-capăt și un link care expiră automat.
+trySendDescription = Încearcă { -drip-brand } pentru o partajare simplă și sigură a fișierelor.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -116,18 +116,18 @@ tooManyArchives =
        *[other] Numai { $count } de arhive sunt permise.
     }
 expiredTitle = Acest link a expirat.
-notSupportedDescription = { -send-brand } nu va funcționa pe acest browser. { -send-short-brand } funcționează cel mai bine cu ultima versiune de { -firefox } și va funcționa cu versiunea curentă a majorității browserelor.
+notSupportedDescription = { -drip-brand } nu va funcționa pe acest browser. { -drip-short-brand } funcționează cel mai bine cu ultima versiune de { -firefox } și va funcționa cu versiunea curentă a majorității browserelor.
 downloadFirefox = Descarcă { -firefox }
-legalTitle = Notificare privind confidențialitatea { -send-short-brand }
+legalTitle = Notificare privind confidențialitatea { -drip-short-brand }
 legalDateStamp = Versiunea 1.0 din data de 12 martie 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }z { $hours }h { $minutes }m
 addFilesButton = Selectează fișierele pentru încărcare
 trustWarningMessage = Asigură-te că destinatarul este de încredere când partajezi date sensibile.
 uploadButton = Încarcă
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Trage și plasează fișierele
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = sau dă clic pentru a trimite până la { $size }
 addPassword = Protejează cu parolă
@@ -154,12 +154,12 @@ noStreamsWarning = Este posibil ca acest browser să nu poată decripta un fiși
 noStreamsOptionCopy = Copiază linkul pentru a-l deschide într-un alt browser
 noStreamsOptionFirefox = Încearcă browserul nostru favorit
 noStreamsOptionDownload = Continuă cu acest browser
-downloadFirefoxPromo = { -send-short-brand } îți este adus de noul { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } îți este adus de noul { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Partajează linkul către fișier:
 shareLinkButton = Partajează linkul
 # $name is the name of the file
-shareMessage = Descarcă „{ $name }” cu { -send-brand }: partajare simplă și sigură a fișierelor
+shareMessage = Descarcă „{ $name }” cu { -drip-brand }: partajare simplă și sigură a fișierelor
 trailheadPromo = Există o modalitate de a-ți proteja viața privată. Folosește Firefox.
 learnMore = Află mai multe.
 downloadFlagged = Acest link a fost dezactivat pentru că încalcă termenii de utilizare a serviciului.

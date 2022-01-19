@@ -48,13 +48,13 @@ passwordSetError = Man kkowimb'ex ta ujeqeb'axik le retokib'al
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Utaqik
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Utaqik
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Man k'ax taj, ukomonexik taq kemk'olib'al pa echeb'alil
-introDescription = { -send-brand } kuya' bé chi awech kakomonej taq kemk'olib'al ruk' wiqitajem chi'l jun kemwiqb'al le kq'ax uq'ijol pa utukelam. Are chi man katzaq ta le kakomone'j pa echeb'alil chi'l chasuk'ub'a' rilik chi le taq ajastaq man kk'oji' ta pa nimk'atz pa junelik.
+introDescription = { -drip-brand } kuya' bé chi awech kakomonej taq kemk'olib'al ruk' wiqitajem chi'l jun kemwiqb'al le kq'ax uq'ijol pa utukelam. Are chi man katzaq ta le kakomone'j pa echeb'alil chi'l chasuk'ub'a' rilik chi le taq ajastaq man kk'oji' ta pa nimk'atz pa junelik.
 notifyUploadEncryptDone = Le akemk'olib'al wiqitalik chi'l utz chi kataqo
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Kq'ax uq'ijol chi rij { $downloadCount } on { $timespan }
@@ -94,8 +94,8 @@ totalSize = Ronojel unimal: { $size }
 copyLinkDescription = Chawinaqirisaj uwach le kemwiqb'al chech ukomone'xik le akemk'olib'al:
 copyLinkButton = Relesaxik uwach kemwiqb'al
 downloadTitle = Uqasaxik taq kemwiqb'al
-downloadDescription = We kemk'olib'al xkomone'x pa { -send-brand } ruk' wiqitajem pa xkut chi xkut chi'l jun kemwiqb'al le kq'ax uq'ijol pa utukelam.
-trySendDescription = Chak'amb'ejaj { -send-brand } chech man k'ax taj, ukomonexik kemk'olib'al pa chajib'al.
+downloadDescription = We kemk'olib'al xkomone'x pa { -drip-brand } ruk' wiqitajem pa xkut chi xkut chi'l jun kemwiqb'al le kq'ax uq'ijol pa utukelam.
+trySendDescription = Chak'amb'ejaj { -drip-brand } chech man k'ax taj, ukomonexik kemk'olib'al pa chajib'al.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -109,17 +109,17 @@ tooManyArchives =
        *[other] Xew { $count } taq kemk'olib'al ya'om b'e chech
     }
 expiredTitle = Xq'ax uq'ijol we kemwiqb'al
-notSupportedDescription = { -send-brand } man kchakun ta ruk' we nik'onel. { -send-short-brand } are qas utz uchakunem ruk' le maja naj okib'al rech { -firefox }, xuquje' kchakun ruk' le okib'al rech chanim rech nima ronojel taq nik'onelab'.
+notSupportedDescription = { -drip-brand } man kchakun ta ruk' we nik'onel. { -drip-short-brand } are qas utz uchakunem ruk' le maja naj okib'al rech { -firefox }, xuquje' kchakun ruk' le okib'al rech chanim rech nima ronojel taq nik'onelab'.
 downloadFirefox = Uqasaxik { -firefox }
-legalTitle = { -send-short-brand } ub'ixikil rech echeb'alil
+legalTitle = { -drip-short-brand } ub'ixikil rech echeb'alil
 legalDateStamp = Okib'al 1.0, uq'ijol rech urox ik' 12, 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Ucha'ik taq kemk'olib'al chech upaqab'isaxik
 uploadButton = Upaqab'isaxik
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Uchararexik chi'l utzoqopixik taq kemk'olib'al
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = on chapitz'a' chech utaqik chech { $size }
 addPassword = Chajital rumal retokib'al
@@ -145,11 +145,11 @@ noStreamsWarning = We nik'onel wene man kkowin taj kusol jun jewa' unimal kemk'o
 noStreamsOptionCopy = Chawelesaj uwach le kemwiqb'al chech ujaqik jun chi nik'onel
 noStreamsOptionFirefox = Chak'amb'ejaj le ajawatal nik'onel
 noStreamsOptionDownload = Chab'ana' na ruk' we nik'onel
-downloadFirefoxPromo = { -send-short-brand } k'amom la chi awech rumal le k'ak' { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } k'amom la chi awech rumal le k'ak' { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Chakomone'j le kemwiqb'al chech le akemk'olib'al:
 shareLinkButton = Chakomone'j kemwiqb'al
 # $name is the name of the file
-shareMessage = Chaqasaj “{ $name }” ruk' { -send-brand }: man k'ax ta ub'anik, ukomone'xik kemk'olib'al pa chajib'al
+shareMessage = Chaqasaj “{ $name }” ruk' { -drip-brand }: man k'ax ta ub'anik, ukomone'xik kemk'olib'al pa chajib'al
 trailheadPromo = K'o jun ub'e'al chech uchajixik le a'echeb'alil. Chat'iqa' awib' pa. Firefox.
 learnMore = Chaweta'maj nik'aj chik

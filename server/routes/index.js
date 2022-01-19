@@ -62,7 +62,7 @@ module.exports = function(app) {
     }
     if (
       /^https:\/\/.*\.dev\.lcip\.org$/.test(config.base_url) ||
-      /^https:\/\/.*\.send\.nonprod\.cloudops\.mozgcp\.net$/.test(
+      /^https:\/\/.*\.drip\.nonprod\.cloudops\.mozgcp\.net$/.test(
         config.base_url
       )
     ) {

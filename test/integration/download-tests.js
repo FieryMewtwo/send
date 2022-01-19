@@ -6,7 +6,7 @@ const path = require('path');
 const DownloadPage = require('./pages/desktop/download_page');
 const HomePage = require('./pages/desktop/home_page');
 
-describe('Firefox Send', function() {
+describe('Drip', function() {
   const homePage = new HomePage();
   const downloadDir =
     browser.desiredCapabilities['moz:firefoxOptions']['prefs'][
@@ -50,10 +50,10 @@ describe('Firefox Send', function() {
     downloadPage.download();
     browser.waitForExist(downloadPage.downloadComplete);
     browser.back();
-    browser.waitForExist('send-archive');
+    browser.waitForExist('drip-archive');
     assert(
       browser
-        .getText('send-archive > div:first-of-type')
+        .getText('drip-archive > div:first-of-type')
         .includes('Expires after 1 download')
     );
   });

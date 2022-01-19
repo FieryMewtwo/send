@@ -45,13 +45,13 @@ passwordSetError = Không thể đặt mật khẩu này
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Chia sẻ tập tin đơn giản, riêng tư
-introDescription = { -send-brand } cho phép bạn chia sẻ các tập tin với mã hóa đầu cuối và một liên kết tự động hết hạn. Vì vậy, bạn có thể giữ những gì bạn chia sẻ riêng tư và đảm bảo dữ liệu của bạn không trực tuyến vĩnh viễn.
+introDescription = { -drip-brand } cho phép bạn chia sẻ các tập tin với mã hóa đầu cuối và một liên kết tự động hết hạn. Vì vậy, bạn có thể giữ những gì bạn chia sẻ riêng tư và đảm bảo dữ liệu của bạn không trực tuyến vĩnh viễn.
 notifyUploadEncryptDone = Tập tin của bạn được mã hóa và sẵn sàng để gửi
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Hết hạn sau { $downloadCount } hoặc { $timespan }
@@ -87,8 +87,8 @@ totalSize = Tổng kích thước: { $size }
 copyLinkDescription = Sao chép liên kết để chia sẻ tập tin của bạn:
 copyLinkButton = Sao chép liên kết
 downloadTitle = Tải xuống tập tin
-downloadDescription = Tập tin này đã được chia sẻ qua { -send-brand } với mã hóa đầu cuối và liên kết tự động hết hạn.
-trySendDescription = Hãy thử { -send-brand } để chia sẻ tập tin đơn giản, an toàn.
+downloadDescription = Tập tin này đã được chia sẻ qua { -drip-brand } với mã hóa đầu cuối và liên kết tự động hết hạn.
+trySendDescription = Hãy thử { -drip-brand } để chia sẻ tập tin đơn giản, an toàn.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -100,18 +100,18 @@ tooManyArchives =
        *[other] Chỉ cho phép { $count } lưu trữ.
     }
 expiredTitle = Liên kết này đã hết hạn.
-notSupportedDescription = { -send-brand } sẽ không hoạt động với trình duyệt này. { -send-short-brand } hoạt động tốt nhất với phiên bản { -firefox } mới nhất và sẽ hoạt động với phiên bản hiện tại của hầu hết các trình duyệt.
+notSupportedDescription = { -drip-brand } sẽ không hoạt động với trình duyệt này. { -drip-short-brand } hoạt động tốt nhất với phiên bản { -firefox } mới nhất và sẽ hoạt động với phiên bản hiện tại của hầu hết các trình duyệt.
 downloadFirefox = Tải xuống { -firefox }
-legalTitle = Thông báo bảo mật { -send-short-brand }
+legalTitle = Thông báo bảo mật { -drip-short-brand }
 legalDateStamp = Phiên bản 1.0, ngày 12 tháng 3 năm 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } ngày { $hours } giờ { $minutes } phút
 addFilesButton = Chọn tập tin để tải lên
 trustWarningMessage = Hãy chắc chắn rằng bạn tin tưởng người nhận khi chia sẻ dữ liệu nhạy cảm.
 uploadButton = Tải lên
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Kéo và thả tập tin
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = hoặc nhấp để gửi tối đa { $size }
 addPassword = Bảo vệ bằng mật khẩu
@@ -136,12 +136,12 @@ noStreamsWarning = Trình duyệt này có khả năng không thể giải mã m
 noStreamsOptionCopy = Sao chép liên kết để mở trong một trình duyệt khác
 noStreamsOptionFirefox = Hãy dùng thử trình duyệt yêu thích của chúng tôi
 noStreamsOptionDownload = Tiếp tục với trình duyệt này
-downloadFirefoxPromo = { -send-short-brand } được mang đến cho bạn bởi { -firefox } hoàn toàn mới.
+downloadFirefoxPromo = { -drip-short-brand } được mang đến cho bạn bởi { -firefox } hoàn toàn mới.
 # the next line after the colon contains a file name
 shareLinkDescription = Chia sẻ liên kết đến tập tin của bạn:
 shareLinkButton = Chia sẻ liên kết
 # $name is the name of the file
-shareMessage = Tải xuống “{ $name }“ với { -send-brand }: chia sẻ tập tin đơn giản, an toàn
+shareMessage = Tải xuống “{ $name }“ với { -drip-brand }: chia sẻ tập tin đơn giản, an toàn
 trailheadPromo = Đây là một cách để bảo vệ sự riêng tư của bạn. Tham gia Firefox.
 learnMore = Tìm hiểu thêm.
 downloadFlagged = Liên kết này đã bị vô hiệu hóa do vi phạm các điều khoản dịch vụ.

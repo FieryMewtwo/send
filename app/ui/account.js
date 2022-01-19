@@ -54,7 +54,7 @@ class Account extends Component {
   createElement() {
     if (!this.enabled) {
       return html`
-        <send-account></send-account>
+        <drip-account></drip-account>
       `;
     }
     const user = this.state.user;
@@ -62,12 +62,12 @@ class Account extends Component {
     this.setLocal();
     if (user.loginRequired && !this.local.loggedIn) {
       return html`
-        <send-account></send-account>
+        <drip-account></drip-account>
       `;
     }
     if (!this.local.loggedIn) {
       return html`
-        <send-account>
+        <drip-account>
           <button
             class="px-4 py-2 md:px-8 md:py-4 focus:outline signin border-2 link-blue border-blue-60 hover:border-blue-70 dark:border-blue-40 dark:hover:border-blue-50"
             onclick="${e => this.login(e)}"
@@ -75,11 +75,11 @@ class Account extends Component {
           >
             ${translate('signInOnlyButton')}
           </button>
-        </send-account>
+        </drip-account>
       `;
     }
     return html`
-      <send-account class="relative h-8">
+      <drip-account class="relative h-8">
         <input
           type="image"
           alt="${user.email}"
@@ -103,7 +103,7 @@ class Account extends Component {
             </button>
           </li>
         </ul>
-      </send-account>
+      </drip-account>
     `;
   }
 }

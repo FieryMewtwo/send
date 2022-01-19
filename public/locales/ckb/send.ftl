@@ -48,13 +48,13 @@ passwordSetError = ناتوانرێت وشەی تێپەڕ دابنرێت
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = سانا، بڵاوکەرەوەی پەڕگەی تایبەتیی
-introDescription = { -send-brand } ڕێگەت دەدات پەڕگەکان بڵاوبکەیتەوە بە شێوەی هێما کردنی کۆتا-بۆ-کۆتا و بەستەرێک کە خۆکارانە بەسەردەچێت. بۆیە دەتوانیت ئاگاداری ئەوە بیت کە چ پەڕگەیەک بە تایبەتی بڵاودەکەیتەوە و دڵنیادەبیتەوە کە شتەکانت بە سەرهێڵی نامێننەوە هەتا کۆتایی.
+introDescription = { -drip-brand } ڕێگەت دەدات پەڕگەکان بڵاوبکەیتەوە بە شێوەی هێما کردنی کۆتا-بۆ-کۆتا و بەستەرێک کە خۆکارانە بەسەردەچێت. بۆیە دەتوانیت ئاگاداری ئەوە بیت کە چ پەڕگەیەک بە تایبەتی بڵاودەکەیتەوە و دڵنیادەبیتەوە کە شتەکانت بە سەرهێڵی نامێننەوە هەتا کۆتایی.
 notifyUploadEncryptDone = پەڕگەیە بەهێماکراوە ئێستا ئامادەیە بۆ ناردن
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = بەسەردەچێت دووای { $downloadCount } یان { $timespan }
@@ -94,8 +94,8 @@ totalSize = قەبارەی گشتی: { $size }
 copyLinkDescription = بەستەر لەبەربگرەوە بۆ بڵاوکردنەوەی پەڕگە:
 copyLinkButton = بەستەر لەبەربگرەوە
 downloadTitle = پەڕگەکان دابگرە
-downloadDescription = ئەم پەڕگەیە لە لایەن { -send-brand } بلاوکراوەتەوە کە بەهێماکراوە بە شێوەی کۆتا-بۆ-کۆتا بە بەستەرێک کە خۆکارانە بەسەردەچێت.
-trySendDescription = { -send-brand } تاقیبکەرەوە بۆ سانایی، پارێزراو لە بڵاوکردنەوەی پەڕگە.
+downloadDescription = ئەم پەڕگەیە لە لایەن { -drip-brand } بلاوکراوەتەوە کە بەهێماکراوە بە شێوەی کۆتا-بۆ-کۆتا بە بەستەرێک کە خۆکارانە بەسەردەچێت.
+trySendDescription = { -drip-brand } تاقیبکەرەوە بۆ سانایی، پارێزراو لە بڵاوکردنەوەی پەڕگە.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -109,17 +109,17 @@ tooManyArchives =
        *[other] تەنها { $count } ئەرشیف ڕێپێدراوە.
     }
 expiredTitle = بەستەر بەسەرچووە.
-notSupportedDescription = { -send-brand } کارنکات لەگەڵ ئەم وێبگەڕە. { -send-short-brand } باش کاردەکات لەگەڵ کۆتا وەشانی { -firefox }، وکاردەکات لەگەڵ زۆربەی وەشانی ئێستای وێبگەڕەکان.
+notSupportedDescription = { -drip-brand } کارنکات لەگەڵ ئەم وێبگەڕە. { -drip-short-brand } باش کاردەکات لەگەڵ کۆتا وەشانی { -firefox }، وکاردەکات لەگەڵ زۆربەی وەشانی ئێستای وێبگەڕەکان.
 downloadFirefox = { -firefox } دابگرە
-legalTitle = تێبینی تایبەتیی { -send-short-brand }
+legalTitle = تێبینی تایبەتیی { -drip-short-brand }
 legalDateStamp = وەشان 1.0، بەروار کراو لە 12 ئازار، 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } ڕ { $hours } ک{ $minutes } خ
 addFilesButton = پەڕگەکان هەڵبژێرە بۆ بارکردن
 uploadButton = بارکردن
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = ڕاکێشان و دانانی پەڕگەکان
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = یان کرتە بکە بۆ ناردنی قەبارەی تاوەکوو { $size }
 addPassword = بپارێزە لەگەڵ وشەی تێپەڕ
@@ -145,11 +145,11 @@ noStreamsWarning = لەوانەیە ئەم وێبگەڕە نەتوانێت پە�
 noStreamsOptionCopy = بەستەر لەبەربگرەوە بۆ کردنەوەی لە وێبگەڕێکی تر
 noStreamsOptionFirefox = وێبگەڕی دڵخوازی ئێمە تاقیبکەرەوە
 noStreamsOptionDownload = بەردەوام بە لەگەڵ ئەم وێبگەڕە
-downloadFirefoxPromo = { -send-short-brand } پیشکەش کراوە بە تۆ لە لایەن { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } پیشکەش کراوە بە تۆ لە لایەن { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = بەستەر بڵاوبکەرەوە بۆ پەڕگەکەت:
 shareLinkButton = بەستەر بڵاوبکەرەوە
 # $name is the name of the file
-shareMessage = “{ $name }” دابگرە لەگەڵ { -send-brand }: سانا، پاریزراو لە بڵاوکردنەوەی پەڕگە
+shareMessage = “{ $name }” دابگرە لەگەڵ { -drip-brand }: سانا، پاریزراو لە بڵاوکردنەوەی پەڕگە
 trailheadPromo = ڕێگەیەک هەیە بۆ پارێزگاریکردنی تایبەتێتی خۆت. بەشدار بە لە فایەرفۆکس.
 learnMore = زیاتر بزانە

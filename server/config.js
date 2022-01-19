@@ -147,12 +147,12 @@ const conf = convict({
   },
   base_url: {
     format: 'url',
-    default: 'https://send.firefox.com',
+    default: 'https://drip.firefox.com',
     env: 'BASE_URL'
   },
   file_dir: {
     format: 'String',
-    default: `${tmpdir()}${path.sep}send-${randomBytes(4).toString('hex')}`,
+    default: `${tmpdir()}${path.sep}drip-${randomBytes(4).toString('hex')}`,
     env: 'FILE_DIR'
   },
   fxa_required: {
@@ -172,7 +172,7 @@ const conf = convict({
   },
   fxa_key_scope: {
     format: String,
-    default: 'https://identity.mozilla.com/apps/send',
+    default: 'https://identity.mozilla.com/apps/drip',
     env: 'FXA_KEY_SCOPE'
   },
   fxa_csp_oauth_url: {

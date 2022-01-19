@@ -45,13 +45,13 @@ passwordSetError = 未能设置此密码
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = 简单、私密的文件分享服务
-introDescription = 使用 { -send-brand } 端到端加密分享文件，链接到期即焚。分享更私密，文件到期真正无痕迹。
+introDescription = 使用 { -drip-brand } 端到端加密分享文件，链接到期即焚。分享更私密，文件到期真正无痕迹。
 notifyUploadEncryptDone = 您的文件已加密，现在可以发送
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = { $downloadCount }或 { $timespan }后过期
@@ -91,8 +91,8 @@ totalSize = 总大小：{ $size }
 copyLinkDescription = 复制链接以分享文件：
 copyLinkButton = 复制链接
 downloadTitle = 下载文件
-downloadDescription = 此文件通过端到端加密的 { -send-brand } 与您分享，链接到期即焚。
-trySendDescription = 试试 { -send-brand }，简单、私密的文件分享服务。
+downloadDescription = 此文件通过端到端加密的 { -drip-brand } 与您分享，链接到期即焚。
+trySendDescription = 试试 { -drip-brand }，简单、私密的文件分享服务。
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -105,18 +105,18 @@ tooManyArchives =
        *[other] 只可上传 { $count } 个压缩文件。
     }
 expiredTitle = 此链接已过期。
-notSupportedDescription = { -send-brand } 无法在此浏览器上正常工作。{ -send-short-brand } 与最新版本 { -firefox } 配合使用体验最佳，也适用于目前的大多数浏览器。
+notSupportedDescription = { -drip-brand } 无法在此浏览器上正常工作。{ -drip-short-brand } 与最新版本 { -firefox } 配合使用体验最佳，也适用于目前的大多数浏览器。
 downloadFirefox = 下载 { -firefox }
-legalTitle = { -send-short-brand } 隐私声明
+legalTitle = { -drip-short-brand } 隐私声明
 legalDateStamp = 版本 1.0，于 2019年3月12日
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } 天 { $hours } 小时 { $minutes } 分钟
 addFilesButton = 选择要上传的文件
 trustWarningMessage = 分享敏感数据时，请确保您信任接收人。
 uploadButton = 上传
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = 拖放文件
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = 或点此传送最大 { $size } 的文件
 addPassword = 密码保护
@@ -142,12 +142,12 @@ noStreamsWarning = 此浏览器可能无法解密这么大的文件。
 noStreamsOptionCopy = 复制链接以在其他浏览器中打开
 noStreamsOptionFirefox = 试试大家最爱的浏览器
 noStreamsOptionDownload = 使用此浏览器继续
-downloadFirefoxPromo = { -send-short-brand } 由焕然一新的 { -firefox } 为您奉上。
+downloadFirefoxPromo = { -drip-short-brand } 由焕然一新的 { -firefox } 为您奉上。
 # the next line after the colon contains a file name
 shareLinkDescription = 您的文件链接：
 shareLinkButton = 分享链接
 # $name is the name of the file
-shareMessage = 使用 { -send-brand } 下载“{ $name }”：简单、安全的文件分享服务
+shareMessage = 使用 { -drip-brand } 下载“{ $name }”：简单、安全的文件分享服务
 trailheadPromo = 捍卫隐私不是幻想。加入 Firefox 一同抗争。
 learnMore = 详细了解。
 downloadFlagged = 由于违反服务条款，此链接已被禁用。

@@ -49,8 +49,8 @@ passwordSetError = Toto heslo nemohlo být nastaveno
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand =
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand =
     { $case ->
        *[nom] Send
         [gen] Firefoxu Send
@@ -60,7 +60,7 @@ passwordSetError = Toto heslo nemohlo být nastaveno
         [loc] Firefoxu Send
         [ins] Firefoxem Send
     }
--send-short-brand =
+-drip-short-brand =
     { $case ->
        *[nom] Send
         [gen] Sendu
@@ -82,7 +82,7 @@ passwordSetError = Toto heslo nemohlo být nastaveno
     }
 -mozilla =
     { $case ->
-       *[nom] Mozilla
+       *[nom] FieryMewtwo
         [gen] Mozilly
         [dat] Mozille
         [acc] Mozillu
@@ -91,7 +91,7 @@ passwordSetError = Toto heslo nemohlo být nastaveno
         [ins] Mozillou
     }
 introTitle = Jednoduché a soukromé sdílení souborů
-introDescription = S { -send-brand(case: "ins") } jsou sdílené soubory šifrované end-to-end, takže ani my nevíme, co sdílíte. Platnost odkazů je navíc omezená. Soubory tak můžete sdílet soukromě a s jistotou, že se nezůstanou na internetu válet navždy.
+introDescription = S { -drip-brand(case: "ins") } jsou sdílené soubory šifrované end-to-end, takže ani my nevíme, co sdílíte. Platnost odkazů je navíc omezená. Soubory tak můžete sdílet soukromě a s jistotou, že se nezůstanou na internetu válet navždy.
 notifyUploadEncryptDone = Váš soubor je zašifrovaný a připraven k odeslání
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Platnost vyprší po { $downloadCount } nebo za { $timespan }
@@ -135,8 +135,8 @@ totalSize = Celková velikost: { $size }
 copyLinkDescription = Soubor můžete sdílet tímto odkazem:
 copyLinkButton = Zkopírovat odkaz
 downloadTitle = Stáhnout soubory
-downloadDescription = Tento soubor byl sdílen přes { -send-brand(case: "acc") } s end-to-end šifrováním a odkazem s omezenou platností.
-trySendDescription = Vyzkoušejte jednoduché a bezpečné sdílení souborů s { -send-brand(case: "ins") }
+downloadDescription = Tento soubor byl sdílen přes { -drip-brand(case: "acc") } s end-to-end šifrováním a odkazem s omezenou platností.
+trySendDescription = Vyzkoušejte jednoduché a bezpečné sdílení souborů s { -drip-brand(case: "ins") }
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -152,18 +152,18 @@ tooManyArchives =
        *[other] Povoleno je nejvýše { $count } archivů.
     }
 expiredTitle = Platnost tohoto odkazu vypršela.
-notSupportedDescription = { -send-brand } nebude v tomto prohlížeči fungovat. Nejlépe { -send-short-brand } funguje v nejnovějším { -firefox(case: "gen") } nebo aktuálních verzích nejpoužívanějších prohlížečů.
+notSupportedDescription = { -drip-brand } nebude v tomto prohlížeči fungovat. Nejlépe { -drip-short-brand } funguje v nejnovějším { -firefox(case: "gen") } nebo aktuálních verzích nejpoužívanějších prohlížečů.
 downloadFirefox = Stáhnout { -firefox(case: "acc") }
-legalTitle = Zásady { -send-short-brand(case: "acc") } pro ochranu osobních údajů
+legalTitle = Zásady { -drip-short-brand(case: "acc") } pro ochranu osobních údajů
 legalDateStamp = Verze 1.0, 12. března 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Vyberte soubory k nahrání
 trustWarningMessage = Ujistěte se, že adresátovi důvěřujete pro sdílení vašich důvěrných dat.
 uploadButton = Nahrát
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Přetažením myší nebo kliknutím sem
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = můžete poslat až { $size }
 addPassword = Ochránit heslem
@@ -190,12 +190,12 @@ noStreamsWarning = Dešifrování tak velikého souboru se v tomto prohlížeči
 noStreamsOptionCopy = Zkopírujte odkaz pro otevření v jiném prohlížeči
 noStreamsOptionFirefox = Vyzkoušejte náš oblíbený prohlížeč
 noStreamsOptionDownload = Pokračovat v tomto prohlížeči
-downloadFirefoxPromo = { -send-short-brand } od aplikace { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } od aplikace { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Sdílet odkaz na soubor:
 shareLinkButton = Sdílet odkaz
 # $name is the name of the file
-shareMessage = Stáhněte si soubor „{ $name }“ s { -send-brand(case: "ins") } - jednoduché a bezpečné sdílení souborů
+shareMessage = Stáhněte si soubor „{ $name }“ s { -drip-brand(case: "ins") } - jednoduché a bezpečné sdílení souborů
 trailheadPromo = Existuje způsob, jak ochránit své soukromí. Používejte Firefox.
 learnMore = Zjistit více.
 downloadFlagged = Tento odkaz byl pro porušení podmínek používání služby deaktivován.

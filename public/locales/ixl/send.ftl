@@ -36,11 +36,11 @@ expiresMinutes = { $minutes }m
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Aq'b'en
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Aq'b'en
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 # byte abbreviation
 bytes = B
 # kibibyte abbreviation

@@ -46,13 +46,13 @@ passwordSetError = Nejin ichtakatajtol amo uel kiixtaliani
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Xiktitani
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Xiktitani
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Amo ouij uan ichtaka xikinpanoltili oksekin motajkuiloluan archivos
-introDescription = { -send-brand } mitspaleuia uan ijkon tikinpanoltilis oksekin motajkuiloluan archivos ika tapoualmej tein amo aksa uelis kiajsikamatis, uan no kitemaka kampa se kipatskilis tein niman ixpoliui. Ijkuin uelis tikichtakaeuas tein tikintitanilis oksekin uan tikyekmatis tein moaxka amo nochipaya mokauas itech Internet.
+introDescription = { -drip-brand } mitspaleuia uan ijkon tikinpanoltilis oksekin motajkuiloluan archivos ika tapoualmej tein amo aksa uelis kiajsikamatis, uan no kitemaka kampa se kipatskilis tein niman ixpoliui. Ijkuin uelis tikichtakaeuas tein tikintitanilis oksekin uan tikyekmatis tein moaxka amo nochipaya mokauas itech Internet.
 notifyUploadEncryptDone = Moarchivo moijkuiloj ya kemej amo akin uelis kiixtajtoltis uan se uelis kititanis ya
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Poliui ijkuak tiajsis { $downloadCount } oso { $timespan }
@@ -88,8 +88,8 @@ totalSize = Nochi tamachiua: { $size }
 copyLinkDescription = Xikixkopina tein se kipatskilis uan xikinpanoltili oksekin moarchivo:
 copyLinkButton = Xikixkopina tein se kipatskilis
 downloadTitle = Xiktemoui tajkuilolmej archivos
-downloadDescription = Nejin archivo mopanoltij itechkopa { -send-brand } ika tapoualmej tein amo aksa uelis kiajsikamatis, uan no tein ika se kipatskilis tein niman ixpoliui.
-trySendDescription = Xikejeko { -send-brand } ijkon amo ouij uelis tikinpanoltilis oksekin motajkuiloluan archivos uan tikyekmatis ke amo tej kipanos.
+downloadDescription = Nejin archivo mopanoltij itechkopa { -drip-brand } ika tapoualmej tein amo aksa uelis kiajsikamatis, uan no tein ika se kipatskilis tein niman ixpoliui.
+trySendDescription = Xikejeko { -drip-brand } ijkon amo ouij uelis tikinpanoltilis oksekin motajkuiloluan archivos uan tikyekmatis ke amo tej kipanos.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -101,17 +101,17 @@ tooManyArchives =
        *[other] Sayoj { $count } tajkuilolmej archivos uelis moajsiskej saj.
     }
 expiredTitle = Nejin tein tikpatskilij amo tekititos ok.
-notSupportedDescription = { -send-brand } amo tekiti ika nejin navegador. { -send-short-brand } okachi kuali tekiti tein ika okachi yankuik { -firefox }, uan no tekitis tein ika okachi yankuikej tel miak navegadores.
+notSupportedDescription = { -drip-brand } amo tekiti ika nejin navegador. { -drip-short-brand } okachi kuali tekiti tein ika okachi yankuik { -firefox }, uan no tekitis tein ika okachi yankuikej tel miak navegadores.
 downloadFirefox = Xiktemoui { -firefox }
-legalTitle = { -send-short-brand } tanauatia ika yekpialis tein moaxka itech tepos
+legalTitle = { -drip-short-brand } tanauatia ika yekpialis tein moaxka itech tepos
 legalDateStamp = Versión 1.0 tein kikixtijkej 12 tonal metsti marzo 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }t { $hours }h { $minutes }m
 addFilesButton = Xikinixpejpena tajkuilolmej archivos tein  tikintejkoltis
 uploadButton = Xiktejkolti
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Xikintilana uan xikinkajkaua tajkuilolmej archivos
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = oso xikpatskili uan tiktitanis, sayoj tein amo panoua  { $size }
 addPassword = Xikyekpia ika se ichtakatajtol
@@ -136,11 +136,11 @@ noStreamsWarning = Xa navegador amo uelis kitalij nejin tajkuilol archivo tein t
 noStreamsOptionCopy = Xikixkopina tein se kipatskilis uan ijkon se uelis kitatapos itech okse navegador
 noStreamsOptionFirefox = Xikejeko navegador tein semi techuelita
 noStreamsOptionDownload = Maj niksentoka niktatekiujti nejin navegador
-downloadFirefoxPromo = Yankuik { -firefox } mitsixpantilia { -send-short-brand }.
+downloadFirefoxPromo = Yankuik { -firefox } mitsixpantilia { -drip-short-brand }.
 # the next line after the colon contains a file name
 shareLinkDescription = Xikinpanoltili oksekin tein se kipatskilis uan teuika motajkuilol archivo:
 shareLinkButton = Kampa se kipatskilis tein uelis tikinpanoltilis oksekin
 # $name is the name of the file
-shareMessage = Xiktemoui “{ $name }” ika { -send-brand }: amo ouij uelis tikinpanoltilis oksekin motajkuiloluan archivos uan tikyekmatis ke amo tej kipanos
+shareMessage = Xiktemoui “{ $name }” ika { -drip-brand }: amo ouij uelis tikinpanoltilis oksekin motajkuiloluan archivos uan tikyekmatis ke amo tej kipanos
 trailheadPromo = Kemaj, uelis tikyekpias tein moaxka itech tepos. Xipoui Firefox.
 learnMore = Xiktemoui tajkuilolmej archivos.

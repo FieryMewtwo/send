@@ -2,7 +2,7 @@ const html = require('choo/html');
 
 module.exports = function(state, emit) {
   return html`
-    <send-modal
+    <drip-modal
       class="absolute inset-0 flex items-center justify-center overflow-hidden z-40 bg-white md:rounded-xl md:my-8 dark:bg-grey-90"
     >
       <div
@@ -12,7 +12,7 @@ module.exports = function(state, emit) {
           ${state.modal(state, emit, close)}
         </div>
       </div>
-    </send-modal>
+    </drip-modal>
   `;
 
   function close(event) {

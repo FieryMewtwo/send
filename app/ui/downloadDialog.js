@@ -4,7 +4,7 @@ module.exports = function() {
   return function(state, emit, close) {
     const archive = state.fileInfo;
     return html`
-      <send-download-dialog
+      <drip-download-dialog
         class="flex flex-col w-full max-w-sm h-full mx-auto items-center justify-center"
       >
         <h1 class="text-3xl font-bold mb-4">
@@ -38,7 +38,7 @@ module.exports = function() {
         <a href="/report" class="link-blue mt-8"
           >${state.translate('reportFile')}</a
         >
-      </send-download-dialog>
+      </drip-download-dialog>
     `;
 
     function toggleDownloadEnabled(event) {

@@ -23,7 +23,7 @@ import { setTranslate } from '../app/utils';
 import { delay } from '../app/utils';
 
 if (navigator.userAgent === 'Send Android') {
-  setApiUrlPrefix('https://send.firefox.com');
+  setApiUrlPrefix('https://drip.firefox.com');
 }
 
 const app = choo();

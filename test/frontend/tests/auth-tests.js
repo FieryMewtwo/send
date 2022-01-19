@@ -34,9 +34,9 @@ describe('user auth', function() {
       'eyJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiRUNESC1FUyIsImtpZCI6ImNWOV90aFZYOVhSYS1SMm5WWkY5ckZkd3JjUl9lU1Q0VVp1VUN4MDNlYkkiLCJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJqckcwajNFODNodDZJcDE1YmtuZWRUV3kwZmR1WnR0V3NtMkFybUNoQU5rIiwieSI6Ijl3SmNQUDRrQmQ5amtCbEJJcWRhclQ2NjVIQU00SndUX0FSSFc0aTN4QUUifX0..Dkf-FXtakCiPuXjW.-KfVQEntYjUe3f5OxslSQwjLFauc50RurLQHDV75sUixNTlsjTIldCZVb6WUKpQkpOdFHOUYFX9_Cvk2ENKdfcVm2eTuyomlKklHF3q5209KwJz8lDK3gOQuAlz79eDou0k_Z3JNGu-qZ8IiDhZZ9iNSgBrsq0BZwVXZ9ViSFEW-YzJBQlKmildscXhp_-Lf6-qiJJrPbZCXFD3PZmzcule3kyBOarg_fjjHLFlIpdjP1lI5wBETqdjk7iBKeO2isSQO7-8.q5EzqP6OPg9yb5BcJH2oFg'
     );
     assert.deepEqual(jwks, {
-      'https://identity.mozilla.com/apps/send': {
+      'https://identity.mozilla.com/apps/drip': {
         kty: 'oct',
-        scope: 'https://identity.mozilla.com/apps/send',
+        scope: 'https://identity.mozilla.com/apps/drip',
         k: '5_jrbS76RzJ4EwlKSl527vqz3BDqf5DM4sNsoEK_hoA',
         kid: '1414456160-n6yE-eL-ADvnsJo_huq3DA'
       }

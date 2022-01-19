@@ -45,13 +45,13 @@ passwordSetError = 無法設定此密碼
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = 簡單而私密的檔案共享服務
-introDescription = { -send-brand } 讓您可透過點對點加密的方式來分享檔案，並提供會自動失效的鏈結。這樣一來就可以保留分享時的隱私，也確保檔案不會永久保存於網路上。
+introDescription = { -drip-brand } 讓您可透過點對點加密的方式來分享檔案，並提供會自動失效的鏈結。這樣一來就可以保留分享時的隱私，也確保檔案不會永久保存於網路上。
 notifyUploadEncryptDone = 已加密您的檔案，可以傳送
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = { $downloadCount } 或 { $timespan } 後失效
@@ -87,8 +87,8 @@ totalSize = 總大小: { $size }
 copyLinkDescription = 複製鏈結即可分享您的檔案:
 copyLinkButton = 複製鏈結
 downloadTitle = 下載檔案
-downloadDescription = 此檔案是透過 { -send-brand } 進行分享，以點對點加密的方式來分享檔案，並提供會自動失效的鏈結。
-trySendDescription = 快試試 { -send-brand }，簡單安全的檔案分享機制。
+downloadDescription = 此檔案是透過 { -drip-brand } 進行分享，以點對點加密的方式來分享檔案，並提供會自動失效的鏈結。
+trySendDescription = 快試試 { -drip-brand }，簡單安全的檔案分享機制。
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -100,18 +100,18 @@ tooManyArchives =
        *[other] 僅允許 { $count } 個壓縮檔。
     }
 expiredTitle = 此鏈結已經失效。
-notSupportedDescription = 無法於此瀏覽器使用 { -send-brand }。在最新版的 { -firefox } 中使用 { -send-short-brand } 會有最佳效果，也可在大部分瀏覽器的最新版本當中使用。
+notSupportedDescription = 無法於此瀏覽器使用 { -drip-brand }。在最新版的 { -firefox } 中使用 { -drip-short-brand } 會有最佳效果，也可在大部分瀏覽器的最新版本當中使用。
 downloadFirefox = 下載 { -firefox }
-legalTitle = { -send-short-brand } 隱私權公告
+legalTitle = { -drip-short-brand } 隱私權公告
 legalDateStamp = 1.0 版，2019 年 3 月 12 日生效
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } 天 { $hours } 小時 { $minutes } 分鐘
 addFilesButton = 選擇要上傳的檔案
 trustWarningMessage = 分享敏感資料時，請務必確認收件者是可信任的人。
 uploadButton = 上傳
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = 拖放檔案到此處
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = 或點擊即可傳送最大 { $size } 的檔案
 addPassword = 使用密碼保護
@@ -136,12 +136,12 @@ noStreamsWarning = 此瀏覽器無法解密這麼大的檔案。
 noStreamsOptionCopy = 複製鏈結，用其他瀏覽器開啟
 noStreamsOptionFirefox = 試試我們最愛的瀏覽器
 noStreamsOptionDownload = 繼續使用目前的瀏覽器
-downloadFirefoxPromo = { -send-short-brand } 是由全新的 { -firefox } 提供。
+downloadFirefoxPromo = { -drip-short-brand } 是由全新的 { -firefox } 提供。
 # the next line after the colon contains a file name
 shareLinkDescription = 您的檔案鏈結:
 shareLinkButton = 分享鏈結
 # $name is the name of the file
-shareMessage = 使用 { -send-brand } 下載「{ $name }」: 簡單安全的檔案分享機制
+shareMessage = 使用 { -drip-brand } 下載「{ $name }」: 簡單安全的檔案分享機制
 trailheadPromo = 有種方法可以保護您的隱私，加入 Firefox。
 learnMore = 了解更多。
 downloadFlagged = 由於違反了服務條款，已停用此鏈結。

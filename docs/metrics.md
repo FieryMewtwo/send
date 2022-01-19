@@ -24,7 +24,7 @@ We will know this to be true when we can conduct six research tasks (surveys, A/
 
 ## Overview of Key Measures
 
-* Number of people using the service to send and receive files
+* Number of people using the service to drip and receive files
   * Why: measure of service size. Important for understanding addressable market size
 * Percent of users who have or create an FxAccount via Send
   * Why: representation of % of any service users who might be amenable to an upsell

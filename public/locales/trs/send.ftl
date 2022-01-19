@@ -47,13 +47,13 @@ passwordSetError = Na'ue gārayinaj da'nga huìi
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Hìo nī huì ga’ue duyingâ’t archîbo
-introDescription = { -send-brand } a’nïn duyingâ’t archîbo ngà ‘ngō da’nga’rán hia nī ngà ‘ngō lînk nare’ man‘an. Dànanj nī ‘ngō rïnt ni’in sa duyingâ’t nī si lînk si ginu yitïn riña lînia.
+introDescription = { -drip-brand } a’nïn duyingâ’t archîbo ngà ‘ngō da’nga’rán hia nī ngà ‘ngō lînk nare’ man‘an. Dànanj nī ‘ngō rïnt ni’in sa duyingâ’t nī si lînk si ginu yitïn riña lînia.
 notifyUploadEncryptDone = Ngà huā ran si archibôt nī ngà huā yugui da’ ga’nïnjt gan’an
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Narè’ man ne’ rukù { $downloadCount } asi { $timespan }
@@ -94,7 +94,7 @@ copyLinkDescription = Guxūn lînk da' ga'ue duyingâ't archibô:
 copyLinkButton = Guxûn lînk
 downloadTitle = Nadunïnj nej archîbo
 downloadFirefox = Nadunïnj { -firefox }
-legalTitle = Nuguan huì nikāj { -send-short-brand }
+legalTitle = Nuguan huì nikāj { -drip-short-brand }
 uploadButton = Nādusîj
 addPassword = Dugumî da’nga’ huìi man
 emailPlaceholder = Gāchrūn si korreot

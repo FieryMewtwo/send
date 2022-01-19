@@ -9,7 +9,7 @@ const { encryptedSize } = require('../../app/utils');
 
 const { Transform } = require('stream');
 
-const log = mozlog('send.upload');
+const log = mozlog('drip.upload');
 
 module.exports = function(ws, req) {
   let fileStream;
@@ -42,7 +42,7 @@ module.exports = function(ws, req) {
         : config.anon_max_downloads;
 
       if (config.fxa_required && !user) {
-        ws.send(
+        ws.drip(
           JSON.stringify({
             error: 401
           })
@@ -56,7 +56,7 @@ module.exports = function(ws, req) {
         timeLimit > maxExpireSeconds ||
         dlimit > maxDownloads
       ) {
-        ws.send(
+        ws.drip(
           JSON.stringify({
             error: 400
           })
@@ -76,7 +76,7 @@ module.exports = function(ws, req) {
       const protocol = config.env === 'production' ? 'https' : req.protocol;
       const url = `${protocol}://${req.get('host')}/download/${newId}/`;
 
-      ws.send(
+      ws.drip(
         JSON.stringify({
           url,
           ownerToken: meta.owner,
@@ -108,7 +108,7 @@ module.exports = function(ws, req) {
         // TODO: we should handle cancelled uploads differently
         // in order to avoid having to check socket state and clean
         // up storage, possibly with an exception that we can catch.
-        ws.send(JSON.stringify({ ok: true }));
+        ws.drip(JSON.stringify({ ok: true }));
         statUploadEvent({
           id: newId,
           ip: req.ip,
@@ -125,7 +125,7 @@ module.exports = function(ws, req) {
     } catch (e) {
       log.error('upload', e);
       if (ws.readyState === 1) {
-        ws.send(
+        ws.drip(
           JSON.stringify({
             error: e === 'limit' ? 413 : 500
           })

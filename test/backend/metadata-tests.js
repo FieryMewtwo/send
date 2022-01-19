@@ -16,7 +16,7 @@ function request(id, meta = {}) {
 function response() {
   return {
     sendStatus: sinon.stub(),
-    send: sinon.stub()
+    drip: sinon.stub()
   };
 }
 
@@ -53,7 +53,7 @@ describe('/api/metadata', function() {
     };
     const res = response();
     await metadataRoute(request('x', meta), res);
-    sinon.assert.calledWithMatch(res.send, {
+    sinon.assert.calledWithMatch(res.drip, {
       metadata: 'foo',
       finalDownload: true,
       ttl: 123

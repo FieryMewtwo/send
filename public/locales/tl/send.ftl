@@ -43,13 +43,13 @@ passwordSetError = Hindi maitakda ang password na ito
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox send
--send-short-brand = I-send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Firefox drip
+-drip-short-brand = I-drip
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Simple, pribadong pagbabahagi ng file
-notifyUploadEncryptDone = Ang iyong file ay naka-encrypt at handa na i-send
+notifyUploadEncryptDone = Ang iyong file ay naka-encrypt at handa na i-drip
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = mag-e-expire pagkatapos { $downloadCount } o { $timespan }
 timespanMinutes =
@@ -90,13 +90,13 @@ copyLinkButton = Kopyahin ang link
 downloadTitle = I-download ang mga file
 expiredTitle = Ang link na ito ay nag-expire.
 downloadFirefox = I-download { -firefox }
-legalTitle = { -send-short-brand } Abiso sa Privacy
+legalTitle = { -drip-short-brand } Abiso sa Privacy
 legalDateStamp = Bersyon 1.0, petsa ng Marso 12, 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Piliin ang mga file na mai-upload
 uploadButton = I-upload
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = I-drag at i-drop ang mga file
 addPassword = Protektahan gamit ang password
 emailPlaceholder = Ipasok ang iyong email

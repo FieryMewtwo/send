@@ -3,7 +3,7 @@ const html = require('choo/html');
 module.exports = function(name, url) {
   const dialog = function(state, emit, close) {
     return html`
-      <send-share-dialog
+      <drip-share-dialog
         class="flex flex-col items-center text-center p-4 max-w-sm m-auto"
       >
         <h1 class="text-3xl font-bold my-4">
@@ -34,14 +34,14 @@ module.exports = function(name, url) {
         >
           ${state.translate('okButton')}
         </button>
-      </send-share-dialog>
+      </drip-share-dialog>
     `;
 
     async function share(event) {
       event.stopPropagation();
       try {
         await navigator.share({
-          title: state.translate('-send-brand'),
+          title: state.translate('-drip-brand'),
           text: state.translate('shareMessage', { name }),
           url
         });

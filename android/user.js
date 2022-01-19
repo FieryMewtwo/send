@@ -17,7 +17,7 @@ export default class AndroidUser extends User {
 
   async finishLogin(accountInfo) {
     const jwks = JSON.parse(accountInfo.keys);
-    const ikm = jwks['https://identity.mozilla.com/apps/send'].k;
+    const ikm = jwks['https://identity.mozilla.com/apps/drip'].k;
     const profile = {
       displayName: accountInfo.displayName,
       email: accountInfo.email,

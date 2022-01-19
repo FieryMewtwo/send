@@ -47,13 +47,13 @@ passwordSetError = Awal-agi uffir ur izmir ara ad ittwabaded
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Afessas, beṭṭu n ifuyla s wudem uslig
-introDescription = { -send-brand } ad k·kem-yeǧǧ ad tebḍuḍ ifuyla iwgelhanen si ṭṭerf ɣer ṭṭerf akked useɣwen ara yemmten s wudem awurman. Daɣen, ad tizmireḍ ad tḥerzeḍ ayen i tbeṭṭuḍ s wudem uslig daɣen ad tamneḍ imi agbur-ik·im ur yettɣimi ara  i lebda.
+introDescription = { -drip-brand } ad k·kem-yeǧǧ ad tebḍuḍ ifuyla iwgelhanen si ṭṭerf ɣer ṭṭerf akked useɣwen ara yemmten s wudem awurman. Daɣen, ad tizmireḍ ad tḥerzeḍ ayen i tbeṭṭuḍ s wudem uslig daɣen ad tamneḍ imi agbur-ik·im ur yettɣimi ara  i lebda.
 notifyUploadEncryptDone = Afaylu-ik yewgelhen daɣen ihegga i tuzna
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Ad yemmet deffir { $downloadCount } neɣ { $timespan }
@@ -93,8 +93,8 @@ totalSize = Tuɣzi s umata: { $size }
 copyLinkDescription = Nɣel aseɣwen akken ad tebḍuḍ afaylu-inek
 copyLinkButton = Nɣel aseɣwen
 downloadTitle = Sider ifuyla
-downloadDescription = Afaylu-a yettwabḍa s { -send-brand } s uwgelhen s ṭṭerf ɣer ṭṭerf s useɣwen ara yemmten s wudem awurman.
-trySendDescription = Ɛreḍ { -send-brand } i beḍḍu afessas n ifuyla s wudem ameɣtu.
+downloadDescription = Afaylu-a yettwabḍa s { -drip-brand } s uwgelhen s ṭṭerf ɣer ṭṭerf s useɣwen ara yemmten s wudem awurman.
+trySendDescription = Ɛreḍ { -drip-brand } i beḍḍu afessas n ifuyla s wudem ameɣtu.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Ala { $count } n teṛcibin i yettwasiregn.
     }
 expiredTitle = Immut useɣwen.
-notSupportedDescription = { -send-brand } ur iteddu ara s yiminig-a. { -send-short-brand } iteddu akken iwata s lqem aneggaru n { -firefox }, daɣen iteddu s lqem amiran n tuget n yiminigen.
+notSupportedDescription = { -drip-brand } ur iteddu ara s yiminig-a. { -drip-short-brand } iteddu akken iwata s lqem aneggaru n { -firefox }, daɣen iteddu s lqem amiran n tuget n yiminigen.
 downloadFirefox = Sider { -firefox }
-legalTitle = Tasertit tabaḍnit n { -send-short-brand }
+legalTitle = Tasertit tabaḍnit n { -drip-short-brand }
 legalDateStamp = Lqem  1.0, azemz n 12 Meɣres 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } ass { $hours } srg { $minutes } tsd
 addFilesButton = Fren ifuyla ad tessaliḍ
 trustWarningMessage = Ḍmen d akken tumneḍ anermis ticki tebḍiḍ isefka n tbadnit.
 uploadButton = Sali
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Ẓuɣer sakin sers ifuyla
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = neɣ sit akken ad tazneḍ arma d { $size }
 addPassword = Ḥrez s wawal uffir
@@ -145,12 +145,12 @@ noStreamsWarning = Iminig-a ur yezmir ara ad yezmek afaylu meqqren.
 noStreamsOptionCopy = Nɣel aseɣwen i tulya deg yiminig-nniden
 noStreamsOptionFirefox = Ɛreḍ iminig-ik ufrin
 noStreamsOptionDownload = Kemmel akked iminig-a
-downloadFirefoxPromo = { -send-short-brand } yettwasumer i yal { -firefox } amaynut.
+downloadFirefoxPromo = { -drip-short-brand } yettwasumer i yal { -firefox } amaynut.
 # the next line after the colon contains a file name
 shareLinkDescription = Bḍu aseɣwen ɣer ufaylu-ik:
 shareLinkButton = Bḍu aseɣwen
 # $name is the name of the file
-shareMessage = Sider "{ $name }" s { -send-brand }: d fessas, d aɣelsan i beṭṭu n yifuyla.
+shareMessage = Sider "{ $name }" s { -drip-brand }: d fessas, d aɣelsan i beṭṭu n yifuyla.
 trailheadPromo = Yella wallal n ummesten n tudert-ik tusligt. Ddu ɣer Firefox.
 learnMore = Issin ugar.
 downloadFlagged = Aseɣwen-a yensa acku ur iquder ara tiwtilin n useqdec.

@@ -47,13 +47,13 @@ passwordSetError = Aqueste senhal a pas pogut èsser definit
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Partatge simple e privat de fichièrs
-introDescription = { -send-brand } vos permet de partejar de fichièr amb un chiframent del cap a la fin e un ligam qu’expira automaticament. Atal podètz gardar  privat çò que partejatz e vos assegurar que demorarà pas en linha per totjorn.
+introDescription = { -drip-brand } vos permet de partejar de fichièr amb un chiframent del cap a la fin e un ligam qu’expira automaticament. Atal podètz gardar  privat çò que partejatz e vos assegurar que demorarà pas en linha per totjorn.
 notifyUploadEncryptDone = Vòstre fichièr es chifrat e prèst per mandadís
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expira aprèp { $downloadCount } o { $timespan }
@@ -93,8 +93,8 @@ totalSize = Talha totala : { $size }
 copyLinkDescription = Copiatz lo ligam per partejar vòstre fichièr :
 copyLinkButton = Copiar lo ligam
 downloadTitle = Telecargar los fichièrs
-downloadDescription = Aqueste fichièr foguèt partejat via { -send-brand } amb chiframent del cap a la fin e un ligam qu’expira automaticament.
-trySendDescription = Ensajatz { -send-brand } per un partiment de fichièrs simple e segur.
+downloadDescription = Aqueste fichièr foguèt partejat via { -drip-brand } amb chiframent del cap a la fin e un ligam qu’expira automaticament.
+trySendDescription = Ensajatz { -drip-brand } per un partiment de fichièrs simple e segur.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Pas que { $count } archius son autorizats.
     }
 expiredTitle = Aqueste ligam a expirat.
-notSupportedDescription = { -send-brand } foncionarà pas amb aqueste navegador. { -send-short-brand } fonciona melhor amb la darrièra version de { -firefox } e foncionarà amb la version mai recenta de la màger part dels navegadors.
+notSupportedDescription = { -drip-brand } foncionarà pas amb aqueste navegador. { -drip-short-brand } fonciona melhor amb la darrièra version de { -firefox } e foncionarà amb la version mai recenta de la màger part dels navegadors.
 downloadFirefox = Telecargar { -firefox }
-legalTitle = Avís de confidencialitat de { -send-short-brand }
+legalTitle = Avís de confidencialitat de { -drip-short-brand }
 legalDateStamp = Version 1.0 del 12 de març de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } j { $hours } h { $minutes } min
 addFilesButton = Seleccionatz los fichièrs de mandar
 trustWarningMessage = Asseguratz-vos que vos fisatz del destinari quand partejatz de donadas confidencialas.
 uploadButton = Enviar
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Lisatz-depausatz de fichièrs
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = o clicatz per enviar fins a { $size }
 addPassword = Protegir amb un senhal
@@ -145,12 +145,12 @@ noStreamsWarning = Pòt arribar qu’aqueste navegador pòsca pas deschifrar un 
 noStreamsOptionCopy = Copiatz lo ligam per lo dobrir dins un autre navegador
 noStreamsOptionFirefox = Ensajatz nòstre navegador preferit
 noStreamsOptionDownload = Contunhar amb aqueste navegador
-downloadFirefoxPromo = Lo nòu { -firefox } vos provesís { -send-short-brand }.
+downloadFirefoxPromo = Lo nòu { -firefox } vos provesís { -drip-short-brand }.
 # the next line after the colon contains a file name
 shareLinkDescription = Partejatz lo ligam cap a vòstre fichièr :
 shareLinkButton = Partejar lo ligam
 # $name is the name of the file
-shareMessage = Telecargar « { $name } » amb { -send-brand } : un biais simple e segur de partejar de fichièrs.
+shareMessage = Telecargar « { $name } » amb { -drip-brand } : un biais simple e segur de partejar de fichièrs.
 trailheadPromo = Existís un biais de protegir vòstra vida privada. Rejonhètz Firefox.
 learnMore = Ne saber mai.
 downloadFlagged = Aqueste ligam foguèt desactivat a causa d’una infraccions a las condicions d’utilizacion.

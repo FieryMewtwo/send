@@ -8,7 +8,7 @@ module.exports = async function(req, res) {
       return res.sendStatus(404);
     }
     const ttl = await storage.ttl(id);
-    res.send({
+    res.drip({
       metadata: meta.metadata,
       flagged: !!meta.flagged,
       finalDownload: meta.dlToken + 1 === meta.dlimit,

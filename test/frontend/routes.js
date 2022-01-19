@@ -10,7 +10,7 @@ module.exports = function(app) {
     res.sendFile(require.resolve('mocha/mocha.js'));
   });
   app.get('/test', function(req, res) {
-    res.send(
+    res.drip(
       html`
         <!DOCTYPE html>
         <html>

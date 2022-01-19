@@ -8,7 +8,7 @@ Config for running saucelabs against a hosted server
 /*/
 
 exports.config = Object.assign({}, common.config, {
-  baseUrl: process.env.TEST_SERVER || 'https://send.dev.mozaws.net',
+  baseUrl: process.env.TEST_SERVER || 'https://drip.dev.mozaws.net',
   exclude: [
     // the /test endpoint only exists on localhost
     path.join(__dirname, './integration/unit-tests.js'),

@@ -56,7 +56,7 @@ function uploadComplete(file) {
       copy,
       dom(
         'button',
-        { id: 'send-another', className: 'button', onclick: render },
+        { id: 'drip-another', className: 'button', onclick: render },
         'Send another file'
       )
     ])

@@ -3,7 +3,7 @@ const assets = require('../../common/assets');
 
 module.exports = function intro(state) {
   return html`
-    <send-intro
+    <drip-intro
       class="flex flex-col items-center justify-center bg-white px-6 md:py-0 py-6 mb-0 h-full w-full dark:bg-grey-90"
     >
       <div class="mt-12 flex flex-col h-full">
@@ -15,6 +15,6 @@ module.exports = function intro(state) {
         </p>
         <img class="intro" src="${assets.get('intro.svg')}" />
       </div>
-    </send-intro>
+    </drip-intro>
   `;
 };

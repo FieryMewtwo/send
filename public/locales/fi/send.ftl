@@ -47,13 +47,13 @@ passwordSetError = Tätä salasanaa ei voitu asettaa
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Helppoa ja yksityistä tiedostonjakoa
-introDescription = { -send-brand } mahdollistaa tiedostojen jakamisen automaattisesti vanhenevalla linkillä. Tiedostojen jakaminen tapahtuu päästä päähän -salattuna. Näin jakamasi tiedostot pysyvät yksityisinä ja voit olla varma, etteivät lähettämäsi tiedostot pysy verkossa ikuisesti.
+introDescription = { -drip-brand } mahdollistaa tiedostojen jakamisen automaattisesti vanhenevalla linkillä. Tiedostojen jakaminen tapahtuu päästä päähän -salattuna. Näin jakamasi tiedostot pysyvät yksityisinä ja voit olla varma, etteivät lähettämäsi tiedostot pysy verkossa ikuisesti.
 notifyUploadEncryptDone = Tiedosto on salattu ja valmis lähetettäväksi
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Vanhenee { $downloadCount } tai { $timespan } jälkeen
@@ -93,8 +93,8 @@ totalSize = Koko yhteensä: { $size }
 copyLinkDescription = Kopioi linkki jakaaksesi tiedoston:
 copyLinkButton = Kopioi linkki
 downloadTitle = Lataa tiedostot
-downloadDescription = Tämä tiedosto jaettiin { -send-brand } -palvelun kautta päästä päähän -salattuna ja automaattisesti vanhenevalla linkillä.
-trySendDescription = Kokeile { -send-brand } -palvelua jakaaksesi tiedostoja helposti ja turvallisesti.
+downloadDescription = Tämä tiedosto jaettiin { -drip-brand } -palvelun kautta päästä päähän -salattuna ja automaattisesti vanhenevalla linkillä.
+trySendDescription = Kokeile { -drip-brand } -palvelua jakaaksesi tiedostoja helposti ja turvallisesti.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Vain { $count } arkistoa on sallittu.
     }
 expiredTitle = Tämä linkki on vanhentunut.
-notSupportedDescription = { -send-brand } ei toimi tällä selaimella. { -send-short-brand } toimii parhaiten { -firefox }in uusimmalla versiolla, ja toimii useimpien selainten uusimmilla versioilla.
+notSupportedDescription = { -drip-brand } ei toimi tällä selaimella. { -drip-short-brand } toimii parhaiten { -firefox }in uusimmalla versiolla, ja toimii useimpien selainten uusimmilla versioilla.
 downloadFirefox = Lataa { -firefox }
-legalTitle = { -send-short-brand }-yksityisyyskäytäntö
+legalTitle = { -drip-short-brand }-yksityisyyskäytäntö
 legalDateStamp = Versio 1.0, päivätty 13. maaliskuuta 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } pv { $hours } t { $minutes } min
 addFilesButton = Valitse lähetettävät tiedostot
 trustWarningMessage = Varmista, että luotat vastaanottajaan jakaessasi arkaluontoisia tietoja.
 uploadButton = Lähetä
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Vedä ja pudota tiedostot
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = tai napsauta lähettääksesi tiedostoja, joiden koko voi olla enintään { $size }
 addPassword = Suojaa salasanalla
@@ -145,12 +145,12 @@ noStreamsWarning = Tämä selain ei välttämättä osaa purkaa salausta näin s
 noStreamsOptionCopy = Kopioi linkki avataksesi sen toisessa selaimessa
 noStreamsOptionFirefox = Kokeile suosikkiselaintamme
 noStreamsOptionDownload = Jatka tällä selaimella
-downloadFirefoxPromo = { -send-short-brand } on olemassa kiitos uuden { -firefox }in.
+downloadFirefoxPromo = { -drip-short-brand } on olemassa kiitos uuden { -firefox }in.
 # the next line after the colon contains a file name
 shareLinkDescription = Jaa linkki tiedostoosi:
 shareLinkButton = Jaa linkki
 # $name is the name of the file
-shareMessage = Lataa tiedosto ”{ $name }” { -send-brand } -palvelusta: yksinkertaista ja turvallista tiedostonjakoa
+shareMessage = Lataa tiedosto ”{ $name }” { -drip-brand } -palvelusta: yksinkertaista ja turvallista tiedostonjakoa
 trailheadPromo = On tapa suojata yksityisyyttään. Liity Firefoxiin.
 learnMore = Lue lisää.
 downloadFlagged = Tämä linkki on poistettu käytöstä palvelun käyttöehtojen rikkomisen vuoksi.

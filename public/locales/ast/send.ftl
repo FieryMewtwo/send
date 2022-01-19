@@ -47,13 +47,13 @@ passwordSetError = Nun pudo afitase esta contraseña
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Compartición de ficheros privada y cenciella
-introDescription = { -send-brand } déxate compartir ficheros con cifráu puntu a puntu y un enllaz que caduca automáticamente. D'esti mou, asegúreste de que lo que compartes ye privao y nun va tar siempres en llinia.
+introDescription = { -drip-brand } déxate compartir ficheros con cifráu puntu a puntu y un enllaz que caduca automáticamente. D'esti mou, asegúreste de que lo que compartes ye privao y nun va tar siempres en llinia.
 notifyUploadEncryptDone = El ficheru ta cifráu y preparáu pa unviase
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Caduca dempués de { $downloadCount } ó { $timespan }
@@ -93,8 +93,8 @@ totalSize = Tamañu total: { $size }
 copyLinkDescription = Copia l'enllaz pa compartir el ficheru:
 copyLinkButton = Copiar l'enllaz
 downloadTitle = Descarga de ficheros
-downloadDescription = Esti ficheru compartióse per { -send-brand } con cifráu puntu a puntu y un enllaz que caduca automáticamente.
-trySendDescription = Prueba { -send-brand } pa una compartición de ficheros cenciella y segura.
+downloadDescription = Esti ficheru compartióse per { -drip-brand } con cifráu puntu a puntu y un enllaz que caduca automáticamente.
+trySendDescription = Prueba { -drip-brand } pa una compartición de ficheros cenciella y segura.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Namás se permiten { $count } archivos
     }
 expiredTitle = Esti enllaz caducó.
-notSupportedDescription = { -send-brand } nun va funcionar con esti restolador. { -send-short-brand } funciona meyor cola última versión de { -firefox } y l'actual de la mayoría de restoladores.
+notSupportedDescription = { -drip-brand } nun va funcionar con esti restolador. { -drip-short-brand } funciona meyor cola última versión de { -firefox } y l'actual de la mayoría de restoladores.
 downloadFirefox = Baxar { -firefox }
-legalTitle = Avisu de privacidá de { -send-short-brand }
+legalTitle = Avisu de privacidá de { -drip-short-brand }
 legalDateStamp = Versión 1.0, con data del 12 de marzu de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Esbillar los ficheros a unviar
 trustWarningMessage = Asegúrate de que t'enfotes nel destinatariu al compartir datos sensibles.
 uploadButton = Xubir
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Arrastra y suelta ficheros
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = o calca pa unviar hasta { $size }
 addPassword = Protexer con una contraseña

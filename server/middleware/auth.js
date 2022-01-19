@@ -23,11 +23,11 @@ module.exports = {
         if (crypto.timingSafeEqual(verifyHash, Buffer.from(auth, 'base64'))) {
           req.nonce = crypto.randomBytes(16).toString('base64');
           storage.setField(id, 'nonce', req.nonce);
-          res.set('WWW-Authenticate', `send-v1 ${req.nonce}`);
+          res.set('WWW-Authenticate', `drip-v1 ${req.nonce}`);
           req.authorized = true;
           req.meta = meta;
         } else {
-          res.set('WWW-Authenticate', `send-v1 ${meta.nonce}`);
+          res.set('WWW-Authenticate', `drip-v1 ${meta.nonce}`);
           req.authorized = false;
         }
       } catch (e) {

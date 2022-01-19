@@ -15,7 +15,7 @@ function request(id, meta) {
 function response() {
   return {
     sendStatus: sinon.stub(),
-    send: sinon.stub()
+    drip: sinon.stub()
   };
 }
 
@@ -50,7 +50,7 @@ describe('/api/info', function() {
     };
     const res = response();
     await infoRoute(request('x', meta), res);
-    sinon.assert.calledWithMatch(res.send, {
+    sinon.assert.calledWithMatch(res.drip, {
       dlimit: 1,
       dtotal: 0,
       ttl: 123

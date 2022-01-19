@@ -1,7 +1,7 @@
 ##
-# Firefox Send - Mozilla
+# Drip - FieryMewtwo
 #
-# License https://github.com/mozilla/send/blob/master/LICENSE
+# License https://github.com/mozilla/drip/blob/master/LICENSE
 ##
 
 

@@ -69,7 +69,7 @@ describe('Owner Middleware', function() {
     storage.metadata.returns(Promise.resolve(storedMeta));
     const req = request(
       'x',
-      'send-v1 R7nZk14qJqZXtxpnAtw2uDIRQTRnO1qSO1Q0PiwcNA8'
+      'drip-v1 R7nZk14qJqZXtxpnAtw2uDIRQTRnO1qSO1Q0PiwcNA8'
     );
     const res = response();
     await authMiddleware(req, res, next);
@@ -78,7 +78,7 @@ describe('Owner Middleware', function() {
     sinon.assert.calledWith(
       res.set,
       'WWW-Authenticate',
-      `send-v1 ${req.nonce}`
+      `drip-v1 ${req.nonce}`
     );
     sinon.assert.notCalled(res.sendStatus);
     assert.equal(req.authorized, true);
@@ -90,7 +90,7 @@ describe('Owner Middleware', function() {
     storage.metadata.returns(Promise.resolve(storedMeta));
     const req = request(
       'x',
-      'send-v1 R8nZk14qJqZXtxpnAtw2uDIRQTRnO1qSO1Q0PiwcNA8'
+      'drip-v1 R8nZk14qJqZXtxpnAtw2uDIRQTRnO1qSO1Q0PiwcNA8'
     );
     const res = response();
     await authMiddleware(req, res, next);
@@ -98,7 +98,7 @@ describe('Owner Middleware', function() {
     sinon.assert.calledWith(
       res.set,
       'WWW-Authenticate',
-      `send-v1 ${storedMeta.nonce}`
+      `drip-v1 ${storedMeta.nonce}`
     );
     sinon.assert.notCalled(next);
   });

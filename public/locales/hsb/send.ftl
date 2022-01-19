@@ -51,13 +51,13 @@ passwordSetError = Tute hesło njeda so nastajić
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Jednore, priwatne datajowe dźělenje
-introDescription = { -send-brand } wam zmóžnja, dataje ze zaklučowanjom kónc do kónca a wotkazom dźělić, kotryž awtomatisce spadnje. Tak móžeće dźěleny wobsah priwatny dźeržeć a zawěsćić, zo waše daty online na přeco njewóstanu.
+introDescription = { -drip-brand } wam zmóžnja, dataje ze zaklučowanjom kónc do kónca a wotkazom dźělić, kotryž awtomatisce spadnje. Tak móžeće dźěleny wobsah priwatny dźeržeć a zawěsćić, zo waše daty online na přeco njewóstanu.
 notifyUploadEncryptDone = Waša dataja je zaklučowana a hotowa za słanje
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Spadnje po { $downloadCount } abo { $timespan }
@@ -105,8 +105,8 @@ totalSize = Cyłkowna wulkosć: { $size }
 copyLinkDescription = Kopěrujće wotkaz, zo byšće swoju dataju dźělił:
 copyLinkButton = Wotkaz kopěrować
 downloadTitle = Dataje sćahnyć
-downloadDescription = Tuta dataja je so přez { -send-brand } ze zaklučowanjom kónc do kónca a wotkazom dźěliła, kotryž awtomatisce spadnje.
-trySendDescription = Spytajće { -send-brand } za jednore, wěste datajowe dźělenje.
+downloadDescription = Tuta dataja je so přez { -drip-brand } ze zaklučowanjom kónc do kónca a wotkazom dźěliła, kotryž awtomatisce spadnje.
+trySendDescription = Spytajće { -drip-brand } za jednore, wěste datajowe dźělenje.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -124,18 +124,18 @@ tooManyArchives =
        *[other] Jenož { $count } archiwow je dowolene.
     }
 expiredTitle = Tutón wotkaz je spadnjeny.
-notSupportedDescription = { -send-brand } z tutym wobhladowakom njefunguje. { -send-short-brand } najlěpje z najnowšej wersiju { -firefox } funguje, a funguje z aktualnej wersiju najwjace wobhladowakow.
+notSupportedDescription = { -drip-brand } z tutym wobhladowakom njefunguje. { -drip-short-brand } najlěpje z najnowšej wersiju { -firefox } funguje, a funguje z aktualnej wersiju najwjace wobhladowakow.
 downloadFirefox = { -firefox } scáhnyć
-legalTitle = Zdźělenka priwatnosće { -send-short-brand }
+legalTitle = Zdźělenka priwatnosće { -drip-short-brand }
 legalDateStamp = Wersija 1.0 wot 12. měrca 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Dataje za nahrawanje wubrać
 trustWarningMessage = Wy měł přijimarjej dowěrić, hdyž sensibelne daty dźěliće.
 uploadButton = Nahrać
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Ćehńće a wotkładźće dataje
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = abo klikńće, zo byšće do { $size } pósłał
 addPassword = Z hesłom škitać
@@ -163,12 +163,12 @@ noStreamsWarning = Tutón wobhladowak njemóhł tajku wulku dataju dešifrować.
 noStreamsOptionCopy = Kopěrujće wotkaz, zo byšće jón w druhim wobhladowaku wočinił
 noStreamsOptionFirefox = Wupruwujće naš najlubši wobhladowak
 noStreamsOptionDownload = Z tutym wobhladowakom pokročować
-downloadFirefoxPromo = { -send-short-brand } so wam přez cyle nowy { -firefox } přinjese.
+downloadFirefoxPromo = { -drip-short-brand } so wam přez cyle nowy { -firefox } přinjese.
 # the next line after the colon contains a file name
 shareLinkDescription = Dźělće wotkaz k swojej dataji:
 shareLinkButton = Wotkaz dźělić
 # $name is the name of the file
-shareMessage = Sćehńće „{ $name }“ z { -send-brand }: jednore, wěste dźělenje datajow
+shareMessage = Sćehńće „{ $name }“ z { -drip-brand }: jednore, wěste dźělenje datajow
 trailheadPromo = Je móžnosć, wašu priwatnosć škitać. Přińdźće k Firefox.
 learnMore = Dalše informacije.
 downloadFlagged = Tutón wotkaz je so přestupjenja wužiwanskich wuměnjenjow dla znjemóžnił.

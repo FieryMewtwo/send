@@ -1,11 +1,11 @@
-## How big of a file can I transfer with Firefox Send?
+## How big of a file can I transfer with Drip?
 
 There is a 2.5GB file size limit built in to Send(1GB for non-signed in users), however, in practice you may
-be unable to send files that large.  Send encrypts and decrypts the files in
+be unable to drip files that large.  Send encrypts and decrypts the files in
 the browser which is great for security but will tax your system resources.  In
 particular you can expect to see your memory usage go up by at least the size
 of the file when the transfer is processing.  You can see [the results of some
-testing](https://github.com/mozilla/send/issues/170#issuecomment-314107793).
+testing](https://github.com/mozilla/drip/issues/170#issuecomment-314107793).
 For the most reliable operation on common computers, it’s probably best to stay
 under a few hundred megabytes.
 
@@ -17,16 +17,16 @@ Many browsers support this standard and should work fine, but some have not
 implemented it yet (mobile browsers lag behind on this, in
 particular).
 
-## Why does Firefox Send require JavaScript?
+## Why does Drip require JavaScript?
 
-Firefox Send uses JavaScript to:
+Drip uses JavaScript to:
 
 - Encrypt and decrypt files locally on the client instead of the server.
 - Render the user interface.
-- Manage translations on the website into [various different languages](https://github.com/mozilla/send#localization).
-- Collect data to help us improve Send in accordance with our [Terms & Privacy](https://send.firefox.com/legal).
+- Manage translations on the website into [various different languages](https://github.com/mozilla/drip#localization).
+- Collect data to help us improve Send in accordance with our [Terms & Privacy](https://drip.firefox.com/legal).
 
-Since Send is an open source project, you can see all of the cool ways we use JavaScript by [examining our code](https://github.com/mozilla/send/).
+Since Send is an open source project, you can see all of the cool ways we use JavaScript by [examining our code](https://github.com/mozilla/drip/).
 
 ## How long are files available for?
 

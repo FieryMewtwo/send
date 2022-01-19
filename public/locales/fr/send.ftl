@@ -47,13 +47,13 @@ passwordSetError = Ce mot de passe n’a pas pu être défini
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Partage de fichiers simple et privé
-introDescription = { -send-brand } vous permet de partager des fichiers chiffrés de bout en bout ainsi qu’un lien qui expire automatiquement. Ainsi, vous pouvez garder ce que vous partagez en privé et vous assurer que vos contenus ne restent pas en ligne pour toujours.
+introDescription = { -drip-brand } vous permet de partager des fichiers chiffrés de bout en bout ainsi qu’un lien qui expire automatiquement. Ainsi, vous pouvez garder ce que vous partagez en privé et vous assurer que vos contenus ne restent pas en ligne pour toujours.
 notifyUploadEncryptDone = Votre fichier est chiffré et prêt à l’envoi
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expire après { $downloadCount } ou { $timespan }
@@ -93,8 +93,8 @@ totalSize = Taille totale : { $size }
 copyLinkDescription = Copiez le lien pour partager votre fichier :
 copyLinkButton = Copier le lien
 downloadTitle = Télécharger les fichiers
-downloadDescription = Ce fichier a été partagé via { -send-brand } avec un chiffrement de bout en bout et un lien qui expire automatiquement.
-trySendDescription = Essayez { -send-brand } pour un partage de fichiers simple et sécurisé.
+downloadDescription = Ce fichier a été partagé via { -drip-brand } avec un chiffrement de bout en bout et un lien qui expire automatiquement.
+trySendDescription = Essayez { -drip-brand } pour un partage de fichiers simple et sécurisé.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Seules { $count } archives sont autorisées.
     }
 expiredTitle = Ce lien a expiré.
-notSupportedDescription = { -send-brand } ne fonctionnera pas avec ce navigateur. { -send-short-brand } fonctionne mieux avec la dernière version de { -firefox } et fonctionnera avec la dernière version de la plupart des navigateurs.
+notSupportedDescription = { -drip-brand } ne fonctionnera pas avec ce navigateur. { -drip-short-brand } fonctionne mieux avec la dernière version de { -firefox } et fonctionnera avec la dernière version de la plupart des navigateurs.
 downloadFirefox = Télécharger { -firefox }
-legalTitle = Politique de confidentialité de { -send-short-brand }
+legalTitle = Politique de confidentialité de { -drip-short-brand }
 legalDateStamp = Version 1.0 du 12 mars 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } j { $hours } h { $minutes } min
 addFilesButton = Sélectionnez des fichiers à envoyer
 trustWarningMessage = Assurez-vous de faire confiance au destinataire lorsque vous partagez des données sensibles.
 uploadButton = Envoyer
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Glissez-déposez des fichiers
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = ou cliquez pour envoyer jusqu’à { $size }
 addPassword = Protéger par mot de passe
@@ -145,12 +145,12 @@ noStreamsWarning = Ce navigateur pourrait ne pas être en mesure de déchiffrer 
 noStreamsOptionCopy = Copiez le lien pour l’ouvrir dans un autre navigateur
 noStreamsOptionFirefox = Essayez notre navigateur préféré
 noStreamsOptionDownload = Continuer avec ce navigateur
-downloadFirefoxPromo = { -send-short-brand } vous est proposé par le tout nouveau { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } vous est proposé par le tout nouveau { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Partagez le lien vers votre fichier :
 shareLinkButton = Partager le lien
 # $name is the name of the file
-shareMessage = Télécharger « { $name } » avec { -send-brand } : un moyen simple et sûr de partager des fichiers
+shareMessage = Télécharger « { $name } » avec { -drip-brand } : un moyen simple et sûr de partager des fichiers
 trailheadPromo = Il existe un moyen de protéger votre vie privée. Rejoignez Firefox.
 learnMore = En savoir plus.
 downloadFlagged = Ce lien a été désactivé en raison d’une violation des conditions d’utilisation.

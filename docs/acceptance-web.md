@@ -10,7 +10,7 @@
 
 - [ ] It should make clear the benefits of a Firefox Account
 - [ ] It should allow users to log into or create a Firefox account
-- [ ] It should allow users to select and send multiple files in one URL
+- [ ] It should allow users to select and drip multiple files in one URL
 - [ ] It should limit the sendable file size to 1GB
 - [ ] It should allow users to set an expiration time of 5 minutes, 1 hour, or 24 hours
 - [ ] It should allow users to set an download count of 1 downloads
@@ -19,7 +19,7 @@
 
 - [ ] It should indicate that the user is signed in via Firefox Account
 - [ ] It should allow the user to sign out
-- [ ] It should allow users to select and send multiple files in one URL
+- [ ] It should allow users to select and drip multiple files in one URL
 - [ ] It should limit users to sending 2.5GB per Send
 - [ ] It should allow users to extend Send times up to 1 Week
 - [ ] It should allow users to extend Send download counts up to 100 times

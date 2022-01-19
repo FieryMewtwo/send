@@ -5,7 +5,7 @@ const mozlog = require('../log');
 const Limiter = require('../limiter');
 const { encryptedSize } = require('../../app/utils');
 
-const log = mozlog('send.upload');
+const log = mozlog('drip.upload');
 
 module.exports = async function(req, res) {
   const newId = crypto.randomBytes(8).toString('hex');
@@ -30,7 +30,7 @@ module.exports = async function(req, res) {
     await storage.set(newId, fileStream, meta, config.default_expire_seconds);
     const protocol = config.env === 'production' ? 'https' : req.protocol;
     const url = `${protocol}://${req.get('host')}/download/${newId}/`;
-    res.set('WWW-Authenticate', `send-v1 ${meta.nonce}`);
+    res.set('WWW-Authenticate', `drip-v1 ${meta.nonce}`);
     res.json({
       url,
       owner: meta.owner,

@@ -47,13 +47,13 @@ passwordSetError = Ky fjalëkalim s’u caktua dot
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Ndarje e thjeshtë, private, kartelash me të tjerët
-introDescription = { -send-brand } ju lejon të ndani kartela me të tjerët, me fshehtëzim skaj-më-skaj dhe me një lidhje që skadon automatikisht. Kështu mund ta mbani private atë që ndani me të tjerë dhe të garantoni që gjërat tuaja s’do të qëndrojnë në linjë përgjithmonë.
+introDescription = { -drip-brand } ju lejon të ndani kartela me të tjerët, me fshehtëzim skaj-më-skaj dhe me një lidhje që skadon automatikisht. Kështu mund ta mbani private atë që ndani me të tjerë dhe të garantoni që gjërat tuaja s’do të qëndrojnë në linjë përgjithmonë.
 notifyUploadEncryptDone = Kartela juaj është fshehtëzuar dhe gati për dërgim
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Skadon pas { $downloadCount } ose { $timespan }
@@ -93,8 +93,8 @@ totalSize = Madhësia gjithsej: { $size }
 copyLinkDescription = Kopjoni lidhjen për dhënien e kartelës tuaj:
 copyLinkButton = Kopjoje lidhjen
 downloadTitle = Shkarkoni kartela
-downloadDescription = Kjo kartelë u nda me të tjerët përmes { -send-brand }, me fshehtëzim skaj-më-skaj dhe një lidhje që skadon automatikisht.
-trySendDescription = Provoni { -send-brand }, për ndarje të thjeshtë, të parrezik, kartelash me të tjerët.
+downloadDescription = Kjo kartelë u nda me të tjerët përmes { -drip-brand }, me fshehtëzim skaj-më-skaj dhe një lidhje që skadon automatikisht.
+trySendDescription = Provoni { -drip-brand }, për ndarje të thjeshtë, të parrezik, kartelash me të tjerët.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Lejohen vetëm { $count } arkiva.
     }
 expiredTitle = Kjo lidhje ka skaduar.
-notSupportedDescription = { -send-brand } s’do të funksionojë me këtë shfletues. { -send-short-brand } funksionin më mirë me versionin më të ri të { -firefox }, dhe do të funksionojë me versionin e tanishëm të shumicës së shfletuesve.
+notSupportedDescription = { -drip-brand } s’do të funksionojë me këtë shfletues. { -drip-short-brand } funksionin më mirë me versionin më të ri të { -firefox }, dhe do të funksionojë me versionin e tanishëm të shumicës së shfletuesve.
 downloadFirefox = Shkarkoni { -firefox }
-legalTitle = Njoftim Privatësie Për { -send-short-brand }
+legalTitle = Njoftim Privatësie Për { -drip-short-brand }
 legalDateStamp = Version 1.0, daton 12 mars, 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Përzgjidhni kartela për ngarkim
 trustWarningMessage = Sigurohuni se i besoni marrësit tuaj, kur ndani me të të dhëna rezervat.
 uploadButton = Ngarkoje
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Tërhiqni dhe lini kartela
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = ose klikoni që të dërgohen deri në { $size }
 addPassword = Mbrojini me fjalëkalim
@@ -145,12 +145,12 @@ noStreamsWarning = Ky shfletues mund të mos jetë në gjendje të shfshehtëzoj
 noStreamsOptionCopy = Kopjoje lidhjen për ta hapur në një tjetër shfletues
 noStreamsOptionFirefox = Provoni shfletuesin tonë të parapëlqyer
 noStreamsOptionDownload = Vazhdo me këtë shfletues
-downloadFirefoxPromo = { -send-short-brand } ju vjen nga { -firefox }-i i ri fringo.
+downloadFirefoxPromo = { -drip-short-brand } ju vjen nga { -firefox }-i i ri fringo.
 # the next line after the colon contains a file name
 shareLinkDescription = Ndani me të tjerët lidhjen për te kartela juaj:
 shareLinkButton = Ndani me të tjerët lidhjen
 # $name is the name of the file
-shareMessage = Shkarkojeni “{ $name }” me { -send-brand }: shkëmbim kartelash dhe thjesht dhe pa rrezik
+shareMessage = Shkarkojeni “{ $name }” me { -drip-brand }: shkëmbim kartelash dhe thjesht dhe pa rrezik
 trailheadPromo = Ka një rrugë për të mbrojtur privatësinë tuaj. Bëhuni pjesë e Firefox-it.
 learnMore = Mësoni më tepër.
 downloadFlagged = Kjo lidhje është çaktivizuar, ngaqë cenon kushtet e shërbimit.

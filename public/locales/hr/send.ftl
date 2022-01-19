@@ -49,13 +49,13 @@ passwordSetError = Lozinku nije moguće postaviti
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Jednostavno i privatno dijeljenje datoteka
-introDescription = { -send-brand } omogućava dijeljenje datoteka sa šifriranjem i poveznicom koja će automatski isteći. Ovim putem, stvari koje dijeliš ostaju privatne i osiguravaš se da ne ostaju zauvijek dostupne na internetu.
+introDescription = { -drip-brand } omogućava dijeljenje datoteka sa šifriranjem i poveznicom koja će automatski isteći. Ovim putem, stvari koje dijeliš ostaju privatne i osiguravaš se da ne ostaju zauvijek dostupne na internetu.
 notifyUploadEncryptDone = Tvoja je datoteka šifrirana i spremna za slanje.
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Isteći će nakon { $downloadCount } ili { $timespan }
@@ -99,8 +99,8 @@ totalSize = Ukupna veličina: { $size }
 copyLinkDescription = Kopiraj poveznicu za dijeljenje svoje datoteke:
 copyLinkButton = Kopiraj poveznicu
 downloadTitle = Preuzmi datoteke
-downloadDescription = Ova se datoteka dijelila putem usluge { -send-brand } sa šifriranjem i poveznicom koja će automatski isteći.
-trySendDescription = Probaj { -send-brand } za jednostavno i sigurno dijeljenje datoteka.
+downloadDescription = Ova se datoteka dijelila putem usluge { -drip-brand } sa šifriranjem i poveznicom koja će automatski isteći.
+trySendDescription = Probaj { -drip-brand } za jednostavno i sigurno dijeljenje datoteka.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -116,18 +116,18 @@ tooManyArchives =
        *[other] Dozvoljeno je samo { $count } arhiva.
     }
 expiredTitle = Poveznica je istekla.
-notSupportedDescription = { -send-brand } neće raditi s ovim preglednikom. { -send-short-brand } najbolje radi sa zadnjom { -firefox } verzijom i radit će s aktualnim verzijama većine preglednika.
+notSupportedDescription = { -drip-brand } neće raditi s ovim preglednikom. { -drip-short-brand } najbolje radi sa zadnjom { -firefox } verzijom i radit će s aktualnim verzijama većine preglednika.
 downloadFirefox = Preuzmi { -firefox }
-legalTitle = { -send-short-brand } politika privatnosti
+legalTitle = { -drip-short-brand } politika privatnosti
 legalDateStamp = Verzija 1.0, od 12. ožujka 2019. godine
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }s { $minutes }m
 addFilesButton = Odaberi datoteke za prijenos
 trustWarningMessage = Budite sigurni da vjerujete primatelju prije dijeljenja osjetljivih podataka.
 uploadButton = Prijenos
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Povuci i ispusti datoteke
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = ili pritisni gumb, za slanje do { $size }
 addPassword = Zaštiti s lozinkom
@@ -154,12 +154,12 @@ noStreamsWarning = Ovaj preglednik možda neće moći dešifrirati datoteku ove 
 noStreamsOptionCopy = Za otvaranje u drugom pregledniku, kopiraj poveznicu
 noStreamsOptionFirefox = Isprobaj naš omiljeni preglednik
 noStreamsOptionDownload = Nastavi s ovim preglednikom
-downloadFirefoxPromo = Potpuno novi { -firefox } donosi { -send-short-brand }.
+downloadFirefoxPromo = Potpuno novi { -firefox } donosi { -drip-short-brand }.
 # the next line after the colon contains a file name
 shareLinkDescription = Dijeli poveznicu na tvoju datoteku:
 shareLinkButton = Dijeli poveznicu
 # $name is the name of the file
-shareMessage = Preuzmi „{ $name }” pomoću { -send-brand }: jednostavno i sigurno dijeljenje datoteka
+shareMessage = Preuzmi „{ $name }” pomoću { -drip-brand }: jednostavno i sigurno dijeljenje datoteka
 trailheadPromo = Postoji način, kako zaštititi vlastitu privatnost. Pridruži se Firefoxu.
 learnMore = Saznaj više.
 downloadFlagged = Poveznica je onemogućena zbog kršenja uvjeta pružanja usluge.

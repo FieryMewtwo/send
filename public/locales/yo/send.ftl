@@ -86,13 +86,13 @@ passwordSetError =
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand =
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand =
     Fi ránṣẹ́
     Firánṣẹ́
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle =
     Fáìlì pípín níkọ̀kọ̀ tó dẹrùn
     Fáìlì pípín níkọ̀kọ̀ onírọ̀rùn
@@ -106,7 +106,7 @@ mb = Megabaiti
 gb = Gigabaiti
 downloadTitle = Se igabisile faili
 addFilesButton = E yan awon faili lati gbasoke
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = E mu awon faili ki ede ju si bi
 emailPlaceholder = E fi imeli si
 accountBenefitDownloadCount = E pin faili pelu awon eyan si

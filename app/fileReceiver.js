@@ -105,7 +105,7 @@ export default class FileReceiver extends Nanobus {
       this.emit('decrypting');
       let size = this.fileInfo.size;
       let plainStream = this.keychain.decryptStream(blobStream(ciphertext));
-      if (this.fileInfo.type === 'send-archive') {
+      if (this.fileInfo.type === 'drip-archive') {
         const zip = new Zip(this.fileInfo.manifest, plainStream);
         plainStream = zip.stream;
         size = zip.size;

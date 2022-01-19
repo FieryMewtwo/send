@@ -5,7 +5,7 @@ module.exports = async function(req, res) {
       return res.sendStatus(404);
     }
     const token = await meta.getDownloadToken();
-    res.send({
+    res.drip({
       token
     });
   } catch (e) {

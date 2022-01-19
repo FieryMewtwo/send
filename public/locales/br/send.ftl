@@ -53,13 +53,13 @@ passwordSetError = N'haller ket despizañ ar ger-tremen
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Rannañ restroù en un doare eeun ha prevez
-introDescription = A-drugarez da { -send-brand } a c'hallit rannañ restroù gant un enrinegañ penn-ouzh-penn hag un ere a ziamzero ent emgefreek. Evel-se e c'hallit mirout ar pezh a rannit prevez ha bezañ sur ne chomo ket ho traoù enlinenn da viken.
+introDescription = A-drugarez da { -drip-brand } a c'hallit rannañ restroù gant un enrinegañ penn-ouzh-penn hag un ere a ziamzero ent emgefreek. Evel-se e c'hallit mirout ar pezh a rannit prevez ha bezañ sur ne chomo ket ho traoù enlinenn da viken.
 notifyUploadEncryptDone = Enrineget eo ho restr ha prest eo da vezañ kaset
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Diamzeriñ a raio goude { $downloadCount } pe { $timespan }
@@ -111,8 +111,8 @@ totalSize = Ment hollek: { $size }
 copyLinkDescription = Eilit an ere evit rannañ ho restr
 copyLinkButton = Eilañ an ere
 downloadTitle = Pellgargañ ar restroù
-downloadDescription = Dre { -send-brand } eo bet rannet ar restr-mañ, gant un enrinegañ penn-ouzh-penn hag un ere a ziamzer ent emgefreek.
-trySendDescription = Esaeit { -send-brand } evit rannañ restroù en un doare eeun ha prevez.
+downloadDescription = Dre { -drip-brand } eo bet rannet ar restr-mañ, gant un enrinegañ penn-ouzh-penn hag un ere a ziamzer ent emgefreek.
+trySendDescription = Esaeit { -drip-brand } evit rannañ restroù en un doare eeun ha prevez.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -132,18 +132,18 @@ tooManyArchives =
        *[other] Aotreet eo{ $count } diell nemetken.
     }
 expiredTitle = Diamzeret eo an ere.
-notSupportedDescription = { -send-brand } n'aio ket en-dro war ar merdeer-mañ. { -send-short-brand } a za en-dro gwelloc'h gant handelv diwezhañ { -firefox }, ha mont a raio en-dro gant handelv bremanel lodenn vrasañ ar merdeerioù.
+notSupportedDescription = { -drip-brand } n'aio ket en-dro war ar merdeer-mañ. { -drip-short-brand } a za en-dro gwelloc'h gant handelv diwezhañ { -firefox }, ha mont a raio en-dro gant handelv bremanel lodenn vrasañ ar merdeerioù.
 downloadFirefox = Pellgargañ { -firefox }
-legalTitle = Evezhiadenn a fed buhez prevez { -send-short-brand }
+legalTitle = Evezhiadenn a fed buhez prevez { -drip-short-brand }
 legalDateStamp = Handelv 1.0, d'an 12 a viz Meurzh 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }e { $minutes }m
 addFilesButton = Diuzit ur restr da bellgas
 trustWarningMessage = Bezit sur ho peus fiziañs en ho tegemerer pa rannit roadennoù kizidik.
 uploadButton = Pellgas
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Riklit ha laoskit restroù
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = pe klikit evit kas betek { $size }
 addPassword = Gwareziñ gant ur ger-tremen
@@ -172,12 +172,12 @@ noStreamsWarning = Posupl eo ne vefe ket gouest ar merdeer-mañ da ezrinegañ ur
 noStreamsOptionCopy = Eilit an ere evit digeriñ anezhañ en ur merdeer all
 noStreamsOptionFirefox = Esaeit hor merdeer karetañ
 noStreamsOptionDownload = Kenderc'hel gant ar merdeer-mañ
-downloadFirefoxPromo = { -send-short-brand } a zo kinniget deoc'h gant ar { -firefox } nevez-flamm.
+downloadFirefoxPromo = { -drip-short-brand } a zo kinniget deoc'h gant ar { -firefox } nevez-flamm.
 # the next line after the colon contains a file name
 shareLinkDescription = Rannit an ere etrezek ho restr:
 shareLinkButton = Rannañ an ere
 # $name is the name of the file
-shareMessage = Pellgargañ "{ $name }" gant { -send-brand }: rannañ restroù en un doare eeun ha prevez
+shareMessage = Pellgargañ "{ $name }" gant { -drip-brand }: rannañ restroù en un doare eeun ha prevez
 trailheadPromo = Un doare a zo da wareziñ ho puhez prevez. Tremenit da Firefox.
 learnMore = Gouzout hiroc'h.
 downloadFlagged = Diweredekaet eo bet an ere-se dre ma ne zouje ket ouzh an divizoù arver.

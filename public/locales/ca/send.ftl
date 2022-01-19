@@ -47,13 +47,13 @@ passwordSetError = No s'ha pogut definir la contrasenya
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Compartició de fitxers senzilla i privada
-introDescription = El { -send-brand } permet compartir fitxers amb xifratge d'extrem a extrem mitjançant un enllaç que caduca automàticament. Per tant, us assegureu que tot allò que compartiu és privat i que no es mantindrà a Internet per sempre.
+introDescription = El { -drip-brand } permet compartir fitxers amb xifratge d'extrem a extrem mitjançant un enllaç que caduca automàticament. Per tant, us assegureu que tot allò que compartiu és privat i que no es mantindrà a Internet per sempre.
 notifyUploadEncryptDone = El fitxer s'ha xifrat i està llest per enviar-se
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Caduca després de { $downloadCount } o { $timespan }
@@ -93,8 +93,8 @@ totalSize = Mida total: { $size }
 copyLinkDescription = Copieu l'enllaç per compartir el fitxer:
 copyLinkButton = Copia l'enllaç
 downloadTitle = Baixa els fitxers
-downloadDescription = Aquest fitxer s'ha compartit mitjançant el { -send-brand } amb xifratge d'extrem a extrem i un enllaç que caduca automàticament.
-trySendDescription = Proveu el { -send-brand } per compartir fitxers de forma senzilla i privada.
+downloadDescription = Aquest fitxer s'ha compartit mitjançant el { -drip-brand } amb xifratge d'extrem a extrem i un enllaç que caduca automàticament.
+trySendDescription = Proveu el { -drip-brand } per compartir fitxers de forma senzilla i privada.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Només es permeten { $count } fitxers.
     }
 expiredTitle = Aquest enllaç ha caducat.
-notSupportedDescription = El { -send-brand } no funcionarà amb aquest navegador. El { -send-short-brand } funciona millor amb l'última versió del { -firefox } i funcionarà amb la versió més recent de la majoria de navegadors.
+notSupportedDescription = El { -drip-brand } no funcionarà amb aquest navegador. El { -drip-short-brand } funciona millor amb l'última versió del { -firefox } i funcionarà amb la versió més recent de la majoria de navegadors.
 downloadFirefox = Baixa el { -firefox }
-legalTitle = Avís de privadesa del { -send-short-brand }
+legalTitle = Avís de privadesa del { -drip-short-brand }
 legalDateStamp = Versió 1.0, amb data del 12 de març de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days } d { $hours } h { $minutes } min
 addFilesButton = Seleccioneu els fitxers que voleu pujar
 trustWarningMessage = Assegureu-vos que confieu en el destinatari quan compartiu dades confidencials.
 uploadButton = Puja
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Arrossegueu i deixeu anar els fitxers
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = o feu clic aquí per enviar fins a { $size }
 addPassword = Protegeix amb contrasenya
@@ -145,12 +145,12 @@ noStreamsWarning = Pot ser que aquest navegador no pugui desxifrar un fitxer tan
 noStreamsOptionCopy = Copieu l'enllaç per obrir-lo en un altre navegador
 noStreamsOptionFirefox = Proveu el nostre navegador preferit
 noStreamsOptionDownload = Segueix amb aquest navegador
-downloadFirefoxPromo = El nou { -firefox } us ofereix el { -send-short-brand }
+downloadFirefoxPromo = El nou { -firefox } us ofereix el { -drip-short-brand }
 # the next line after the colon contains a file name
 shareLinkDescription = Compartiu l'enllaç al vostre fitxer:
 shareLinkButton = Comparteix l'enllaç
 # $name is the name of the file
-shareMessage = Baixeu «{ $name }» amb el { -send-brand }: compartició de fitxers senzilla i segura
+shareMessage = Baixeu «{ $name }» amb el { -drip-brand }: compartició de fitxers senzilla i segura
 trailheadPromo = Hi ha una manera de protegir la vostra privadesa. Uniu-vos al Firefox.
 learnMore = Més informació.
 downloadFlagged = Aquest enllaç s'ha desactivat per infringir les condicions del servei.

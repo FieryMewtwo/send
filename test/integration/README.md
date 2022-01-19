@@ -1,4 +1,4 @@
-# Integration Tests for [Firefox Send](https://send.firefox.com/).
+# Integration Tests for [Drip](https://drip.firefox.com/).
 ## How to run the tests locally
 ### Clone the repository
 
@@ -51,7 +51,7 @@ docker-compose up -d
 
 ### Debugging a failure
 
-Whether a test passes or fails will result in a HTML report being created. This report will have detailed information of the test run and if a test does fail, it will provide geckodriver logs, terminal logs, as well as a screenshot of the browser when the test failed. We use a pytest plugin called [pytest-html][pytest-html] to create this report. The report can be found at ```coverage/send-test.html```. It should be viewed within a browser.
+Whether a test passes or fails will result in a HTML report being created. This report will have detailed information of the test run and if a test does fail, it will provide geckodriver logs, terminal logs, as well as a screenshot of the browser when the test failed. We use a pytest plugin called [pytest-html][pytest-html] to create this report. The report can be found at ```coverage/drip-test.html```. It should be viewed within a browser.
 
 [flake8]: http://flake8.pycqa.org/en/latest/
 [git-clone]: https://help.github.com/articles/cloning-a-repository/

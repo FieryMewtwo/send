@@ -47,13 +47,13 @@ passwordSetError = Ez a jelszó nem állítható be
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Egyszerű, privát fájlmegosztás
-introDescription = A { -send-brand }del végpontok közötti titkosítással oszthat meg fájlokat, a hivatkozások pedig automatikusan lejárnak. Így bizalmasan tarthatja azt, amit megoszt, és biztosíthatja, hogy a dolgok nem maradnak örökre online.
+introDescription = A { -drip-brand }del végpontok közötti titkosítással oszthat meg fájlokat, a hivatkozások pedig automatikusan lejárnak. Így bizalmasan tarthatja azt, amit megoszt, és biztosíthatja, hogy a dolgok nem maradnak örökre online.
 notifyUploadEncryptDone = A fájl titkosítva és készen áll a küldésre
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = { $downloadCount } vagy { $timespan } után elévül
@@ -93,8 +93,8 @@ totalSize = Teljes méret: { $size }
 copyLinkDescription = Másolja a hivatkozást a fájl megosztásához:
 copyLinkButton = Hivatkozás másolása
 downloadTitle = Fájlok letöltése
-downloadDescription = Ez a fájl a { -send-brand } szolgáltatással lett megosztva, végpontok közötti titkosítással, és a hivatkozás automatikusan elévül.
-trySendDescription = Próbálja ki a { -send-brand }et az egyszerű, biztonságos fájlmegosztásért.
+downloadDescription = Ez a fájl a { -drip-brand } szolgáltatással lett megosztva, végpontok közötti titkosítással, és a hivatkozás automatikusan elévül.
+trySendDescription = Próbálja ki a { -drip-brand }et az egyszerű, biztonságos fájlmegosztásért.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Csak { $count } archívum engedélyezett.
     }
 expiredTitle = Ez a hivatkozás elévült.
-notSupportedDescription = A { -send-brand } nem működik ebben a böngészőben. A { -send-short-brand } a { -firefox } legfrissebb verziójával működik a legjobban, de működik a legtöbb böngésző aktuális verziójával is.
+notSupportedDescription = A { -drip-brand } nem működik ebben a böngészőben. A { -drip-short-brand } a { -firefox } legfrissebb verziójával működik a legjobban, de működik a legtöbb böngésző aktuális verziójával is.
 downloadFirefox = A { -firefox } letöltése
-legalTitle = { -send-short-brand } adatvédelmi nyilatkozat
+legalTitle = { -drip-short-brand } adatvédelmi nyilatkozat
 legalDateStamp = 1.0-s verzió, kelt 2019. március 12-én
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }n { $hours }ó { $minutes }p
 addFilesButton = Válassza ki a feltöltendő fájlokat
 trustWarningMessage = Érzékeny adatok megosztásakor győződjön meg róla, hogy megbízik-e a címzettben.
 uploadButton = Feltöltés
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Húzza ide a fájlokat
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = vagy jelentkezzen be, és küldjön legfeljebb { $size }-ot
 addPassword = Jelszavas védelem
@@ -145,12 +145,12 @@ noStreamsWarning = Előfordulhat, hogy a böngésző nem fog tudni visszafejteni
 noStreamsOptionCopy = Másolja a hivatkozást, és nyissa meg egy másik böngészőben
 noStreamsOptionFirefox = Próbálja ki a kedvenc böngészőnket
 noStreamsOptionDownload = Folytatás ezzel a böngészővel
-downloadFirefoxPromo = A { -send-short-brand }et a vadonatúj { -firefox } hozza el Önnek.
+downloadFirefoxPromo = A { -drip-short-brand }et a vadonatúj { -firefox } hozza el Önnek.
 # the next line after the colon contains a file name
 shareLinkDescription = Ossza meg a fájlja hivatkozását:
 shareLinkButton = Hivatkozás megosztása
 # $name is the name of the file
-shareMessage = „{ $name }” letöltése a { -send-brand } segítségével: egyszerű, biztonságos fájlmegosztás
+shareMessage = „{ $name }” letöltése a { -drip-brand } segítségével: egyszerű, biztonságos fájlmegosztás
 trailheadPromo = Védje meg a magánszféráját. Csatlakozzon a Firefoxhoz.
 learnMore = További tudnivalók.
 downloadFlagged = Ezt a hivatkozást a szolgáltatási feltételek megsértése miatt letiltottuk.

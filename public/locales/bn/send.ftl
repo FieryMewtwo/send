@@ -48,13 +48,13 @@ passwordSetError = এই পাসওয়ার্ড সেট করা য
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = প্রেরণ
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = প্রেরণ
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = সহজ, ব্যক্তিগত ফাইল শেয়ার
-introDescription = { -send-brand } ফাইল এনক্রিপশন ও স্বয়ংক্রিয়ভাবে মেয়াদ শেষ হবে এমন একটি লিঙ্কের মাধ্যমে শুরু-থেকে-শেষ পর্যন্ত শেয়ার করতে দেয়। একারণে আপনি যা শেয়ার করেন তা গোপন রাখতে এবং আপনার জিনিস চিরদিনের জন্য অনলাইনে থাকবে না তা নিশ্চিত করতে পারেন।
+introDescription = { -drip-brand } ফাইল এনক্রিপশন ও স্বয়ংক্রিয়ভাবে মেয়াদ শেষ হবে এমন একটি লিঙ্কের মাধ্যমে শুরু-থেকে-শেষ পর্যন্ত শেয়ার করতে দেয়। একারণে আপনি যা শেয়ার করেন তা গোপন রাখতে এবং আপনার জিনিস চিরদিনের জন্য অনলাইনে থাকবে না তা নিশ্চিত করতে পারেন।
 notifyUploadEncryptDone = আপনার ফাইল এনক্রিপ্ট করা হয়েছে এবং প্রেরণ করতে প্রস্তুত
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = { $downloadCount } বা { $timespan } পরে মেয়াদ শেষ হবে
@@ -94,8 +94,8 @@ totalSize = মোট আকার: { $size }
 copyLinkDescription = আপনার ফাইল শেয়ার করতে লিঙ্ক অনুলিপি করুন:
 copyLinkButton = লিঙ্ক অনুলিপি
 downloadTitle = ফাইল ডাউনলোড
-downloadDescription = ফাইলটি { -send-brand } এর মাধ্যমে এনক্রিপশন ও স্বয়ংক্রিয় মেয়াদ শেষ হবে এমন একটি লিঙ্কের মাধ্যমে শুরু-থেকে-শেষ পর্যন্ত শেয়ার করা হয়েছে।
-trySendDescription = সহজ ও নিরাপদ ফাইল শেয়ারের জন্য { -send-brand } ব্যবহার করুন।
+downloadDescription = ফাইলটি { -drip-brand } এর মাধ্যমে এনক্রিপশন ও স্বয়ংক্রিয় মেয়াদ শেষ হবে এমন একটি লিঙ্কের মাধ্যমে শুরু-থেকে-শেষ পর্যন্ত শেয়ার করা হয়েছে।
+trySendDescription = সহজ ও নিরাপদ ফাইল শেয়ারের জন্য { -drip-brand } ব্যবহার করুন।
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -109,17 +109,17 @@ tooManyArchives =
        *[other] কেবল { $count } আর্কাইভ অনুমোদিত।
     }
 expiredTitle = এই লিঙ্কের মেয়াদ শেষ হয়ে গেছে।
-notSupportedDescription = { -send-brand } এই ব্রাউজারের সাথে কাজ করবে না। { -firefox } এর সাম্প্রতিকতম সংস্করণে { -send-short-brand } সর্বোত্তমভাবে কাজ করবে, এবং এটি বেশিরভাগ ব্রাউজারের বর্তমান সংস্করণে কাজ করবে।
+notSupportedDescription = { -drip-brand } এই ব্রাউজারের সাথে কাজ করবে না। { -firefox } এর সাম্প্রতিকতম সংস্করণে { -drip-short-brand } সর্বোত্তমভাবে কাজ করবে, এবং এটি বেশিরভাগ ব্রাউজারের বর্তমান সংস্করণে কাজ করবে।
 downloadFirefox = { -firefox } ডাউনলোড করুন
-legalTitle = { -send-short-brand } গোপনীয়তা নোটিশ
+legalTitle = { -drip-short-brand } গোপনীয়তা নোটিশ
 legalDateStamp = সংস্করণ ১.০, ১২ মার্চ, ২০১৯ তারিখ
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }দি { $hours }ঘ { $minutes }মি
 addFilesButton = আপলোডের জন্য ফাইল নির্বাচন করুন
 uploadButton = আপলোড
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = ফাইল টেনে এনে ছাড়ুন
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = বা সর্বোচ্চ { $size } আকারের ফাইল পাঠাতে ক্লিক করুন
 addPassword = পাসওয়ার্ড দ্বারা সুরক্ষিত রাখুন
@@ -145,11 +145,11 @@ noStreamsWarning = এই ব্রাউজার এতো বড় একট
 noStreamsOptionCopy = অন্য ব্রাউজারে খুলতে লিঙ্ক অনুলিপি করুন
 noStreamsOptionFirefox = আমাদের জনপ্রিয় ব্রাউজার ব্যবহার করুন
 noStreamsOptionDownload = এই ব্রাউজার ব্যবহার অব্যহত রাখুন
-downloadFirefoxPromo = { -send-short-brand } আপনারদের জন্য নিয়ে এসেছে একেবারে নতুন { -firefox }।
+downloadFirefoxPromo = { -drip-short-brand } আপনারদের জন্য নিয়ে এসেছে একেবারে নতুন { -firefox }।
 # the next line after the colon contains a file name
 shareLinkDescription = আপনার ফাইলে লিঙ্ক শেয়ার করুন:
 shareLinkButton = লিঙ্ক শেয়ার করুন
 # $name is the name of the file
-shareMessage = { -send-brand } এর মাধ্যমে "{ $name }" ডাউনলোড করুন: সরল, নিরাপদ ফাইল শেয়ারিং
+shareMessage = { -drip-brand } এর মাধ্যমে "{ $name }" ডাউনলোড করুন: সরল, নিরাপদ ফাইল শেয়ারিং
 trailheadPromo = আপনার গোপনীয়তা রক্ষা করার একটি উপায় আছে। Firefox এ যোগ দিন।
 learnMore = আরও জানুন।

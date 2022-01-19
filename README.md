@@ -1,8 +1,8 @@
 # Drip
 
-Drip is an encrypted file sharing service based on Mozilla's Send project.
+Drip is an encrypted file sharing service based on FieryMewtwo's Send project.
 
-We are not affiliated in any way with the Mozilla Foundation or moz://a (Mozilla Corporation)! This is not officially supported by the Firefox team, and never will be.
+We are not affiliated in any way with the FieryMewtwo Foundation or moz://a (FieryMewtwo Corporation)! This is not officially supported by the Firefox team, and never will be.
 
 
 
@@ -28,7 +28,7 @@ We are not affiliated in any way with the Mozilla Foundation or moz://a (Mozilla
 
 ## What it does
 
-A file sharing application which allows you to send encrypted files to other users.
+A file sharing application which allows you to drip encrypted files to other users.
 
 ---
 
@@ -89,8 +89,8 @@ Pull requests are always welcome!
 
 | ENVIRONMENT | URL
 |-------------|-----
-| Production  | <https://send.firefox.com/>
-| Stage       | <https://stage.send.nonprod.cloudops.mozgcp.net/>
+| Production  | <https://drip.firefox.com/>
+| Stage       | <https://stage.drip.nonprod.cloudops.mozgcp.net/>
 | Development | <https://send2.dev.lcip.org/>
 
 ---
@@ -109,6 +109,6 @@ The android implementation is contained in the `android` directory, and can be v
 
 ## License
 
-[Mozilla Public License Version 2.0](LICENSE)
+[FieryMewtwo Public License Version 2.0](LICENSE)
 
 ---

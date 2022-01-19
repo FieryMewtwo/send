@@ -56,13 +56,13 @@ passwordSetError = يجب ألا تُضبط كلمة السر هذه
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = شارِك ملفاتك بلا عناء وبخصوصية تامة
-introDescription = يتيح لك { -send-brand } مشاركة الملفات عبر تعميتها من الطرفين وإتاحتها في رابط ينقضي أجله تلقائيا. هكذا يمكنك إبقاء ما شاركته خاصًا فتضمن بأن ملفاتك لن تبقى في الوِب أبد الدهر.
+introDescription = يتيح لك { -drip-brand } مشاركة الملفات عبر تعميتها من الطرفين وإتاحتها في رابط ينقضي أجله تلقائيا. هكذا يمكنك إبقاء ما شاركته خاصًا فتضمن بأن ملفاتك لن تبقى في الوِب أبد الدهر.
 notifyUploadEncryptDone = اكتملت تعمية الملف وأصبح جاهزًا لإرساله
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = ينقضي بعد { $downloadCount } أو { $timespan }
@@ -118,8 +118,8 @@ totalSize = إجمالي الحجم: { $size }
 copyLinkDescription = انسخ هذا الرابط لتُشارك الملف:
 copyLinkButton = انسخ الرابط
 downloadTitle = نزّل الملفات
-downloadDescription = شارك أحد هذا الملف معك عبر { -send-brand } وعمّاه بتعمية من الطرفين وبرابط ينقضي أجله تلقائيا.
-trySendDescription = جرِّب { -send-brand } وشارِك ملفاتك بلا عناء وبخصوصية تامة.
+downloadDescription = شارك أحد هذا الملف معك عبر { -drip-brand } وعمّاه بتعمية من الطرفين وبرابط ينقضي أجله تلقائيا.
+trySendDescription = جرِّب { -drip-brand } وشارِك ملفاتك بلا عناء وبخصوصية تامة.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -141,17 +141,17 @@ tooManyArchives =
        *[other] لا يُسمح إلا ب‍ { $count } أرشيف.
     }
 expiredTitle = انقضى وقت الرابط.
-notSupportedDescription = لن يعمل { -send-brand } في هذا المتصفح. أفضل المتصفحات التي يعمل معها { -send-short-brand } هو { -firefox } بآخر إصدارة، كما وأحدث إصدارة من أغلب المتصفحات الموجودة.
+notSupportedDescription = لن يعمل { -drip-brand } في هذا المتصفح. أفضل المتصفحات التي يعمل معها { -drip-short-brand } هو { -firefox } بآخر إصدارة، كما وأحدث إصدارة من أغلب المتصفحات الموجودة.
 downloadFirefox = نزِّل { -firefox }
-legalTitle = تنويه خصوصية { -send-short-brand }
+legalTitle = تنويه خصوصية { -drip-short-brand }
 legalDateStamp = الإصدارة ١٫٠ بتاريخ ١٢ مارس ٢٠١٩
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }يوم { $hours }سا { $minutes }دق
 addFilesButton = حدّد الملفات التي تريد رفعها
 uploadButton = ارفع
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = اسحب الملفات وأفلِتها هنا
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = أو انقر لإرسال ملفات يصل حجمها { $size }
 addPassword = احمِه بكلمة سر
@@ -181,11 +181,11 @@ noStreamsWarning = هناك احتمال بألا يقدر هذا المتصفح
 noStreamsOptionCopy = انسخ الرابط لتفتحه في متصفح آخر
 noStreamsOptionFirefox = جرّب متصفّحنا المفضل
 noStreamsOptionDownload = واصِل بهذا المتصفح
-downloadFirefoxPromo = ‏{ -send-short-brand } تقدمة { -firefox } الجديد الأنيق.
+downloadFirefoxPromo = ‏{ -drip-short-brand } تقدمة { -firefox } الجديد الأنيق.
 # the next line after the colon contains a file name
 shareLinkDescription = شارِك الرابط الذي يصل إلى الملف:
 shareLinkButton = شارِك الرابط
 # $name is the name of the file
-shareMessage = نزِّل ”{ $name }“ عبر { -send-brand }: خدمة لمشاركة الملفات بلا عناء وبخصوصية تامة
+shareMessage = نزِّل ”{ $name }“ عبر { -drip-brand }: خدمة لمشاركة الملفات بلا عناء وبخصوصية تامة
 trailheadPromo = يمكنك حماية خصوصيتك، طبعا. انضم إلى فَيَرفُكس.
 learnMore = اطّلع على المزيد.

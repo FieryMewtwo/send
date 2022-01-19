@@ -1,6 +1,6 @@
 //
 //  ActionViewController.swift
-//  send-ios-action-extension
+//  drip-ios-action-extension
 //
 //  Created by Donovan Preston on 7/26/18.
 //

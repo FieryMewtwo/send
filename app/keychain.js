@@ -116,7 +116,7 @@ export default class Keychain {
       authKey,
       b64ToArray(this.nonce)
     );
-    return `send-v1 ${arrayToB64(new Uint8Array(sig))}`;
+    return `drip-v1 ${arrayToB64(new Uint8Array(sig))}`;
   }
 
   async encryptMetadata(metadata) {

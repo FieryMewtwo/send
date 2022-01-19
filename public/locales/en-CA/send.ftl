@@ -47,14 +47,14 @@ passwordSetError = This password could not be set
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Simple, private file sharing
-introDescription = { -send-brand } lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.
-notifyUploadEncryptDone = Your file is encrypted and ready to send
+introDescription = { -drip-brand } lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.
+notifyUploadEncryptDone = Your file is encrypted and ready to drip
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expires after { $downloadCount } or { $timespan }
 timespanMinutes =
@@ -93,8 +93,8 @@ totalSize = Total size: { $size }
 copyLinkDescription = Copy the link to share your file:
 copyLinkButton = Copy link
 downloadTitle = Download files
-downloadDescription = This file was shared via { -send-brand } with end-to-end encryption and a link that automatically expires.
-trySendDescription = Try { -send-brand } for simple, safe file sharing.
+downloadDescription = This file was shared via { -drip-brand } with end-to-end encryption and a link that automatically expires.
+trySendDescription = Try { -drip-brand } for simple, safe file sharing.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,24 +108,24 @@ tooManyArchives =
        *[other] Only { $count } archives are allowed.
     }
 expiredTitle = This link has expired.
-notSupportedDescription = { -send-brand } will not work with this browser. { -send-short-brand } works best with the latest version of { -firefox }, and will work with the current version of most browsers.
+notSupportedDescription = { -drip-brand } will not work with this browser. { -drip-short-brand } works best with the latest version of { -firefox }, and will work with the current version of most browsers.
 downloadFirefox = Download { -firefox }
-legalTitle = { -send-short-brand } Privacy Notice
+legalTitle = { -drip-short-brand } Privacy Notice
 legalDateStamp = Version 1.0, dated March 12, 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Select files to upload
 trustWarningMessage = Make sure you trust your recipient when sharing sensitive data.
 uploadButton = Upload
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Drag and drop files
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-orClickWithSize = or click to send up to { $size }
+orClickWithSize = or click to drip up to { $size }
 addPassword = Protect with password
 emailPlaceholder = Enter your email
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
-signInSizeBump = Sign in to send up to { $size }
+signInSizeBump = Sign in to drip up to { $size }
 signInOnlyButton = Sign in
 accountBenefitTitle = Create a { -firefox } Account or sign in
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
@@ -145,12 +145,12 @@ noStreamsWarning = This browser might not be able to decrypt a file this big.
 noStreamsOptionCopy = Copy the link to open in another browser
 noStreamsOptionFirefox = Try our favourite browser
 noStreamsOptionDownload = Continue with this browser
-downloadFirefoxPromo = { -send-short-brand } is brought to you by the all-new { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } is brought to you by the all-new { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Share the link to your file:
 shareLinkButton = Share link
 # $name is the name of the file
-shareMessage = Download “{ $name }” with { -send-brand }: simple, safe file sharing
+shareMessage = Download “{ $name }” with { -drip-brand }: simple, safe file sharing
 trailheadPromo = There is a way to protect your privacy. Join Firefox.
 learnMore = Learn more.
 downloadFlagged = This link has been disabled for violating the terms of service.

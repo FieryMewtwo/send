@@ -3,7 +3,7 @@ const storage = require('../storage');
 module.exports = async function(req, res) {
   try {
     const ttl = await storage.ttl(req.params.id);
-    return res.send({
+    return res.drip({
       dlimit: +req.meta.dlimit,
       dtotal: +req.meta.dl,
       ttl

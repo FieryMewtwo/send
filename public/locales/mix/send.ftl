@@ -47,13 +47,13 @@ passwordSetError = Ma ku ntanii tu'un see
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Stucha kue tutu ku
-introDescription = { -send-brand } ku stuchaku tutu seé tsi inkana tsi iin enlace ña ntóo mituin. Sa'an ku kunka va'a ña stuchaku cha ma ku kunchee na kue tutu ku.
+introDescription = { -drip-brand } ku stuchaku tutu seé tsi inkana tsi iin enlace ña ntóo mituin. Sa'an ku kunka va'a ña stuchaku cha ma ku kunchee na kue tutu ku.
 notifyUploadEncryptDone = Tsa inka va'a tutu ku tsa ku stuchaku ña
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Ku kunkai mancha { $downloadCount } a { $timespan }
@@ -93,8 +93,8 @@ totalSize = Kua: { $size }
 copyLinkDescription = Ndatava enlace takua stuchaku tutú.
 copyLinkButton = Ndatava enlace
 downloadTitle = Snuú tutu
-downloadDescription = Tutu yo stuchaku ña tsi { -send-brand } inka si'i chá ku nto'o mituin.
-trySendDescription = Kuachu'un { -send-brand } takua stuchaku nchi tutu niku
+downloadDescription = Tutu yo stuchaku ña tsi { -drip-brand } inka si'i chá ku nto'o mituin.
+trySendDescription = Kuachu'un { -drip-brand } takua stuchaku nchi tutu niku
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Mitu'un { $count } tutu ni ku.
     }
 expiredTitle = Koo enlace inka
-notSupportedDescription = { -send-brand } ma ku Kuachu'un navegador yo. { -send-short-brand } Sachu'in va'a la  versión da ntii { -firefox }, sachu'un tsi  versión tsa'a su inka kue navegador.
+notSupportedDescription = { -drip-brand } ma ku Kuachu'un navegador yo. { -drip-short-brand } Sachu'in va'a la  versión da ntii { -firefox }, sachu'un tsi  versión tsa'a su inka kue navegador.
 downloadFirefox = Snuú { -firefox }
-legalTitle = Tu'un privacidad { -send-short-brand }
+legalTitle = Tu'un privacidad { -drip-short-brand }
 legalDateStamp = Versión 1.0 del 12 de marzo de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Katsi tutu ku skau
 trustWarningMessage = Kunche'e a va'a nu ku ntachuún ña.
 uploadButton = Skaa
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Xita cha sia kue tutu
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = katavi takua stuchaku ña mancha { $size }
 addPassword = Inka vai tsi tu'un seé
@@ -145,12 +145,12 @@ noStreamsWarning = Ku ña navegador yo ma ku mini iin tutú kanu.
 noStreamsOptionCopy = Ndatava enlace takua kunu tsí inka navegador
 noStreamsOptionFirefox = Kuachu'un navegador ña va'a nu ntia
 noStreamsOptionDownload = Kunka tsi navegador yo
-downloadFirefoxPromo = { -send-short-brand } snai ña tsaa { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } snai ña tsaa { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Stucha enlace tutu ku:
 shareLinkButton = Stucha Enlace
 # $name is the name of the file
-shareMessage = Snuu «{ $name }» tsi { -send-brand }: kue nchichi
+shareMessage = Snuu «{ $name }» tsi { -drip-brand }: kue nchichi
 trailheadPromo = Ku china vau ña chau. Kita'an tsi Firefox.
 learnMore = Skua'a kuakaa.
 downloadFlagged = Va'á enlace yo.

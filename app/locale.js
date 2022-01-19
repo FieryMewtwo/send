@@ -8,10 +8,10 @@ function makeBundle(locale, ftl) {
 
 export async function getTranslator(locale) {
   const bundles = [];
-  const { default: en } = await import('../public/locales/en-US/send.ftl');
+  const { default: en } = await import('../public/locales/en-US/drip.ftl');
   if (locale !== 'en-US') {
     const { default: ftl } = await import(
-      `../public/locales/${locale}/send.ftl`
+      `../public/locales/${locale}/drip.ftl`
     );
     bundles.push(makeBundle(locale, ftl));
   }

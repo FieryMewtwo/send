@@ -5,9 +5,9 @@ expiresMinutes = { $minutes }m
 
 ## Send version 2 strings
 
--send-short-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 # byte abbreviation
 bytes = B
 # kibibyte abbreviation

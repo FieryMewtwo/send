@@ -47,13 +47,13 @@ passwordSetError = Iste contrasigno non ha potite esser establite
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Comparti file in maniera confidential
-introDescription = { -send-brand } te pone in grado de compartir files con cryptographia bilateral e un ligamine que automaticamente expira. Assi que tu pote mantener private lo que tu comparti e liberar te del anxietate que tu problema resta online per sempre.
+introDescription = { -drip-brand } te pone in grado de compartir files con cryptographia bilateral e un ligamine que automaticamente expira. Assi que tu pote mantener private lo que tu comparti e liberar te del anxietate que tu problema resta online per sempre.
 notifyUploadEncryptDone = Tu file es cryptate e preste pro esser inviate
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expira post { $downloadCount } o { $timespan }
@@ -93,8 +93,8 @@ totalSize = Dimension total: { $size }
 copyLinkDescription = Copia le ligamine pro compartir le file:
 copyLinkButton = Copiar ligamine
 downloadTitle = Discargar files
-downloadDescription = Iste file era compartite via { -send-brand } con cryptographia bilateral e un ligamine que expira automaticamente.
-trySendDescription = Prova { -send-brand } pro le compartimento de file simple e secur.
+downloadDescription = Iste file era compartite via { -drip-brand } con cryptographia bilateral e un ligamine que expira automaticamente.
+trySendDescription = Prova { -drip-brand } pro le compartimento de file simple e secur.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -108,18 +108,18 @@ tooManyArchives =
        *[other] Solo { $count } archivos es permitter.
     }
 expiredTitle = Iste ligamine ha expirate.
-notSupportedDescription = { -send-brand } non functionara con iste navigator. { -send-short-brand } functiona melio con le ultime version de { -firefox }, e functionara con le version actual de plure navigatores.
+notSupportedDescription = { -drip-brand } non functionara con iste navigator. { -drip-short-brand } functiona melio con le ultime version de { -firefox }, e functionara con le version actual de plure navigatores.
 downloadFirefox = Discargar { -firefox }
-legalTitle = Aviso de confidentialitate de { -send-short-brand }
+legalTitle = Aviso de confidentialitate de { -drip-short-brand }
 legalDateStamp = Version 1.0 del 12 martio 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }d { $hours }h { $minutes }m
 addFilesButton = Selige le files a incargar
 trustWarningMessage = Verifica que tu te fide a tu destinatario quando tu comparti datos sensibile.
 uploadButton = Incargar
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Traher e deponer files
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = o cliccar pro inviar usque { $size }
 addPassword = Proteger per contrasigno
@@ -145,12 +145,12 @@ noStreamsWarning = Es possibile que iste navigator non pote decryptar un file de
 noStreamsOptionCopy = Copiar le ligamine e aperir lo in un altere navigator
 noStreamsOptionFirefox = Prova nostre navigator favorite
 noStreamsOptionDownload = Continuar con iste navigator
-downloadFirefoxPromo = { -send-short-brand } es portate a te per le novissime { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } es portate a te per le novissime { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Condivide le ligamine a tu file:
 shareLinkButton = Condivide ligamine
 # $name is the name of the file
-shareMessage = Discarga “{ $name }” con { -send-brand }: condivide files in modo simple e secur
+shareMessage = Discarga “{ $name }” con { -drip-brand }: condivide files in modo simple e secur
 trailheadPromo = Il ha un via pro proteger tu confidentialitate. Junge te a Firefox!
 learnMore = Saper plus.
 downloadFlagged = Iste ligamine ha essite disactivate per violation del terminos de servicio.

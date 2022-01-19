@@ -45,13 +45,13 @@ passwordSetError = Tidak bisa menyetel sandi ini
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Berbagi berkas dengan mudah dan privat
-introDescription = { -send-brand } mudahkan Anda membagikan berkas dengan enkripsi ujung-ke-ujung dan tautan yang otomatis kadaluarsa. Sehingga Anda dapat menjaga apa yang Anda bagikan secara privat dan memastikan barang Anda tidak selamanya ada di daring.
+introDescription = { -drip-brand } mudahkan Anda membagikan berkas dengan enkripsi ujung-ke-ujung dan tautan yang otomatis kadaluarsa. Sehingga Anda dapat menjaga apa yang Anda bagikan secara privat dan memastikan barang Anda tidak selamanya ada di daring.
 notifyUploadEncryptDone = Berkas Anda terenkripsi dan siap untuk dikirim
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Berakhir setelah { $downloadCount } atau { $timespan }
@@ -87,8 +87,8 @@ totalSize = Total ukuran: { $size }
 copyLinkDescription = Salin tautan untuk membagikan berkas Anda:
 copyLinkButton = Salin tautan
 downloadTitle = Unduh berkas
-downloadDescription = Berkas ini dibagikan lewat { -send-brand } dengan enkripsi ujung-ke-ujung dan tautan yang otomatis kadaluarsa.
-trySendDescription = Coba { -send-brand } untuk berbagi berkas dengan mudah dan aman.
+downloadDescription = Berkas ini dibagikan lewat { -drip-brand } dengan enkripsi ujung-ke-ujung dan tautan yang otomatis kadaluarsa.
+trySendDescription = Coba { -drip-brand } untuk berbagi berkas dengan mudah dan aman.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -100,18 +100,18 @@ tooManyArchives =
        *[other] Hanya { $count } arsip diperbolehkan.
     }
 expiredTitle = Tautan ini telah kadaluarsa.
-notSupportedDescription = { -send-brand } tidak dapat digunakan dengan peramban ini. { -send-short-brand } bekerja maksimal dengan versi terbaru { -firefox }, dan akan bekerja dengan versi terkini mayoritas peramban.
+notSupportedDescription = { -drip-brand } tidak dapat digunakan dengan peramban ini. { -drip-short-brand } bekerja maksimal dengan versi terbaru { -firefox }, dan akan bekerja dengan versi terkini mayoritas peramban.
 downloadFirefox = Unduh { -firefox }
-legalTitle = Pemberitahuan Privasi { -send-short-brand }
+legalTitle = Pemberitahuan Privasi { -drip-short-brand }
 legalDateStamp = Versi 1.0, tertanggal 12 Maret 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }h { $hours }j { $minutes }m
 addFilesButton = Pilih berkas untuk diunggah
 trustWarningMessage = Pastikan Anda mempercayai penerima Anda saat berbagi data sensitif.
 uploadButton = Unggah
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Seret dan jatuhkan berkas
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = atau klik untuk mengirim hingga { $size }
 addPassword = Lindungi dengan kata sandi
@@ -136,12 +136,12 @@ noStreamsWarning = Peramban ini mungkin tidak dapat mendekripsi berkas sebesar i
 noStreamsOptionCopy = Salin tautan untuk dibuka di peramban lainnya
 noStreamsOptionFirefox = Coba peramban favorit kami
 noStreamsOptionDownload = Lanjutkan dengan peramban ini
-downloadFirefoxPromo = { -send-short-brand } dipersembahkan untuk Anda oleh { -firefox } terbaru.
+downloadFirefoxPromo = { -drip-short-brand } dipersembahkan untuk Anda oleh { -firefox } terbaru.
 # the next line after the colon contains a file name
 shareLinkDescription = Bagikan tautan ke berkas Anda:
 shareLinkButton = Bagikan tautan
 # $name is the name of the file
-shareMessage = Unduh "{ $name }" dengan { -send-brand }: berbagi berkas dengan sederhana dan aman
+shareMessage = Unduh "{ $name }" dengan { -drip-brand }: berbagi berkas dengan sederhana dan aman
 trailheadPromo = Ada cara untuk melindungi privasi Anda. Bergabunglah dengan Firefox.
 learnMore = Pelajari lebih lanjut.
 downloadFlagged = Tautan ini telah dinonaktifkan karena melanggar persyaratan layanan.

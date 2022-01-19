@@ -47,11 +47,11 @@ passwordSetError = Enweghị ike ịtọ paswọọdụ a
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Zipu, Ziga
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Zipu, Ziga
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Mfe, nkekọrịta faịlụ nkeonwe
 introDescription = na-ahapu gị  ịkekọrịta faịlụ na izo ya na njedebe na njedebe na-akwụsị na akpaghị aka. Yabụ ị nwere ike idobe ihe ị na -eche ma hụ na ngwongwo gị agaghị adị n'ịntanetị ruo mgbe ebighi ebi.
 notifyUploadEncryptDone = Failu gi zoro ezo ma di njikere iziga

@@ -11,12 +11,12 @@ function stripEvents(str) {
 module.exports = {
   index: async function(req, res) {
     const appState = await state(req);
-    res.send(stripEvents(routes().toString('/blank', appState)));
+    res.drip(stripEvents(routes().toString('/blank', appState)));
   },
 
   blank: async function(req, res) {
     const appState = await state(req);
-    res.send(stripEvents(routes().toString('/blank', appState)));
+    res.drip(stripEvents(routes().toString('/blank', appState)));
   },
 
   download: async function(req, res, next) {
@@ -27,8 +27,8 @@ module.exports = {
       if (dead && !flagged) {
         return next();
       }
-      res.set('WWW-Authenticate', `send-v1 ${nonce}`);
-      res.send(
+      res.set('WWW-Authenticate', `drip-v1 ${nonce}`);
+      res.drip(
         stripEvents(
           routes().toString(
             `/download/${id}`,
@@ -45,7 +45,7 @@ module.exports = {
 
   unsupported: async function(req, res) {
     const appState = await state(req);
-    res.send(
+    res.drip(
       stripEvents(
         routes().toString(`/unsupported/${req.params.reason}`, appState)
       )
@@ -56,7 +56,7 @@ module.exports = {
     const appState = await state(req);
     res
       .status(404)
-      .send(
+      .drip(
         stripEvents(
           routes().toString(
             '/404',

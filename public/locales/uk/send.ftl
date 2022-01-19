@@ -49,13 +49,13 @@ passwordSetError = Неможливо встановити цей пароль
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Простий, приватний обмін файлами
-introDescription = { -send-brand } дозволяє обмінюватися файлами з використанням наскрізного шифрування та посиланнями з обмеженим терміном дії. Отже, ви можете бути певними, що ваші дані зберігаються приватно і не залишаться в мережі назавжди.
+introDescription = { -drip-brand } дозволяє обмінюватися файлами з використанням наскрізного шифрування та посиланнями з обмеженим терміном дії. Отже, ви можете бути певними, що ваші дані зберігаються приватно і не залишаться в мережі назавжди.
 notifyUploadEncryptDone = Ваш файл зашифрований і готовий до надсилання
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Термін зберігання завершується після { $downloadCount } або { $timespan }
@@ -99,8 +99,8 @@ totalSize = Загальний розмір: { $size }
 copyLinkDescription = Скопіюйте посилання для спільного доступу:
 copyLinkButton = Копіювати посилання
 downloadTitle = Завантажити файли
-downloadDescription = Цей файл було надіслано через { -send-brand } з використанням наскрізного шифрування і посиланням, що має обмежений термін дії.
-trySendDescription = Спробуйте { -send-brand } для простого, захищеного обміну файлами.
+downloadDescription = Цей файл було надіслано через { -drip-brand } з використанням наскрізного шифрування і посиланням, що має обмежений термін дії.
+trySendDescription = Спробуйте { -drip-brand } для простого, захищеного обміну файлами.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -116,18 +116,18 @@ tooManyArchives =
        *[other] Дозволяється лише { $count } архівів.
     }
 expiredTitle = Термін дії цього посилання завершився.
-notSupportedDescription = { -send-brand } не працюватиме з цим браузером. { -send-short-brand } найкраще працює з найновішою версією { -firefox }, а також з більшістю інших браузерів.
+notSupportedDescription = { -drip-brand } не працюватиме з цим браузером. { -drip-short-brand } найкраще працює з найновішою версією { -firefox }, а також з більшістю інших браузерів.
 downloadFirefox = Завантажити { -firefox }
-legalTitle = Повідомлення про приватність { -send-short-brand }
+legalTitle = Повідомлення про приватність { -drip-short-brand }
 legalDateStamp = Версія 1.0 від 12 березня 2019 року
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }д { $hours }г { $minutes }хв
 addFilesButton = Оберіть файли для вивантаження
 trustWarningMessage = Переконайтеся, що довіряєте одержувачу коли ділитеся вразливими даними.
 uploadButton = Вивантажити
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Перетягуйте файли
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = або натисніть, щоб надіслати до { $size }
 addPassword = Захист паролем
@@ -154,12 +154,12 @@ noStreamsWarning = Цьому браузеру може не вдатися ро
 noStreamsOptionCopy = Скопіюйте посилання, щоб відкрити його в іншому браузері
 noStreamsOptionFirefox = Спробуйте наш улюблений браузер
 noStreamsOptionDownload = Продовжити в цьому браузері
-downloadFirefoxPromo = { -send-short-brand } доступний для вас в цілком новому { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } доступний для вас в цілком новому { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Надішліть посилання на свій файл:
 shareLinkButton = Поділитись посиланням
 # $name is the name of the file
-shareMessage = Завантажте “{ $name }” з { -send-brand }: простий та безпечний обмін файлами
+shareMessage = Завантажте “{ $name }” з { -drip-brand }: простий та безпечний обмін файлами
 trailheadPromo = Існує спосіб захистити вашу приватність. Приєднуйтесь до Firefox.
 learnMore = Докладніше.
 downloadFlagged = Це посилання вимкнено через порушення умов надання послуг.

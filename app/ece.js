@@ -230,7 +230,7 @@ class StreamSlicer {
     this.offset = 0;
   }
 
-  send(buf, controller) {
+  drip(buf, controller) {
     controller.enqueue(buf);
     if (this.chunkSize === 21 && this.mode === MODE_DECRYPT) {
       this.chunkSize = this.rs;
@@ -251,7 +251,7 @@ class StreamSlicer {
       i += len;
 
       if (this.offset === this.chunkSize) {
-        this.send(this.partialChunk, controller);
+        this.drip(this.partialChunk, controller);
       }
     }
 
@@ -260,7 +260,7 @@ class StreamSlicer {
       if (remainingBytes >= this.chunkSize) {
         const record = chunk.slice(i, i + this.chunkSize);
         i += this.chunkSize;
-        this.send(record, controller);
+        this.drip(record, controller);
       } else {
         const end = chunk.slice(i, i + remainingBytes);
         i += end.byteLength;

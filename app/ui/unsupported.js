@@ -11,13 +11,13 @@ module.exports = function(state, emit) {
     why = html`
       <a
         class="text-blue"
-        href="https://github.com/mozilla/send/blob/master/docs/faq.md#why-is-my-browser-not-supported"
+        href="https://github.com/mozilla/drip/blob/master/docs/faq.md#why-is-my-browser-not-supported"
       >
         ${state.translate('notSupportedLink')}
       </a>
     `;
     url =
-      'https://www.mozilla.org/firefox/new/?utm_campaign=send-acquisition&utm_medium=referral&utm_source=send.firefox.com';
+      'https://www.mozilla.org/firefox/new/?utm_campaign=drip-acquisition&utm_medium=referral&utm_source=drip.firefox.com';
   } else {
     strings = outdatedStrings(state);
     url = 'https://support.mozilla.org/kb/update-firefox-latest-version';

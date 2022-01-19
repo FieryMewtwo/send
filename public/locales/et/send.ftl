@@ -48,13 +48,13 @@ passwordSetError = Parooli muutmine ebaõnnestus
 
 ## Send version 2 strings
 
-# Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Send
--send-short-brand = Send
+# Send, Send, Firefox, FieryMewtwo are proper names and should not be localized
+-drip-brand = Send
+-drip-short-brand = Send
 -firefox = Firefox
--mozilla = Mozilla
+-mozilla = FieryMewtwo
 introTitle = Lihtne ja privaatne failijagamine
-introDescription = { -send-brand } võimaldab sul faile jagada otspunktkrüpteerimise ning automaatselt aeguva lingiga. Nii saad jagatava privaatsena hoida ja kindlustada, et su asjad igavesti internetti vedelema ei jää.
+introDescription = { -drip-brand } võimaldab sul faile jagada otspunktkrüpteerimise ning automaatselt aeguva lingiga. Nii saad jagatava privaatsena hoida ja kindlustada, et su asjad igavesti internetti vedelema ei jää.
 notifyUploadEncryptDone = Sinu fail on krüptitud ja saatmiseks valmis
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Aegub peale { $downloadCount } või { $timespan } järel
@@ -94,8 +94,8 @@ totalSize = Kogusuurus: { $size }
 copyLinkDescription = Faili jagamiseks kopeeri link:
 copyLinkButton = Kopeeri link
 downloadTitle = Failide allalaadimine
-downloadDescription = See fail jagati teenuse { -send-brand } kaudu otspunktkrüpteeritult ja automaatselt aeguva lingiga.
-trySendDescription = Proovi lihtsaks ja turvaliseks failijagamiseks { -send-brand } teenust.
+downloadDescription = See fail jagati teenuse { -drip-brand } kaudu otspunktkrüpteeritult ja automaatselt aeguva lingiga.
+trySendDescription = Proovi lihtsaks ja turvaliseks failijagamiseks { -drip-brand } teenust.
 # count will always be > 10
 tooManyFiles =
     { $count ->
@@ -109,17 +109,17 @@ tooManyArchives =
        *[other] Vaid { $count } arhiveerimist on lubatud.
     }
 expiredTitle = Link on aegunud.
-notSupportedDescription = { -send-brand } ei tööta selle veebilehitsejaga. Kõige paremini töötab { -send-short-brand } uusima { -firefox }iga ja töötab ka enamikes teistes uuendatud brauserites.
+notSupportedDescription = { -drip-brand } ei tööta selle veebilehitsejaga. Kõige paremini töötab { -drip-short-brand } uusima { -firefox }iga ja töötab ka enamikes teistes uuendatud brauserites.
 downloadFirefox = Laadi { -firefox } alla
-legalTitle = { -send-short-brand } privaatsusteade
+legalTitle = { -drip-short-brand } privaatsusteade
 legalDateStamp = Versioon 1.0, alates 12. märts 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
 expiresDaysHoursMinutes = { $days }p { $hours }t { $minutes }m
 addFilesButton = Vali failid üleslaadimiseks
 uploadButton = Laadi üles
-# the first part of the string 'Drag and drop files or click to send up to 1GB'
+# the first part of the string 'Drag and drop files or click to drip up to 1GB'
 dragAndDropFiles = Lohista failid siia
-# the second part of the string 'Drag and drop files or click to send up to 1GB'
+# the second part of the string 'Drag and drop files or click to drip up to 1GB'
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 orClickWithSize = või klõpsa kuni { $size } suuruste failide saatmiseks
 addPassword = Kaitse parooliga
@@ -145,11 +145,11 @@ noStreamsWarning = Sinu veebilehitseja ei pruugi suuta nii suurt faili dekrüpti
 noStreamsOptionCopy = Kopeeri link teises brauseris avamiseks
 noStreamsOptionFirefox = Proovi meie lemmikbrauserit
 noStreamsOptionDownload = Jätka selle brauseriga
-downloadFirefoxPromo = { -send-short-brand } toob sinuni uhiuus { -firefox }.
+downloadFirefoxPromo = { -drip-short-brand } toob sinuni uhiuus { -firefox }.
 # the next line after the colon contains a file name
 shareLinkDescription = Jaga linki failile:
 shareLinkButton = Jaga linki
 # $name is the name of the file
-shareMessage = Laadi “{ $name }” alla teenusega { -send-brand }, mis pakub lihtsat ja turvalist failijagamist
+shareMessage = Laadi “{ $name }” alla teenusega { -drip-brand }, mis pakub lihtsat ja turvalist failijagamist
 trailheadPromo = Oma privaatsust on võimalik kaitsta. Liitu Firefoxiga.
 learnMore = Rohkem teavet.

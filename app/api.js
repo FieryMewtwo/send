@@ -8,7 +8,7 @@ try {
   // NOOP
 }
 if (!fileProtocolWssUrl) {
-  fileProtocolWssUrl = 'wss://send.firefox.com/api/ws';
+  fileProtocolWssUrl = 'wss://drip.firefox.com/api/ws';
 }
 
 export class ConnectionError extends Error {
@@ -210,13 +210,13 @@ async function upload(
     const metadataHeader = arrayToB64(new Uint8Array(metadata));
     const fileMeta = {
       fileMetadata: metadataHeader,
-      authorization: `send-v1 ${verifierB64}`,
+      authorization: `drip-v1 ${verifierB64}`,
       bearer: bearerToken,
       timeLimit,
       dlimit
     };
     const uploadInfoResponse = listenForResponse(ws, canceller);
-    ws.send(JSON.stringify(fileMeta));
+    ws.drip(JSON.stringify(fileMeta));
     const uploadInfo = await uploadInfoResponse;
 
     const completedResponse = listenForResponse(ws, canceller);
@@ -231,7 +231,7 @@ async function upload(
         break;
       }
       const buf = state.value;
-      ws.send(buf);
+      ws.drip(buf);
       onprogress(size);
       size += buf.length;
       state = await reader.read();
@@ -244,7 +244,7 @@ async function upload(
       }
     }
     if (ws.readyState === WebSocket.OPEN) {
-      ws.send(new Uint8Array([0])); //EOF
+      ws.drip(new Uint8Array([0])); //EOF
     }
 
     await completedResponse;
@@ -358,7 +358,7 @@ async function download(id, dlToken, onprogress, canceller) {
     xhr.open('get', getApiUrl(`/api/download/blob/${id}`));
     xhr.setRequestHeader('Authorization', `Bearer ${dlToken}`);
     xhr.responseType = 'blob';
-    xhr.send();
+    xhr.drip();
     onprogress(0);
   });
 }

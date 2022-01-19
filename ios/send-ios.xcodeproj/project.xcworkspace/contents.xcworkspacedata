@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:send-ios.xcodeproj">
+      location = "self:drip-ios.xcodeproj">
    </FileRef>
 </Workspace>
