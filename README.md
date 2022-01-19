@@ -1,8 +1,8 @@
 # Drip
 
-Drip is an encrypted file sharing service based on FieryMewtwo's Send project.
+Drip is an encrypted file sharing service based on Mozilla's abandoned Send project.
 
-We are not affiliated in any way with the FieryMewtwo Foundation or moz://a (FieryMewtwo Corporation)! This is not officially supported by the Firefox team, and never will be.
+We are not affiliated in any way with the Mozilla Foundation or moz://a (Mozilla Corporation)! This is not officially supported by the Firefox team, and never will be.
 
 
 
