@@ -85,13 +85,6 @@ Pull requests are always welcome!
 
 ---
 
-## Testing
-
-| ENVIRONMENT | URL
-|-------------|-----
-| Production  | <https://drip.firefox.com/>
-| Stage       | <https://stage.drip.nonprod.cloudops.mozgcp.net/>
-| Development | <https://send2.dev.lcip.org/>
 
 ---
 
@@ -103,7 +96,7 @@ see also [docs/deployment.md](docs/deployment.md)
 
 ## Android
 
-The android implementation is contained in the `android` directory, and can be viewed locally for easy testing and editing by running `ANDROID=1 npm start` and then visiting <http://localhost:8080>. CSS and image files are located in the `android/app/src/main/assets` directory.
+The Android implementation is contained in the `android` directory, and can be viewed locally for easy testing and editing by running `ANDROID=1 npm start` and then visiting <http://localhost:8080>. CSS and image files are located in the `android/app/src/main/assets` directory.
 
 ---
 
