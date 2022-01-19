@@ -109,6 +109,6 @@ The android implementation is contained in the `android` directory, and can be v
 
 ## License
 
-[FieryMewtwo Public License Version 2.0](LICENSE)
+[Mozilla Public License Version 2.0](LICENSE)
 
 ---
