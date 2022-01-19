@@ -2,7 +2,7 @@
 
 Drip is an encrypted file sharing service based on Mozilla's Send project.
 
-[![CircleCI](https://img.shields.io/circleci/project/github/FieryMewtwo/send.svg)](https://circleci.com/gh/FieryMewtwo/send)
+We are not affiliated in any way with the Mozilla Foundation or moz://a (Mozilla Corporation)! This is not officially supported by the Firefox team, and never will be.
 
 
 
@@ -28,7 +28,7 @@ Drip is an encrypted file sharing service based on Mozilla's Send project.
 
 ## What it does
 
-A file sharing experiment which allows you to send encrypted files to other users.
+A file sharing application which allows you to send encrypted files to other users.
 
 ---
 
